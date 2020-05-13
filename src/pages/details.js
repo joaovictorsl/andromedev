@@ -1,9 +1,10 @@
 import React from "react"
+import Container from '../components/container';
 
 const DetailsPage = () => (
-  <div>
-      <h1>Details page</h1>
-  </div>
+  <Container>
+    
+  </Container>
 )
 
 export default DetailsPage

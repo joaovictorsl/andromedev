@@ -1,9 +1,8 @@
 import React from "react"
+import Container from '../components/container';
 
 const ProjectsPage = () => (
-  <div>
-      <h1>Projects page</h1>
-  </div>
+  <Container></Container>
 )
 
 export default ProjectsPage

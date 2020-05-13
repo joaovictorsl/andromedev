@@ -1,9 +1,10 @@
 import React from "react"
+import Container from '../components/container';
 
 const IndexPage = () => (
-  <div>
-      <h1>Home page</h1>
-  </div>
+  <Container>
+    
+  </Container>
 )
 
 export default IndexPage

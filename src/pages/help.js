@@ -1,9 +1,10 @@
 import React from "react"
+import Container from '../components/container';
 
 const HelpPage = () => (
-  <div>
-      <h1>Help page</h1>
-  </div>
+  <Container>
+    
+  </Container>
 )
 
 export default HelpPage

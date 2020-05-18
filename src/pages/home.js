@@ -1,9 +1,9 @@
 import React from "react"
 import Container from '../components/container';
 
-import styles from '../styles/details.module.css';
+import styles from '../styles/home.module.css';
 
-const DetailsPage = () => (
+const HomePage = () => (
   <Container>
     <div className={ `${styles.home} ${styles.flex}`}>
       <div className={ `${styles.section}` }>
@@ -39,4 +39,4 @@ const DetailsPage = () => (
   </Container>
 )
 
-export default DetailsPage
+export default HomePage

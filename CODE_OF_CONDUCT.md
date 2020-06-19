@@ -26,7 +26,7 @@ Com o interesse de fomentar uma comunidade aberta e acolhedora, nós, enquanto c
 * Publicar informação pessoal de outros sem permissão explícita, como endereços eletrônicos ou residenciais.
 * Qualquer outra forma de conduta que seja razoavelmente considerada inapropriada em um ambiente profissional.
 
-## Nossas responsibilidades
+## Nossas responsabilidades
 
 Os organizadores do evento são responsáveis por esclarecer os padrões de comportamento e deverão tomar ação corretiva apropriada e justa em resposta a qualquer instância de comportamento inaceitável.
 

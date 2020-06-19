@@ -21,7 +21,7 @@ Com o interesse de fomentar uma comunidade aberta e acolhedora, nós, enquanto c
 * Uso de linguagem e/ou imagens sexuais, bem como abordagem e/ou avanço sexual indesejados.
 * Comentários insultuosos e/ou depreciativos e ataques pessoais ou políticos (*trolling*).
 * *Spam* ou divulgação inapropriada em nossos canais de comunicação.
-* Assédio público ou privado, incluindo, mas não limitando-se a interrupuções desrespeitosas em palestras ou encontros, fotograr ou gravar outros participantes sem permissão e ofensas verbais em decorrência das características individuais citadas na seção anterior deste documento. 
+* Assédio público ou privado, incluindo, mas não limitando-se a interrupções desrespeitosas em palestras ou encontros, fotografar ou gravar outros participantes sem permissão e ofensas verbais em decorrência das características individuais citadas na seção anterior deste documento. 
 * Perseguição em redes sociais ou espaços públicos (*stalking*). 
 * Publicar informação pessoal de outros sem permissão explícita, como endereços eletrônicos ou residenciais.
 * Qualquer outra forma de conduta que seja razoavelmente considerada inapropriada em um ambiente profissional.

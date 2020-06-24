@@ -1,8 +1,6 @@
-import React from "react"
-import HomePage from './home';
+import React from "react";
+import HomePage from "./home";
 
-const IndexPage = () => (
-  <HomePage />
-)
+const IndexPage = () => <HomePage />;
 
-export default IndexPage
+export default IndexPage;

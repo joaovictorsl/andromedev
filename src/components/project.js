@@ -1,19 +1,17 @@
-import React from "react"
+import React from "react";
 
-import './project.css';
+import "./project.css";
 
 const Project = (props) => {
-  
-  let info = props.info;
-  
+  const info = props.info;
+
   return (
-        <div className="project">
-          <h3>Nome: { info.name }</h3>
-          <p>Organização: { info.org } </p>
-          <p>Descrição: { info.description } </p>
-        </div>
-)
-}
+    <div className="project">
+      <h3>Nome: {info.name}</h3>
+      <p>Organização: {info.org} </p>
+      <p>Descrição: {info.description} </p>
+    </div>
+  );
+};
 
-
-export default Project
+export default Project;

@@ -53,7 +53,9 @@ Espera-se que o mentorado ou mentorada tenha uma compreensão básica de inglês
 
 Robson Junior é um dos criadores da organização open source **Call Us What You Want** e membro do core team da **OpenDevUFCG**. É estudante de Ciência da Computação na UFCG, cursando o nono (e penúltimo) período da graduação. Trabalha atualmente na parceria entre UFCG e VTEX como desenvolvedor de software, com ênfase em desenvolvimento web.
 
-- **E-mail para contato:** [jrobsonjr16@gmail.com](mailto:jrobsonjr16@gmail.com)
+### Contate-me
+
+- **E-mail:** [jrobsonjr16@gmail.com](mailto:jrobsonjr16@gmail.com)
 - **GitHub:** [JRobsonJr](http://github.com/JRobsonJr)
 - **Twitter:** [JRosboJr](http://twitter.com/JRosboJr)
 - **LinkedIn:** [JRobsonJr](https://www.linkedin.com/in/jrobsonjr/)

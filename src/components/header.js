@@ -1,18 +1,16 @@
-import { Link } from "gatsby"
-import React from "react"
-
-import styles from '../styles/header.module.css';
+import { Link } from "gatsby";
+import React from "react";
 
 const Header = () => (
-  <header>
-    <div className={styles.container}>
-      <Link className={styles.link} to="/">Home</Link>
-      <Link className={styles.link} to="/details">Detalhes</Link>
-      <Link className={styles.link} to="/projects">Projetos</Link>
-      <Link className={styles.link} to="/about">Sobre</Link>
-      <Link className={styles.link} to="/help">Ajuda</Link>
+  <header className="w-full">
+    <div className="w-full flex justify-around px-64">
+      <Link to="/">Home</Link>
+      <Link to="/details">Detalhes</Link>
+      <Link to="/projects">Projetos</Link>
+      <Link to="/about">Sobre</Link>
+      <Link to="/help">Ajuda</Link>
     </div>
   </header>
-)
+);
 
-export default Header
+export default Header;

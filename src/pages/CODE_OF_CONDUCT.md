@@ -1,3 +1,8 @@
+---
+title: Código de Conduta
+slug: /codigo-de-conduta
+---
+
 # Código de Conduta
 
 Este código de conduta aplica-se a todos os organizadores, projetos, mentores e mentorados do evento _Andromedev_ realizado pela [OpenDevUFCG](https://github.com/opendevufcg). Seu cumprimento é mandatório para todos os participantes do evento citado.

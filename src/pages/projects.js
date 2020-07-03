@@ -1,5 +1,4 @@
 import React from "react";
-import Container from "../components/container";
 import Project from "../components/project";
 
 const ProjectsPage = () => {
@@ -31,15 +30,13 @@ const ProjectsPage = () => {
   }
 
   return (
-    <Container>
-      <section className='container px-6 py-10'>
-        <div className='w-full flex flex-col items-center justify-center'>
-          <h2>Projetos</h2>
-          {/* <p>Lista de projetos do Andromedev</p> */}
-        </div>
-        <div className='w-full flex flex-wrap justify-center'>{elements}</div>
-      </section>
-    </Container>
+    <section className="container px-6 py-10">
+      <div className="w-full flex flex-col items-center justify-center">
+        <h2>Projetos</h2>
+        {/* <p>Lista de projetos do Andromedev</p> */}
+      </div>
+      <div className="w-full flex flex-wrap justify-center">{elements}</div>
+    </section>
   );
 };
 export default ProjectsPage;

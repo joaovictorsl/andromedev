@@ -22,6 +22,11 @@ Descreva ao potencial mentorado ou mentorada o porquê de escolher se candidatar
 
 Listar tecnologias que provavelmente serão utilizadas, tanto para compreensão do código existente quanto para o desenvolvimento.
 Não precisa ser limitado necessariamente apenas a linguagens de programação; pode trazer detalhamento de frameworks e bibliotecas que deverão ser utilizadas.
+É interessante adicionar o link para a documentação de cada uma, possibilitando que o possível candidato ou candidata possa ler sobre.
+
+### Links úteis
+
+Insira links que podem ser úteis na compreensão da proposta, como projetos similares para servir de inspiração e materiais de apoio diversos.  
 
 ### Qual perfil de mentorada ou mentorado se espera?
 
@@ -64,6 +69,6 @@ Mentor ou mentora, essa seção deve dizer às pessoas interessadas no seu proje
 
 ### Contate-me
 - **E-mail:** [voce@provedor.com](mailto:voce@provedor.com)
-- **Handle no Discord:** SeuHandleNoDiscord
+- **Handle no Discord:** SeuHandleNoDiscord#Id (Exemplo: Robson#1234)
 - **GitHub (ou outra plataforma, a que hospedará o projeto):** [NomeDeUsuario](http://github.com/NomeDeUsuario)
 - **Rede social (inclua quantas quiser, como Twitter, Facebook, LinkedIn...):** [Nome de usuário](https://redesocial.com/Voce)

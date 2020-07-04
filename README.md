@@ -1,3 +1,17 @@
 # Andromedev
 
-Site do evento futuro do OpendevUFCG.
+Site do evento Andromedev.
+
+## Desenvolvimento
+
+```sh
+yarn && yarn gatsby
+```
+
+Acesse http://localhost:8000/
+
+Caso haja algum problema de build, antes de reportar, rode esse comando dentro do repositório e tente ver se o problema é resolvido:
+
+```sh
+yarn clean
+```

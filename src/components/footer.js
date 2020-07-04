@@ -2,27 +2,24 @@
 import React from "react";
 
 const Footer = () => (
-  <footer>
-    <div>
-      <ul>
-        <li>REDES SOCIAIS</li>
-        <li>
-          <a href="/">Discord</a>
-        </li>
-        <li>
-          <a href="/">Site</a>
-        </li>
-        <li>
-          <a href="/">Github</a>
-        </li>
-        <li>
-          <a href="/">Twitter</a>
-        </li>
-        <li>
-          <a href="/">Instagram</a>
-        </li>
-      </ul>
-    </div>
+  <footer className="flex justify-center pb-5">
+    <ul className="flex space-x-4">
+      <li className="hover:text-blue-800">
+        <a href="/">Discord</a>
+      </li>
+      <li className="hover:text-blue-800">
+        <a href="/">Site</a>
+      </li>
+      <li className="hover:text-blue-800">
+        <a href="/">Github</a>
+      </li>
+      <li className="hover:text-blue-800">
+        <a href="/">Twitter</a>
+      </li>
+      <li className="hover:text-blue-800">
+        <a href="/">Instagram</a>
+      </li>
+    </ul>
   </footer>
 );
 

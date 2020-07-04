@@ -4,7 +4,7 @@
 
 O spotify-web-sdk foi criado com o intuito de facilitar o acesso aos dados cedidos pela API Web do Spotify. No lugar de lidar diretamente com as requisições, usuários têm à disposição funções declaradas em alto nível e a diversas classes de tipos, melhorando a experiência de acesso aos dados. Embora todas as funcionalidades originais da API já estejam implementadas na sua versão atual e já haja uma suite de testes em desenvolvimento, ainda falta uma coisa importante: documentação. Com uma boa documentação, seria possível aumentar a compreensão das features adicionais cedidas pelo spotify-web-sdk, ajudando a justificar o seu uso e a atrair novos usuários.
 
-A ideia desse projeto é iniciar o desenvolvimento de uma documentação das funções e modelos disponibilizados pelo spotify-web-sdk com [Docusaurus](http://docusaurus.io).
+A ideia desse projeto é iniciar o desenvolvimento de uma documentação das funções e modelos disponibilizados pelo spotify-web-sdk com [Docusaurus](http://v2.docusaurus.io).
 
 ### Link para o repositório
 
@@ -16,11 +16,15 @@ Espera-se que o mentorado ou a mentorada trabalhe tanto com desenvolvimento web 
 
 ### Quais tecnologias e ferramentas devem ser utilizadas?
 
-- React
 - JavaScript
 - TypeScript
 - Markdown
-- Docusaurus
+- [React](https://reactjs.org/)
+- [Docusaurus](https://v2.docusaurus.io/)
+
+### Links úteis
+
+- Referência principal: [Documentação da API Web do Spotify](https://developer.spotify.com/documentation/web-api/reference/)
 
 ### Qual perfil de mentorada ou mentorado se espera?
 
@@ -56,7 +60,7 @@ Robson Junior é um dos criadores da organização open source **Call Us What Yo
 ### Contate-me
 
 - **E-mail:** [jrobsonjr16@gmail.com](mailto:jrobsonjr16@gmail.com)
+- **Handle no Discord:** JRobsonJr#6574
 - **GitHub:** [JRobsonJr](http://github.com/JRobsonJr)
 - **Twitter:** [JRosboJr](http://twitter.com/JRosboJr)
 - **LinkedIn:** [JRobsonJr](https://www.linkedin.com/in/jrobsonjr/)
-- **Handle no Discord:** JRobsonJr

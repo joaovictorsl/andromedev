@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import Layout from "../components/layouts/layout";
-import ScreenImage from '../assets/svg/ScreenImage.svg'
+import ScreenImage from "../assets/svg/ScreenImage.svg";
 
 const Home = () => {
   return (
@@ -13,11 +13,14 @@ const Home = () => {
               src={ScreenImage}
               alt="Margarete"
             />
-            <h1 className="mt-6 text-3xl sm:text-5xl font-bold text-white leading-tight">
+            <h1 className="mt-6 text-3xl sm:text-5xl font-bold text-white leading-tight text-orange">
               Andromedev
             </h1>
             <p className="mt-5 text-white sm:text-xl">
-              With Game Slot, you can review games you've played on Steam, read other people opinions, create a personal wishlist with the games you're willing to play and build a lovely community of game lovers!
+              With Game Slot, you can review games you've played on Steam, read
+              other people opinions, create a personal wishlist with the games
+              you're willing to play and build a lovely community of game
+              lovers!
             </p>
           </div>
         </article>
@@ -30,7 +33,7 @@ const Home = () => {
         </div>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

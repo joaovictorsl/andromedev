@@ -1,6 +1,9 @@
 module.exports = {
   purge: ["./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx"],
   theme: {
+    fontFamily: {
+      body: ["Roboto", "sans-serif"],
+    },
     extend: {
       colors: {
         primary: {
@@ -28,6 +31,7 @@ module.exports = {
         },
 
         golden: "#FFC300",
+        orange: "#FF5733",
       },
     },
   },

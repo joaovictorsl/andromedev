@@ -9,7 +9,10 @@ const Layout = ({ children }) => {
   return (
     <Fragment>
       <Header />
-      <main className="max-w-3xl mx-auto px-5 py-10" style={{ width: "48rem" }}>
+      <main
+        className="max-w-3xl mx-auto px-5 py-10 body"
+        style={{ width: "48rem" }}
+      >
         {children}
       </main>
       <Footer />

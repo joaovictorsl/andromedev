@@ -1,13 +1,13 @@
 .markdown > h1 {
-  @apply text-4xl font-black mt-16 mb-8;
+  @apply text-4xl mt-16 mb-8;
 }
 
 .markdown > h2 {
-  @apply text-3xl font-black mt-16 mb-8;
+  @apply text-3xl mt-16 mb-8;
 }
 
 .markdown > h3 {
-  @apply text-2xl font-black mt-16 mb-8;
+  @apply text-2xl  mt-16 mb-8;
 }
 
 .markdown > h4 {
@@ -15,11 +15,11 @@
 }
 
 .markdown > h5 {
-  @apply text-sm font-black mt-16 mb-8;
+  @apply text-sm  mt-16 mb-8;
 }
 
 .markdown > h6 {
-  @apply text-xs font-black mt-16 mb-8;
+  @apply text-xs  mt-16 mb-8;
 }
 
 .markdown a {
@@ -28,16 +28,21 @@
 
 .markdown > p {
   @apply mb-8;
+  @apply leading-relaxed;
 }
 
 .markdown > blockquote {
   @apply -ml-8 mb-8;
 }
 
-.markdown ul {
-  @apply list-disc mb-8;
+.markdown > ul {
+  @apply list-disc list-inside mb-8;
 }
 
-.markdown ol {
+.markdown > li {
+  @apply list-disc mb-10;
+}
+
+.markdown > ol {
   @apply list-decimal mb-8;
 }

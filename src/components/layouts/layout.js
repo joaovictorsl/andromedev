@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 
 import Header from "../header.js";
@@ -7,13 +7,13 @@ import "./layout.css";
 
 const Layout = ({ children }) => {
   return (
-    <div className="">
+    <Fragment>
       <Header />
       <main className="max-w-3xl mx-auto px-5 py-10" style={{ width: "48rem" }}>
         {children}
       </main>
       <Footer />
-    </div>
+    </Fragment>
   );
 };
 

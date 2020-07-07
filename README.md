@@ -5,7 +5,7 @@ Site do evento Andromedev.
 ## Desenvolvimento
 
 ```sh
-yarn && yarn gatsby
+yarn && yarn develop
 ```
 
 Acesse http://localhost:8000/

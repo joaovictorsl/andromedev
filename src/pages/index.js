@@ -5,7 +5,7 @@ import ScreenImage from "../assets/svg/margarete.svg";
 const Home = () => {
   return (
     <Layout>
-      <section className="flex w-full justify-center linear">
+      <section className="flex w-full justify-center linear my-8">
         <article className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:py-10">
           <div className="xl:max-w-lg xl:mx-auto">
             <img

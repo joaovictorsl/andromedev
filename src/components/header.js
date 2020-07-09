@@ -2,8 +2,8 @@ import { Link } from "gatsby";
 import React from "react";
 
 const Header = () => (
-  <header className="w-full pt-4">
-    <nav className="flex justify-around">
+  <header className="w-full pt-4 fixed top-0">
+    <nav className="flex justify-center space-x-16">
       <Link to="/" className="hover:text-orange">
         Início
       </Link>

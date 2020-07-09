@@ -31,5 +31,19 @@ body {
 }
 
 .linear {
-  background: linear-gradient(165deg, white 70%, transparent 50%);
+  background: linear-gradient(-190deg, transparent 50%, rgba(233, 233, 233, 233) 50%);
+  height: 60vh;
+}
+
+header {
+  background-color: #451464;
+}
+
+header::after {
+  content: "";
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(-90deg,#451464 0%,#411b5a 28%,#411b5a 74%,#451464 100%);
 }

@@ -14,12 +14,14 @@
 }
 
 @media screen and (min-width: 200px) {
+  .planets-section,
   .planets-section .planet {
     visibility: hidden;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .planets-section,
   .planets-section .planet {
     visibility: visible;
   }
@@ -79,5 +81,39 @@
     top: -20px;
     left: 1250px;
   }
+}
 
+@media screen and (min-width: 1800px) {
+  .planets-section {
+    height: 390px;
+  }
+
+  .planets-section .planet {
+    visibility: visible;
+  }
+
+  .planets-section :nth-child(1) {
+    top: -20px;
+    left: 130;
+  }
+  
+  .planets-section :nth-child(2) {
+    top: 100px;
+    left: 460px;
+  }
+  
+  .planets-section :nth-child(3) {
+    top: -20px;
+    left: 800px;
+  }
+  
+  .planets-section :nth-child(4) {
+    top: 90px;
+    left: 1200px;
+  }
+  
+  .planets-section :nth-child(5) {
+    top: -20px;
+    left: 1550px;
+  }
 }

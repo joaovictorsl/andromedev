@@ -11,7 +11,7 @@ const Post = ({ data }) => {
     <Layout>
       <section
         dangerouslySetInnerHTML={{ __html: html }}
-        className="markdown"
+        className="markdown max-w-3xl mx-auto px-2 py-5"
       />
     </Layout>
   );

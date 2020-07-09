@@ -5,8 +5,13 @@ html {
   box-sizing: border-box;
 }
 
+#___gatsby {
+  width: 100%;
+}
+
 html,
 body {
+  width: 100%;
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
@@ -23,4 +28,8 @@ body {
   flex-direction: column;
   align-items: center;
   color: white;
+}
+
+.linear {
+  background: linear-gradient(165deg, white 70%, transparent 50%);
 }

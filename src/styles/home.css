@@ -1,0 +1,83 @@
+.linear {
+  background: linear-gradient(-175deg, transparent 50%, #282C35 50%);
+  height: 350px;
+}
+
+.planets-section {
+  background-color: #282C35;
+  height: 350px;
+}
+
+.planets-section .planet {
+  transition: all 0.2s ease-in-out;
+  width: 220px;
+}
+
+@media screen and (min-width: 200px) {
+  .planets-section .planet {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .planets-section .planet {
+    visibility: visible;
+  }
+
+  .planets-section :nth-child(1) {
+    top: -50px;
+    left: 70px;
+  }
+  
+  .planets-section :nth-child(2) {
+    top: 100px;
+    left: 270px;
+  }
+  
+  .planets-section :nth-child(3) {
+    top: -20px;
+    left: 520px;
+  }
+  
+  .planets-section :nth-child(4) {
+    top: 90px;
+    left: 790px;
+  }
+  
+  .planets-section :nth-child(5) {
+    top: -20px;
+    left: 980px;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .planets-section .planet {
+    visibility: visible;
+  }
+
+  .planets-section :nth-child(1) {
+    top: -20px;
+    left: 100px;
+  }
+  
+  .planets-section :nth-child(2) {
+    top: 100px;
+    left: 340px;
+  }
+  
+  .planets-section :nth-child(3) {
+    top: -20px;
+    left: 650px;
+  }
+  
+  .planets-section :nth-child(4) {
+    top: 90px;
+    left: 950px;
+  }
+  
+  .planets-section :nth-child(5) {
+    top: -20px;
+    left: 1250px;
+  }
+
+}

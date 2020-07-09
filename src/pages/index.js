@@ -15,24 +15,24 @@ const Home = () => {
       <section className="w-full linear">
         <div className="w-full flex justify-center mx-auto max-w-3xl my-8">
           <article className="w-1/2">
-            <div className="xl:max-w-lg xl:mx-auto">
+            <div className="xl:max-w-lg flex flex-col items-center justify-center xl:mx-auto">
               {/* <img
                 src={Logo}
                 alt="Andromedev Logo"
               /> */}
-              <h1 className="p-2 text-3xl sm:text-5xl font-bold leading-tight text-orange">
+              <h1 className="text-3xl sm:text-5xl font-bold leading-tight text-golden">
                 Andromedev
               </h1>
-              <p className="p-2 text-white sm:text-xl">
+              <p className="p-2 text-white text-center sm:text-xl">
                 With Game Slot, you can review games you've played on Steam, read
                 other people opinions, create a personal wishlist with the games
                 you're willing to play and build a lovely community of game
                 lovers!
             </p>
-              <div className="p-2">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
+              <div className="p-2 block w-full py-6 px-6 text-center">
+                <a className="text-white w-full block bg-blue-700 hover:bg-blue-600 px-4 py-2" href="#">
                   INSCRIÇÕES
-                </button>
+                </a>
               </div>
             </div>
           </article>

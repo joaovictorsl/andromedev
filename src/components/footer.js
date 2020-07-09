@@ -2,7 +2,7 @@
 import React from "react";
 
 const Footer = () => (
-  <footer className="flex justify-center py-10">
+  <footer className="flex justify-center bg-dark-gray py-10">
     <ul className="flex space-x-4">
       <li className="hover:text-orange">
         <a href="/">Discord</a>

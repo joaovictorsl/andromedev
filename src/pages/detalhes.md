@@ -2,9 +2,7 @@
 title: Detalhes do evento
 ---
 
-## Funcionamento
-
-## Participantes
+## Como funciona?
 
 ### Organizações
 

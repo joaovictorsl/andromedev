@@ -14,6 +14,8 @@ O projeto é algo que deve ser viável implementar durante o período do evento,
 
 ### Mentor
 
-### Mentorado
+### Aprendiz
+
+Aprendizes serão responsáveis por desenvolver o projeto no período da sua execução. É importante que o/a interessado/a se engaje bastante no período de criação de projeto para sugerir modificações, melhorias e esclarecer dúvidas sobre os projetos. Cada organização será responsável por indicar para cada projeto um/a aprendiz oficial o/a qual trabalhará durante 9 semanas no desenvolvimento do projeto, recebendo mentoria para a execução das atividades.
 
 ## Linha do Tempo

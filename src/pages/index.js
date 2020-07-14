@@ -14,20 +14,18 @@ const Home = () => {
     <Layout>
       <section className="w-full linear">
         <div className="w-full flex justify-center mx-auto max-w-3xl my-8">
-          <article className="w-1/2">
+          <article>
             <div className="xl:max-w-lg flex flex-col items-center justify-center xl:mx-auto">
               {/* <img
                 src={Logo}
                 alt="Andromedev Logo"
               /> */}
-              <h1 className="text-3xl sm:text-5xl font-bold leading-tight text-golden">
+              <h1 className="text-4xl font-bold leading-tight text-golden">
                 Andromedev
               </h1>
               <p className="p-2 text-white text-center sm:text-xl">
-                With Game Slot, you can review games you've played on Steam, read
-                other people opinions, create a personal wishlist with the games
-                you're willing to play and build a lovely community of game
-                lovers!
+                O primeiro evento organizado de mentoria pela OpenDevUFCG com o intuito de incentivar a participação de estudantes
+                da UFCG em projetos open source!
             </p>
               <div className="p-2 block w-full py-6 px-6 text-center">
                 <a className="text-white w-full block bg-blue-700 hover:bg-blue-600 px-4 py-2" href="#">

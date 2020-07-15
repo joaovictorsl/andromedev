@@ -39,7 +39,7 @@ const Navbar = () => {
         <Item slug="/guia/organizacao/projeto" className="ml-4">
           Projeto
         </Item>
-        <Item slug="/guia/organizacao/repositorio" className="ml-8">
+        <Item slug="/guia/organizacao/projeto/repositorio" className="ml-8">
           Repositório
         </Item>
         <Item slug="/guia/mentor">Mentor</Item>

@@ -5,13 +5,13 @@ import Header from "../header.js";
 import Footer from "../footer.js";
 import "./layout.css";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, className }) => {
   return (
-    <Fragment>
+    <div className={`flex flex-col min-h-screen ${className}`}>
       <Header />
-      <main className="h-full">{children}</main>
+      <main className="flex-1">{children}</main>
       <Footer />
-    </Fragment>
+    </div>
   );
 };
 

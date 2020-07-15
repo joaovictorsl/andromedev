@@ -1,10 +1,10 @@
 .linear {
-  background: linear-gradient(-175deg, transparent 50%, #282C35 50%);
+  background: linear-gradient(-175deg, transparent 50%, #282c35 50%);
   height: 350px;
 }
 
 .planets-section {
-  background-color: #282C35;
+  background-color: #282c35;
   height: 350px;
 }
 
@@ -44,22 +44,22 @@
     top: -50px;
     left: 70px;
   }
-  
+
   .planets-section :nth-child(2) {
     top: 100px;
     left: 270px;
   }
-  
+
   .planets-section :nth-child(3) {
     top: -20px;
     left: 520px;
   }
-  
+
   .planets-section :nth-child(4) {
     top: 90px;
     left: 790px;
   }
-  
+
   .planets-section :nth-child(5) {
     top: -20px;
     left: 980px;
@@ -75,22 +75,22 @@
     top: -20px;
     left: 100px;
   }
-  
+
   .planets-section :nth-child(2) {
     top: 100px;
     left: 340px;
   }
-  
+
   .planets-section :nth-child(3) {
     top: -20px;
     left: 650px;
   }
-  
+
   .planets-section :nth-child(4) {
     top: 90px;
     left: 950px;
   }
-  
+
   .planets-section :nth-child(5) {
     top: -20px;
     left: 1250px;
@@ -110,22 +110,22 @@
     top: -20px;
     left: 130;
   }
-  
+
   .planets-section :nth-child(2) {
     top: 100px;
     left: 460px;
   }
-  
+
   .planets-section :nth-child(3) {
     top: -20px;
     left: 800px;
   }
-  
+
   .planets-section :nth-child(4) {
     top: 90px;
     left: 1200px;
   }
-  
+
   .planets-section :nth-child(5) {
     top: -20px;
     left: 1550px;

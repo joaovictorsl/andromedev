@@ -6,7 +6,7 @@ import Planet2 from '../assets/svg/planeta2.svg';
 import Planet3 from '../assets/svg/planeta3.svg';
 import Planet4 from '../assets/svg/planeta4.svg';
 import Planet5 from '../assets/svg/planeta5.svg';
-// import Logo from '../assets/svg/andromedev.svg'
+import Logo from '../assets/png/andromedev.png'
 import '../styles/home.css'
 
 const Home = () => {
@@ -16,13 +16,10 @@ const Home = () => {
         <div className="w-full flex justify-center mx-auto max-w-3xl my-8">
           <article>
             <div className="xl:max-w-lg flex flex-col items-center justify-center xl:mx-auto">
-              {/* <img
+              <img
                 src={Logo}
                 alt="Andromedev Logo"
-              /> */}
-              <h1 className="text-4xl font-bold leading-tight text-golden">
-                Andromedev
-              </h1>
+              />
               <p className="p-2 text-white text-center sm:text-xl">
                 O primeiro evento organizado de mentoria pela OpenDevUFCG com o intuito de incentivar a participação de estudantes
                 da UFCG em projetos open source!

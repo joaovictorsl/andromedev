@@ -1,48 +1,95 @@
-.markdown > h1 {
-  @apply text-4xl mb-8;
+.markdown {
+  @apply leading-relaxed text-sm;
 }
 
-.markdown > h2 {
-  @apply text-3xl mb-8;
+@screen sm {
+  .markdown {
+    @apply text-base;
+  }
 }
 
-.markdown > h3 {
-  @apply text-2xl  mb-8;
+@screen lg {
+  .markdown {
+    @apply text-lg;
+  }
 }
 
-.markdown > h4 {
-  @apply font-black uppercase mb-8;
+/* Headers */
+.markdown h1,
+.markdown h2 {
+  @apply text-xl my-6 font-semibold;
+}
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  @apply text-lg my-3 font-semibold;
 }
 
-.markdown > h5 {
-  @apply text-sm  mb-8;
+@screen sm {
+  .markdown h1,
+  .markdown h2 {
+    @apply text-2xl;
+  }
+  .markdown h3,
+  .markdown h4,
+  .markdown h5,
+  .markdown h6 {
+    @apply text-xl;
+  }
 }
 
-.markdown > h6 {
-  @apply text-xs  mb-8;
-}
-
+/* Links */
 .markdown a {
-  @apply text-blue-600;
+  @apply text-orange;
 }
-
-.markdown > p {
+.markdown a:hover {
+  @apply underline;
+}
+/* Paragraph */
+.markdown p {
   @apply mb-4;
-  @apply leading-relaxed;
+}
+/* Lists */
+.markdown ul,
+.markdown ol {
+  @apply mb-4 ml-8;
+}
+.markdown li > p,
+.markdown li > ul,
+.markdown li > ol {
+  @apply mb-0;
+}
+.markdown ol {
+  @apply list-decimal;
+}
+.markdown ul {
+  @apply list-disc;
+}
+/* Blockquotes */
+.markdown blockquote {
+  @apply p-2 mx-6 bg-gray-100 mb-4 border-l-4 border-gray-400 italic;
+}
+.markdown blockquote > p {
+  @apply mb-0;
+}
+/* Tables */
+.markdown td,
+.markdown th {
+  @apply px-2 py-1 border border-gray-400;
+}
+.markdown tr:nth-child(odd) {
+  @apply bg-gray-100;
+}
+.markdown table {
+  @apply mb-6;
 }
 
-.markdown > blockquote {
-  @apply -ml-8 mb-8;
+/* Wrap any inline highlights `that are really long`, but don't modify
+   the setting for codeblocks (inside ```), which are rendered in as:
+   <pre><code>...
+*/
+.markdown :not(pre) > code.language-text {
+  white-space: pre-line;
 }
-
-.markdown > ul {
-  @apply list-disc list-inside mb-8;
-}
-
-.markdown > li {
-  @apply list-disc mb-10;
-}
-
-.markdown > ol {
-  @apply list-decimal mb-8;
-}
+/* purgecss end ignore */

@@ -1,6 +1,5 @@
 ---
-title: Guia do Andromedev
-slug: /guia/
+title: Guia de Bordo
 ---
 
 **Andromedev** é um evento organizado pela OpenDevUFCG com intuitivo de incentivar a participação de estudantes da Universidade Federal de Campina Grande em projetos Open Source.
@@ -9,15 +8,13 @@ Aprenda sobre o Andromedev e Open Source aqui neste guia e na nossa página prin
 
 ## Guia
 
-Separamos o guia entre os tipos de papéis no evento:
+Separamos o guia entre os tipos de atores no evento:
 
-### [Organização](organizacao) NAO EXISTE
+- [Organização](organizacao/)
 
-### [Mentor](/mentor) NAO EXISTE
+- [Mentor](mentor/)
 
-### [Projeto](projeto)
-
-### [Aprendiz](/aprendiz) NAO EXISTE
+- [Aprendiz](aprendiz/)
 
 ## Open Source e Software Livre
 
@@ -42,4 +39,4 @@ A alma do evento é o Open Source e Software Livre, por isso parte de nosso guia
 
 ## Algo faltando?
 
-Se você sente que algo que está faltando ou algo está confuso, por favor crie uma issue no nosso repositório do site com sugestões de melhorias, ou nos comunique no [Discord](chat.opendevufcg.org).
+Se você sente que algo que está faltando ou algo está confuso, por favor crie uma issue no nosso repositório do site com sugestões de melhorias, ou nos comunique no [Discord](https://discord.com/invite/UgR5WrY).

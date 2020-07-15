@@ -1,5 +1,5 @@
 ---
-slug: guia/projeto/repositorio
+title: Requisitos do Repositório
 ---
 
 ## Estrutura

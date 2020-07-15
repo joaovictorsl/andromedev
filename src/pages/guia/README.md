@@ -41,4 +41,4 @@ A alma do evento é o Open Source e Software Livre, por isso parte de nosso guia
 
 ## Algo faltando?
 
-Se você sente que algo que está faltando ou algo está confuso, por favor crie uma issue no nosso repositório do site com sugestões de melhorias, ou nos comunique no [Discord](https://discord.com/invite/UgR5WrY).
+Se você sente que algo que está faltando ou algo está confuso, por favor crie uma issue no nosso repositório do site com sugestões de melhorias, ou nos comunique no [Discord](https://chat.opendevufcg.org).

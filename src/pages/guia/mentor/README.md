@@ -68,4 +68,4 @@ Você também pode usar o sistema de Issues dessas ferramentas para separar ativ
 
 O mentor não precisa ser o conhecedor de todo o projeto e suas tecnologias, nem precisa saber responder todas as dúvidas do aprendiz de imediato. Seu papel é ser guia e acompanhar o aluno, não abandoná-lo e estar sempre disposta a ajudar. Por isso, caso precise de ajuda, seja sobre o projeto em si ou alguma dúvida de tecnologia ou gerencimaneto, peça ajuda!
 
-Peça ajuda para sua organização, para a comunidade do evento no [Discord](http://chat.opendevufcg.org/) ou a própria OpenDevUFCG. Somos uma comunidada que cresce juntos, por isso ajudamos uns aos outros.
+Peça ajuda para sua organização, para a comunidade do evento no [Discord](https://chat.opendevufcg.org) ou a própria OpenDevUFCG. Somos uma comunidada que cresce juntos, por isso ajudamos uns aos outros.

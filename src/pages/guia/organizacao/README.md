@@ -16,7 +16,7 @@ Se sua organização for um laboratório de pesquisa e desenvolvimento da Univer
 
 Organizações apoiadas possuem um vínculo de confiança com a OpenDevUFCG e se torna elegível a participar do Andromedev, assim como também ganham todo suporte necessário para a participação no evento.
 
-Para entrar na lista de apoiadas, primeiro entre em contato com a gente, seja pelo nosso [Discord](chat.opendevufcg.org) ou por [email](mailto:opendevufcg@gmail.com), descreva detalhadamente que atividades e pessoas sua organização possui. Apois isso, iremos avaliar sua organização seguindo alguns dos nossos critérios e daremos a resposta o mais rápido possível.
+Para entrar na lista de apoiadas, primeiro entre em contato com a gente, seja pelo nosso [Discord](https://chat.opendevufcg.org) ou por [email](*opendevufcg@gmail.com*), descreva detalhadamente que atividades e pessoas sua organização possui. Apois isso, iremos avaliar sua organização seguindo alguns dos nossos critérios e daremos a resposta o mais rápido possível.
 
 ### Possui um ou mais repositórios com mais de 100 stars no GitHub ou GitLab.
 
@@ -30,6 +30,6 @@ Participar do Andromedev irá trazer tanto benefícios para alunos como para seu
 
 Você pode ler este [Guia de Projeto](projeto) para entender os requisitos, como escolher um projeto e submeter a proposta para o evento.
 
-Cada projeto deve possuir um mentor e mentor auxiliar, escolher pessoas da sua organização que contenham contexto das atividades a serem realizadas e possuam boas habilidades de comunicação é o essencial. O mentor ter conhecimento nas tecnologias pode ser um adicional, mas caso não possua ter outras pessoas na sua organização que possa manter contato para tirar dúvidas do _Aprendiz_ é o ideal. A OpenDevUFCG e a comunidade do evento também pode oferecer _ajuda técnica_ através do nosso [chat](http://chat.opendevufcg.org/).
+Cada projeto deve possuir um mentor e mentor auxiliar, escolher pessoas da sua organização que contenham contexto das atividades a serem realizadas e possuam boas habilidades de comunicação é o essencial. O mentor ter conhecimento nas tecnologias pode ser um adicional, mas caso não possua ter outras pessoas na sua organização que possa manter contato para tirar dúvidas do _Aprendiz_ é o ideal. A OpenDevUFCG e a comunidade do evento também pode oferecer _ajuda técnica_ através do nosso [chat](https://chat.opendevufcg.org/).
 
 Mais detalhes sobre mentores, você pode encontrar no [Guia do Mentor](../mentor)

@@ -30,7 +30,7 @@ Escolher qual projeto deseja participar pode ser difícil, mas temos algumas dic
 
 Segue algumas dicas que possam te ajudar a ser selecionado no projeto que se interessa:
 
-- Inicie discussões no canais de comunicação da organização e do projeto, preferencialmente nos canais do [Discord](http://chat.opendevufcg.org). Pode ser uma ótima maneira de demonstrar interesse e engajamento para os mentores;
+- Inicie discussões no canais de comunicação da organização e do projeto, preferencialmente nos canais do [Discord](https://chat.opendevufcg.org). Pode ser uma ótima maneira de demonstrar interesse e engajamento para os mentores;
 - Comece a ler sobre as tecnologias do projeto que se interessou;
 - Caso já exista um repositório e seja executável, tente rodá-lo;
 - Caso já exista um repositório, verifique se possui Issues abertas e inicie discussões nas mesmas, quem saiba abra uma Pull Request;
@@ -42,7 +42,7 @@ Trabalhar em um projeto Open Source real pode envolver muito mais além de desen
 
 ### Peça ajuda
 
-Aprender a pedir ajuda pode pareceber simples, mas é o que mais iniciantes pecam quando começam um projeto. Não se deixe levar pela vergonha, já está a muito tempo travado em algo? Tem dúvidas e não achou uma resposta? Pergunte! Contate seu mentor, ou a comunidade através do canal do seu projeto no [Discord](http://chat.opendevufcg.org/) explicando suas dúvidas. Nunca passe muitas horas em um problema, peça ajuda antes que a tarefa se torne frustante.
+Aprender a pedir ajuda pode pareceber simples, mas é o que mais iniciantes pecam quando começam um projeto. Não se deixe levar pela vergonha, já está a muito tempo travado em algo? Tem dúvidas e não achou uma resposta? Pergunte! Contate seu mentor, ou a comunidade através do canal do seu projeto no [Discord](https://chat.opendevufcg.org) explicando suas dúvidas. Nunca passe muitas horas em um problema, peça ajuda antes que a tarefa se torne frustante.
 
 ### Primeiro aprenda sobre as tecnologias
 

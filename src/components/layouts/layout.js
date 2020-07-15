@@ -5,12 +5,14 @@ import Header from "../header.js";
 import Footer from "../footer.js";
 import "./layout.css";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, className }) => {
   return (
     <Fragment>
       <Header />
       <main className="h-full">{children}</main>
-      {/* <main className="max-w-3xl mx-auto px-5 py-10 body">{children}</main> */}
+      {/* <main className={`max-w-3xl mx-auto px-5 py-10 body ${className}`}> */}
+        {children}
+      </main>
       <Footer />
     </Fragment>
   );

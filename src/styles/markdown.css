@@ -18,12 +18,14 @@
 .markdown h1,
 .markdown h2 {
   @apply text-xl my-6 font-semibold;
+  @apply text-purple-800;
 }
 .markdown h3,
 .markdown h4,
 .markdown h5,
 .markdown h6 {
   @apply text-lg my-3 font-semibold;
+  @apply text-purple-900;
 }
 
 @screen sm {

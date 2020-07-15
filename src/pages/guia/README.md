@@ -18,7 +18,7 @@ Separamos o guia entre os tipos de atores no evento:
 
 ## Open Source e Software Livre
 
-A alma do evento é o Open Source e Software Livre, por isso parte de nosso guia explicará sobre projetos Open Source. Porém caso você não tenha tenha conhecimento anterior sobre e queira aprendar mais, o [Open Source Guide](https://opensource.guide/pt/) contém uma série de guias introduzindo sobre projetos e organizações Open Source. Segue abaixo as sugestões de material para cada participante:
+A alma do evento é o Open Source e Software Livre, por isso parte de nosso guia explicará sobre projetos Open Source. Porém caso você não tenha tenha conhecimento anterior sobre e queira aprendar mais, reunimos uma série de guias introduzindo sobre projetos e organizações Open Source. Segue abaixo as sugestões de material para cada participante:
 
 ### Organização e mentores
 

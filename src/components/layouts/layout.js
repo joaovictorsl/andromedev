@@ -7,14 +7,11 @@ import "./layout.css";
 
 const Layout = ({ children, className }) => {
   return (
-    <Fragment>
+    <div className={`flex flex-col min-h-screen ${className}`}>
       <Header />
-      <main className="h-full">{children}</main>
-      {/* <main className={`max-w-3xl mx-auto px-5 py-10 body ${className}`}> */}
-        {children}
-      </main>
+      <main className="flex-1">{children}</main>
       <Footer />
-    </Fragment>
+    </div>
   );
 };
 

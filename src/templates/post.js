@@ -15,7 +15,9 @@ const Post = ({ data }) => {
   return (
     <Layout>
       <SEO title={title} />
-      <h1 className="text-center mb-8 font-bold">{title}</h1>
+      <h1 className="text-center mb-8 font-bold text-purple-800 sm:text-lg md:text-xl lg:text-5xl xl:text-5xl ">
+        {title}
+      </h1>
       <section
         dangerouslySetInnerHTML={{ __html: html }}
         className="markdown max-w-3xl mx-auto"

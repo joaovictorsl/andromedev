@@ -35,15 +35,15 @@ const Navbar = () => {
     <aside className="w-64 my-2 absolute">
       <nav className="flex flex-col">
         <Item slug="/guia">Introdução</Item>
-        <Item slug="/guia/organizacao">Organização</Item>
+        <Item slug="/guia/organizacao">Guia da Organização</Item>
         <Item slug="/guia/organizacao/projeto" className="ml-4">
-          Projeto
+          Criação de Projeto
         </Item>
         <Item slug="/guia/organizacao/projeto/repositorio" className="ml-8">
-          Repositório
+          Requisitos do Repositório
         </Item>
-        <Item slug="/guia/mentor">Mentor</Item>
-        <Item slug="/guia/aprendiz">Aprendiz</Item>
+        <Item slug="/guia/mentor">Guia do Mentor</Item>
+        <Item slug="/guia/aprendiz">Guia do Aprendiz</Item>
       </nav>
     </aside>
   );

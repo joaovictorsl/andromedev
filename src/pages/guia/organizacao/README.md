@@ -14,9 +14,9 @@ Se sua organização for um laboratório de pesquisa e desenvolvimento da Univer
 
 ### Apoiada pela OpenDevUFCG
 
-Organizações apoiadas possuem um vínculo de confiança com a OpenDevUFCG e se torna elegível a participar do Andromedev, assim como também ganham todo suporte necessário para a participação no evento.
+Organizações apoiadas possuem um vínculo de confiança com a OpenDevUFCG e se tornam elegíveis a participar do Andromedev, assim como também ganham todo suporte necessário para a participação no evento.
 
-Para entrar na lista de apoiadas, primeiro entre em contato com a gente, seja pelo nosso [Discord](https://chat.opendevufcg.org) ou por [email](*opendevufcg@gmail.com*), descreva detalhadamente que atividades e pessoas sua organização possui. Apois isso, iremos avaliar sua organização seguindo alguns dos nossos critérios e daremos a resposta o mais rápido possível.
+Para entrar na lista de apoiadas, primeiro entre em contato com a gente, seja pelo nosso [Discord](https://chat.opendevufcg.org) ou por [email](*opendevufcg@gmail.com*), descreva detalhadamente que atividades e pessoas sua organização possui. Após isso, iremos avaliar sua organização seguindo alguns dos nossos critérios e daremos a resposta o mais rápido possível.
 
 ### Possui um ou mais repositórios com mais de 100 stars no GitHub ou GitLab.
 

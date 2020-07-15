@@ -10,6 +10,7 @@ const Layout = ({ children }) => {
     <Fragment>
       <Header />
       <main className="h-full">{children}</main>
+      {/* <main className="max-w-3xl mx-auto px-5 py-10 body">{children}</main> */}
       <Footer />
     </Fragment>
   );

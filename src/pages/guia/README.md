@@ -22,20 +22,22 @@ A alma do evento é o Open Source e Software Livre, por isso parte de nosso guia
 
 ### Organização e mentores
 
-- [Iniciando um Projeto Open Source
+- [Iniciando um Projeto Open Source - Open Source Guide
   ](https://opensource.guide/pt/starting-a-project/)
-- [Melhores Práticas para Mantenedores
+- [Melhores Práticas para Mantenedores - Open Source Guide
   ](https://opensource.guide/pt/best-practices/)
-- [Seu Código de Conduta
+- [Seu Código de Conduta - Open Source Guide
   ](https://opensource.guide/pt/code-of-conduct/)
-- [Construindo Comunidades Acolhedoras
+- [Construindo Comunidades Acolhedoras - Open Source Guide
   ](https://opensource.guide/pt/building-community/)
 
 ### Aprendiz
 
-- [Como Contribuir para o Open Source
+- [Como Contribuir para o Open Source - Open Source Guide
   ](https://opensource.guide/pt/how-to-contribute/)
-- [Iniciando um Projeto Open Source](https://opensource.guide/pt/starting-a-project/)
+- [Contribuindo para projetos open source com GitHub - OpenDevUFCG](https://dev.to/opendevufcg/contribuindo-para-projetos-open-source-com-github-3i76)
+- [Iniciando um Projeto Open Source - Open Source Guide](https://opensource.guide/pt/starting-a-project/)
+- [Entendendo Git - Júlio Guedes](https://medium.com/@Juliobguedes/entendendo-git-883464f379de)
 
 ## Algo faltando?
 

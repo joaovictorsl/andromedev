@@ -15,3 +15,4 @@ Caso haja algum problema de build, antes de reportar, rode esse comando dentro d
 ```sh
 yarn clean
 ```
+

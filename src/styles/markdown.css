@@ -68,7 +68,14 @@
 }
 /* Blockquotes */
 .markdown blockquote {
-  @apply p-2 mx-6 bg-gray-100 mb-4 border-l-4 border-gray-400 italic;
+  font-size: 1rem;
+  margin: 1.5rem 0;
+  border-top: none;
+  border-bottom: none;
+  /* Change this color if you don't use violet as accent-color */
+  border-left: #9371e6 0.4rem solid;
+  padding: 1rem;
+  @apply bg-black bg-opacity-25 border-purple-800;
 }
 .markdown blockquote > p {
   @apply mb-0;

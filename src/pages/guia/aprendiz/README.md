@@ -2,43 +2,43 @@
 title: Guia do Aprendiz
 ---
 
-O aprendiz é o participante que irá desenvolver o projeto em que foi selecionado, o mesmo terá oportunidade de aprender tecnologias novas e como trabalhar em um projeto real, tendo contato direto com membros da organização durante todo o desenvolvimento.
+O aprendiz é o participante que irá desenvolver o projeto em que foi selecionado, tendo a oportunidade de aprender novas tecnologias e de ter a experiência de trabalho em um projeto real. Durante todo o desenvolvimento, o aprendiz terá contato direto com membros da organização, especialmente com o mentor de seu projeto.
 
 ## Requisitos
 
-- Estudante da UFCG;
-- Cumprir **15 horas semanais**;
-- Aprovado no processo de seleção da organização.
+- Estar regularmente matriculado no curso de Ciência da Computação da UFCG;
+- Dedicar **15 horas semanais** ao longo do evento;
+- Ser aprovado pelo processo de seleção do projeto.
 
 ## Seleção
 
-A seleção é feita separadamente para cada projeto, por isso nas inscrições de aprendiz, os candidatos devem demonstrar interesse **em até 2 projetos homolagados**, indicando a ordem de preferência, desta forma se for aprovado nos dois, será alocado para o que teve maior preferência.
+A seleção será feita separadamente para cada projeto; por isso, nas inscrições de aprendiz, os candidatos devem demonstrar interesse **em até dois projetos homologados**, indicando a ordem de preferência. Dessa forma, se for aprovado nos dois, será alocado para o que teve maior preferência.
 
-Após as inscrições, as organizações e seus mentores irão selecionar os aprendizes conforme seus perfis, priorizando aqueles que demonstrem mais interesse, e divulgar os selecionados conforme nosso cronograma. Cada aprendiz terão uma semana para conhecer melhor o projeto que participa e os mentores antes de iniciar o desenvolvimento.
+Após as inscrições, as organizações e seus mentores irão selecionar os aprendizes conforme seus perfis, priorizando aqueles que demonstrem mais interesse, e divulgarão os selecionados conforme nosso cronograma. Cada aprendiz terá uma semana para conhecer melhor o projeto em que participará e os mentores antes de iniciar o desenvolvimento.
 
-### Qual projeto escolher
+### Qual projeto escolher?
 
-Escolher qual projeto deseja participar pode ser difícil, mas temos algumas dicas para te ajudar a iniciar nessa busca:
+Escolher para qual projeto submeter pode ser difícil, mas temos algumas dicas para te ajudar a iniciar essa busca:
 
 - Leia com atenção as propostas de cada projeto, atentando quais atividades serão realizadas;
-- Preferencie projetos que possuem tecnologias e/ou áreas as quais você se interessa;
+- Preferencie projetos que possuem tecnologias e/ou áreas nas quais você se interessa;
 - Conheça mais sobre as organizações e veja quais você mais se identifica, tanto nos tipos de projetos que desenvolve como na missão e valores;
-- Faça pergunta aos mentores dos projetos sobre as especificações de cada projeto para sanar quaisquer dúvidas;
-- Pense no impacto que deseja fazer! Nada mais anima do que saber que fará algo que importante para a comunidade.
+- Faça pergunta aos mentores sobre as especificações de cada projeto para sanar quaisquer dúvidas;
+- Pense no impacto que deseja fazer! Nada anima mais do que saber que fará algo que será importante para a comunidade.
 
 ### Dicas para a seleção
 
-Segue algumas dicas que possam te ajudar a ser selecionado no projeto que se interessa:
+Seguem algumas dicas que podem te ajudar a ser selecionado no projeto que se interessa:
 
 - Inicie discussões no canais de comunicação da organização e do projeto, preferencialmente nos canais do [Discord](https://chat.opendevufcg.org). Pode ser uma ótima maneira de demonstrar interesse e engajamento para os mentores;
-- Comece a ler sobre as tecnologias do projeto que se interessou;
+- Comece a ler sobre as tecnologias do projeto em que se interessou;
 - Caso já exista um repositório e seja executável, tente rodá-lo;
-- Caso já exista um repositório, verifique se possui Issues abertas e inicie discussões nas mesmas, quem saiba abra uma Pull Request;
-- Faça sugestões de melhoras nas propostas de projeto caso tenha ideias.
+- Caso já exista um repositório, verifique se possui *issues* abertas e inicie discussões nas mesmas. Quem sabe já dê para abrir *pull request* com alguma contribuição;
+- Faça sugestões de melhorias nas propostas de projeto caso tenha ideias que podem melhorar o plano original.
 
 ## Processo de desenvolvimento
 
-Trabalhar em um projeto Open Source real pode envolver muito mais além de desenvolvimento de código e tecnologias, você precisará aprender sobre _git_, organização de tarefas, comunicação com comunidade Open Source e o mais importante, a pedir ajuda para conseguir fazer tudo isso! Iremos te dar a primeira ajuda aqui com algumas sugestões para adotar no seu processo de desenvolvimento e você pode adaptá-las dependendo de suas necessidades.
+Trabalhar em um projeto Open Source real pode envolver muito mais além de desenvolvimento de código e tecnologias. Você precisará aprender sobre _Git_, organização de tarefas, comunicação com comunidade Open Source e o mais importante, a pedir ajuda para conseguir fazer tudo isso! Iremos te dar a primeira ajuda aqui com algumas sugestões para adotar no seu processo de desenvolvimento e você pode adaptá-las dependendo de suas necessidades.
 
 ### Peça ajuda
 

@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from 'gatsby';
+import { events } from '../lib/schedule';
 
-const eventSchedule = ({ events }) => {
+const EventSchedule = () => {
   const getFilteredEvents = () => {
     const today = new Date();
     const nextEventIndex = events.findIndex(event => event.date ? event.date.getTime() > today.getTime() : event)
@@ -46,4 +47,4 @@ const eventSchedule = ({ events }) => {
   )
 }
 
-export default eventSchedule;
+export default EventSchedule;

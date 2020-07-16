@@ -1,16 +1,16 @@
 .linear {
-  background: linear-gradient(-175deg, transparent 50%, #282c35 50%);
-  height: 350px;
+  background: linear-gradient(180deg, transparent 30%, #282c35 30%);
+  height: 400px;
 }
 
 .planets-section {
-  background-color: #282c35;
-  height: 350px;
+  height: 300px;
 }
 
 .planets-section .planet {
   transition: all 0.2s ease-in-out;
-  width: 220px;
+  width: 225px;
+  z-index: 20;
 }
 
 .logo-container {
@@ -18,7 +18,6 @@
   height: 100px;
   overflow: hidden;
   border-radius: 2px;
-  /* background-color: rgba(255, 255, 255, 0.9); */
 }
 
 .logo {
@@ -27,17 +26,74 @@
   margin: -72px 0 0 2px;
 }
 
+.schedule {
+  margin-top: -3rem;
+}
+
+.waves {
+  visibility: hidden;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #edf2f7;
+}
+
+.waves svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+  z-index: 10;
+}
+
+.waves .shape-fill {
+  fill: #282c35;
+}
+
+.waves-inverted {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.waves-inverted svg {
+  margin-top: -1px;
+  position: relative;
+  display: block;
+  width: calc(114% + 1.3px);
+  height: 93px;
+}
+
+.waves-inverted .shape-fill {
+  fill: #edf2f7;
+}
+
 @media screen and (min-width: 200px) {
-  .planets-section,
+  .margaret,
   .planets-section .planet {
     visibility: hidden;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .waves {
+    visibility: visible;
+    display: block;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .planets-section,
+  .margaret,
   .planets-section .planet {
     visibility: visible;
+    display: block;
   }
 
   .planets-section :nth-child(1) {
@@ -67,10 +123,6 @@
 }
 
 @media screen and (min-width: 1450px) {
-  .planets-section .planet {
-    visibility: visible;
-  }
-
   .planets-section :nth-child(1) {
     top: -20px;
     left: 100px;
@@ -100,10 +152,6 @@
 @media screen and (min-width: 1800px) {
   .planets-section {
     height: 420px;
-  }
-
-  .planets-section .planet {
-    visibility: visible;
   }
 
   .planets-section :nth-child(1) {

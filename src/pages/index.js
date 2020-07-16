@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet"
 import Layout from "../components/layouts/layout";
 import EventSchedule from "../components/event-schedule"
 import Margarete from "../assets/svg/margarete.svg";
@@ -81,6 +82,10 @@ const Home = () => {
 
   return (
     <Layout className={"bg-dark-gray text-white"}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Home | Andromedev</title>
+      </Helmet>
       <section className="w-full linear bg-primary">
         <div className="w-full flex justify-center mx-auto max-w-3xl my-8">
           <article>

@@ -7,7 +7,7 @@ const EventSchedule = () => {
     const today = new Date();
     const nextEventIndex = events.findIndex(event => event.date ? event.date.getTime() > today.getTime() : event)
 
-    return events.slice(Math.max(0, nextEventIndex), Math.min(events.length, nextEventIndex + 4))
+    return events.slice(Math.max(0, nextEventIndex - 1), Math.min(events.length, nextEventIndex + 4))
   }
 
   const filteredEvents = getFilteredEvents()

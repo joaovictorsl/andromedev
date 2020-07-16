@@ -27,7 +27,7 @@
 }
 
 .schedule {
-  margin-top: -6rem;
+  margin-top: -3rem;
 }
 
 .waves {
@@ -45,12 +45,33 @@
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 150px;
+  height: 80px;
   z-index: 10;
 }
 
 .waves .shape-fill {
   fill: #282c35;
+}
+
+.waves-inverted {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.waves-inverted svg {
+  margin-top: -1px;
+  position: relative;
+  display: block;
+  width: calc(114% + 1.3px);
+  height: 93px;
+}
+
+.waves-inverted .shape-fill {
+  fill: #edf2f7;
 }
 
 @media screen and (min-width: 200px) {

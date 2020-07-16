@@ -44,9 +44,9 @@ header::after {
   height: 1px;
   background-image: linear-gradient(
     -90deg,
-    #451464 0%,
-    #43205c 28%,
-    #43205c 74%,
-    #451464 100%
+    #282c35 0%,
+    #464950 28%,
+    #464950 74%,
+    #282c35 100%
   );
 }

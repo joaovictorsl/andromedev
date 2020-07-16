@@ -6,12 +6,9 @@ const eventSchedule = ({ events }) => {
     const today = new Date();
 
     const nextEvent = events.findIndex(event => event.date.getTime() > today.getTime())
-    console.log(nextEvent)
 
     return events.slice(nextEvent, Math.min(events.length, nextEvent + 3))
   }
-
-  console.log(getFilteredEvents())
 
   return (
     <section className="schedule text-gray-700 body-font bg-gray-200">

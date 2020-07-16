@@ -10,27 +10,6 @@ const Item = ({ children, slug, className }) => (
   </Link>
 );
 const Navbar = () => {
-  // const data = useStaticQuery(graphql`
-  //   {
-  //     pages: allMarkdownRemark(
-  //       filter: { fields: { slug: { regex: "/(guia)/" } } }
-  //     ) {
-  //       edges {
-  //         node {
-  //           fields {
-  //             slug
-  //           }
-  //           frontmatter {
-  //             title
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // `);
-
-  // console.log(data);
-
   return (
     <aside className="w-64 my-2 absolute">
       <nav className="flex flex-col">

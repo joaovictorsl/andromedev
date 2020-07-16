@@ -10,6 +10,7 @@
 .planets-section .planet {
   transition: all 0.2s ease-in-out;
   width: 225px;
+  z-index: 20;
 }
 
 .logo-container {
@@ -45,6 +46,7 @@
   display: block;
   width: calc(100% + 1.3px);
   height: 150px;
+  z-index: 10;
 }
 
 .waves .shape-fill {

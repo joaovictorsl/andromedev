@@ -5,15 +5,18 @@ const eventSchedule = ({ events }) => {
   const getFilteredEvents = () => {
     const today = new Date();
 
-    return events.filter((event) => {
+    const nextEvent = events.findIndex(event => event.date.getTime() > today.getTime())
+    console.log(nextEvent)
 
-    })
+    return events.slice(nextEvent, Math.min(events.length, nextEvent + 3))
   }
+
+  console.log(getFilteredEvents())
 
   return (
     <section className="schedule text-gray-700 body-font bg-gray-200">
       <article className="container px-5 pb-12 mx-auto flex flex-wrap">
-        {events.map((event, index) => (
+        {getFilteredEvents().map((event, index) => (
           <div key={event.title + index} className="flex relative py-8 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
               <div className="h-full w-1 bg-dark-gray pointer-events-none"></div>
@@ -32,7 +35,7 @@ const eventSchedule = ({ events }) => {
         ))}
       </article>
       <article className="container px-5 pb-12 mx-auto flex flex-wrap text-center items-center justify-center">
-        <Link className="text-xl text-orange hover:underline" to="/detalhes">Visualizar o cronograma completo</Link>
+        <Link className="text-xl text-orange hover:underline" to="/detalhes#cronograma">Visualizar o cronograma completo</Link>
       </article>
     </section>
   )

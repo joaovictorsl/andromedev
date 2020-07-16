@@ -84,7 +84,7 @@ const Home = () => {
       <section className="w-full linear bg-primary">
         <div className="w-full flex justify-center mx-auto max-w-3xl my-8">
           <article>
-            <div className="xl:max-w-lg flex flex-col items-center justify-center xl:mx-auto">
+            <div className="max-w-lg flex flex-col items-center justify-center xl:mx-auto">
               <img src={Logo} alt="Andromedev Logo" />
               <p className="p-2 text-white text-center sm:text-xl">
                 O primeiro evento organizado de mentoria pela OpenDevUFCG com o
@@ -101,7 +101,7 @@ const Home = () => {
               </div>
             </div>
           </article>
-          <article className="w-1/2 relative">
+          <article className="w-1/2 relative margaret">
             <img
               className="absolute inset-0 h-full w-full"
               src={Margarete}
@@ -110,7 +110,7 @@ const Home = () => {
           </article>
         </div>
       </section>
-      <section className="planets-section relative">
+      <section className="planets-section bg-dark-gray relative">
         <img
           className="planet absolute z-10 h-auto"
           src={Planet1}

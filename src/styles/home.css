@@ -4,8 +4,7 @@
 }
 
 .planets-section {
-  background-color: #282c35;
-  height: 350px;
+  height: 300px;
 }
 
 .planets-section .planet {
@@ -31,6 +30,8 @@
 }
 
 .waves {
+  visibility: hidden;
+  display: none;
   top: 0;
   left: 0;
   width: 100%;
@@ -51,15 +52,22 @@
 }
 
 @media screen and (min-width: 200px) {
-  .planets-section,
+  .margaret,
   .planets-section .planet {
     visibility: hidden;
     display: none;
   }
 }
 
+@media screen and (min-width: 600px) {
+  .waves {
+    visibility: visible;
+    display: block;
+  }
+}
+
 @media screen and (min-width: 1200px) {
-  .planets-section,
+  .margaret,
   .planets-section .planet {
     visibility: visible;
     display: block;

@@ -2,7 +2,7 @@
 title: Guia de Bordo
 ---
 
-**Andromedev** é um evento organizado pela OpenDevUFCG com intuitivo de incentivar a participação de estudantes da Universidade Federal de Campina Grande em projetos Open Source.
+**Andromedev** é um evento organizado pela OpenDevUFCG com intuito de incentivar a participação de estudantes da Universidade Federal de Campina Grande em projetos Open Source.
 
 Aprenda sobre o Andromedev e Open Source aqui neste guia e na nossa página principal.
 

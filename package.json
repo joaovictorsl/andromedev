@@ -1,5 +1,5 @@
 {
-  "name": "Andromedev",
+  "name": "andromedev",
   "private": true,
   "description": "Evento Andromedev",
   "version": "0.1.0",
@@ -7,7 +7,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.6",
     "@mdx-js/react": "^1.6.6",
-    "gatsby": "^2.20.25",
+    "gatsby": "^2.24.3",
     "gatsby-image": "^2.3.4",
     "gatsby-plugin-catch-links": "^2.3.11",
     "gatsby-plugin-manifest": "^2.3.5",

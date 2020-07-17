@@ -28,7 +28,7 @@ Espera-se que o mentorado ou a mentorada trabalhe tanto com desenvolvimento web 
 
 ### Qual perfil de mentorada ou mentorado se espera?
 
-Espera-se que o mentorado ou mentorada tenha uma compreensão básica de inglês para facilitar o processo, embora não seja um requisito impeditivo. É também interessante que tenha alguma experiência com desenvolvimento web, mas iniciantes são bem-vindos e bem-vindas. Esse é um projeto amigável para quem ainda está começando e todos os interessados e interessadas na proposta são encorajados a discutir sobre e candidatar-se! :sparkles: 
+Espera-se que o mentorado ou mentorada tenha uma compreensão básica de inglês para facilitar o processo, embora não seja um requisito impeditivo. É também interessante que tenha alguma experiência com desenvolvimento web, mas iniciantes são bem-vindos e bem-vindas. Esse é um projeto amigável para quem ainda está começando e todos os interessados e interessadas na proposta são encorajados a discutir sobre e candidatar-se! :sparkles:
 
 ## Cronograma sugerido
 
@@ -52,7 +52,7 @@ Espera-se que o mentorado ou mentorada tenha uma compreensão básica de inglês
 
 - Documentar demais módulos e entidades de código;
 - Desenvolver um _code playground_ para executar código através do portal da documentação.
- 
+
 ## Sobre o mentor
 
 Robson Junior é um dos criadores da organização open source **Call Us What You Want** e membro do core team da **OpenDevUFCG**. É estudante de Ciência da Computação na UFCG, cursando o nono (e penúltimo) período da graduação. Trabalha atualmente na parceria entre UFCG e VTEX como desenvolvedor de software, com ênfase em desenvolvimento web.

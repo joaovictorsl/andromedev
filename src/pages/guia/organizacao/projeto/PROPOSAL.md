@@ -13,6 +13,7 @@ https://literalmente.olink/doseurepositorio/casojaexista
 ### O que eu ganho participando desse projeto?
 
 Descreva ao potencial mentorado ou mentorada o porquê de escolher se candidatar a esse projeto. Algumas ideias:
+
 - O que posso aprender/exercitar com esse projeto?
 - Qual o impacto profissional de participar desse projeto?
 - Poderei participar da organização se o projeto for bem sucedido?
@@ -26,7 +27,7 @@ Não precisa ser limitado necessariamente apenas a linguagens de programação; 
 
 ### Links úteis
 
-Insira links que podem ser úteis na compreensão da proposta, como projetos similares para servir de inspiração e materiais de apoio diversos.  
+Insira links que podem ser úteis na compreensão da proposta, como projetos similares para servir de inspiração e materiais de apoio diversos.
 
 ### Qual perfil de mentorada ou mentorado se espera?
 
@@ -63,11 +64,13 @@ Se o projeto envolver muito conhecimento técnico, também enfatize-o nessa seç
 ## Sobre [o mentor | a mentora]
 
 Mentor ou mentora, essa seção deve dizer às pessoas interessadas no seu projeto quem é você.
+
 - Descreva sua participação na organização.
 - Em que momento acadêmico você está? Em algum período da graduação, do mestrado? Computação, algum outro curso?
 - Está trabalhando em algum lugar? Com o quê?
 
 ### Contate-me
+
 - **E-mail:** [voce@provedor.com](mailto:voce@provedor.com)
 - **Handle no Discord:** SeuHandleNoDiscord#Id (Exemplo: Robson#1234)
 - **GitHub (ou outra plataforma, a que hospedará o projeto):** [NomeDeUsuario](http://github.com/NomeDeUsuario)

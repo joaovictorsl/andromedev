@@ -14,7 +14,7 @@ const Post = ({ data }) => {
   } = data;
 
   return (
-    <Layout>
+    <Layout className="bg-gray-100">
       <SEO title={title} />
       <Navbar />
       <h1 className="text-center mb-8 font-bold text-purple-800 sm:text-lg md:text-xl lg:text-5xl xl:text-5xl ">

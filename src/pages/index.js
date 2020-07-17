@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 
 import Layout from "../components/layouts/layout";
 import EventSchedule from "../components/eventSchedule";
-import Margarete from "../assets/svg/margarete.svg";
 import Planet1 from "../assets/svg/planeta1.svg";
 import Planet2 from "../assets/svg/planeta2.svg";
 import Planet3 from "../assets/svg/planeta3.svg";
@@ -91,7 +90,7 @@ const Home = () => {
           ></path>
         </svg>
       </section>
-      <section className="schedule text-gray-700 body-font bg-gray-200">
+      <section className="schedule text-gray-700 body-font bg-gray-100">
         <article className="container px-5 pb-10 mx-auto flex flex-wrap">
           <EventSchedule />
         </article>

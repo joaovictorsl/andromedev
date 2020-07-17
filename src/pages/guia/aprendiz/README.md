@@ -7,7 +7,7 @@ O aprendiz é o participante que irá desenvolver o projeto em que foi seleciona
 ## Requisitos
 
 - Estar regularmente matriculado no curso de Ciência da Computação da UFCG;
-- Dedicar **15 horas semanais** ao longo do evento;
+- Dedicar **15 horas semanais** ao longo do evento (120 horas ao todo);
 - Ser aprovado pelo processo de seleção do projeto.
 
 ## Seleção

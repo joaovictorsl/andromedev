@@ -8,7 +8,7 @@ Cada [projeto](../organizacao/projeto) possui um _mentor_, a pessoa responsável
 
 - Estar vinculado à organização que submeteu o projeto;
 - Ter conhecimento das tecnologias e/ou do contexto do projeto submetido para que possa ajudar o(a) aprendiz;
-- Dedicar, no mínimo, **20 (vinte) horas ao longo do evento** para a execução das atividades referentes ao projeto, devendo esta carga horária ser distribuída igualmente durante o evento (aproximadamente 2,5 horas semanais);
+- Dedicar, no mínimo, **20 (vinte) horas ao longo do evento** para a execução das atividades referentes ao projeto, devendo esta carga horária ser distribuída igualmente durante o evento (aproximadamente 2,5 horas semanais).
 
 ## Atividades e responsabilidades
 

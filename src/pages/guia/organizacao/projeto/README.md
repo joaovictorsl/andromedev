@@ -10,11 +10,13 @@ Open Source Guides possui um ótimo [artigo](https://opensource.guide/pt/startin
 
 Temos alguns requisitos para que o projeto seja aceito no evento, que podem ser verificados abaixo:
 
-- Deve ser acompanhado por um mentor ou uma mentora que oferecerá suporte referente a dúvidas técnicas, comunidade e demais tópicos do processo de contribuição;
-- A implementação do projeto deve ser viável durante o período do evento;
 - Estar contido em um ou mais repositório _open source_, disponíveis em alguma plataforma de hospedagem de código e que utilizem licenças [aprovadas pela OSI](https://opensource.org/licenses);
+- Ser acompanhado por um mentor ou uma mentora que oferecerá suporte referente a dúvidas técnicas, comunidade e demais tópicos do processo de contribuição;
+- Descrever uma implementação viável para o período do evento;
+- Ser relacionado a código, incluindo, mas não somente: automação de processos, design de interface UX, documentação, implementação de _features_, implementação de testes, infraestrutura e refatoração;
 - Seguir uma estrutura de repositório descrita [aqui](repositorio);
-- Não ser duplica de outro projeto submetido no evento;
+- Descrever as macroatividades ou principais funcionalidades do sistema;
+- Não ser duplicata de outro projeto submetido no evento pela mesma organização.
 
 ## Como escolher um projeto
 

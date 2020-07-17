@@ -14,7 +14,22 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          // pages: require.resolve("./src/templates/post.js"),
+          default: require.resolve("./src/components/layouts/layout.js"),
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

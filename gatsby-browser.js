@@ -11,6 +11,14 @@ export const shouldUpdateScroll = ({
   routerProps: { location },
   getSavedScrollPosition,
 }) => {
-  const currentPosition = getSavedScrollPosition(location);
-  console.log(currentPosition);
-};
+  const currentPosition = getSavedScrollPosition(location)
+  console.log(currentPosition)
+
+  // Don't update scroll position on certain pages
+  // @NOTE This is just an internal function I run, so stub in your own logic here
+  // if (scrollCheck(location)) {
+  //   return false
+  // }
+
+  window.scrollTo(...(currentPosition || [0, 0]))
+}

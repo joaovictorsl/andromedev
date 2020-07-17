@@ -19,11 +19,8 @@ const EventSchedule = ({ className, full = false }) => {
   return (
     <article className={className}>
       {items.map((event, index) => (
-        <div className="w-full flex flex-col items-center">
-          <div
-            key={event.title + index}
-            className="flex relative py-8 sm:items-center md:w-2/3 mx-auto"
-          >
+        <div key={event.title + index} className="w-full flex flex-col items-center">
+          <div className="flex relative py-8 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex flex-col items-center justify-center">
               <div className="h-full w-1 pointer-events-none bg-dark-gray" />
               {index === items.length - 1 &&

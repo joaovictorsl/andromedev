@@ -6,6 +6,8 @@ title: Guia de Bordo
 
 Aprenda sobre o Andromedev e Open Source aqui neste guia e na nossa página principal.
 
+> O **Guia de Bordo** busca trazer informações a respeito do Andromedev de maneira mais concisa e acessível, com diversas dicas para todos os participantes. Entretanto, sempre considere a [documentação oficial](LINKAQUI) como a fonte de verdade, na qual estão contidos mais detalhes relativos às responsabilidades e ao andamento do evento.
+
 ## Seções
 
 Separamos o guia entre os tipos de atores no evento:

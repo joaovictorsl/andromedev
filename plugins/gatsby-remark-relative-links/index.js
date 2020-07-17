@@ -6,13 +6,9 @@ module.exports = ({ markdownAST, getNode, markdownNode }) => {
   const basePath = (
     parentNode.root + path.dirname(parentNode.relativePath)
   ).replace("/pages", "");
-  console.log(
-    parentNode.root + path.dirname(parentNode.relativePath),
-    "--> ",
-    basePath
-  );
   visit(markdownAST, "link", (link) => {
-    const isRelativeUrl = !/https?:/.test(link.url);
+    const isRelativeUrl =
+      !/https?:/.test(link.url) && !/mailto:([^\?]*)/.test(link.url);
 
     if (!isRelativeUrl) {
       return;

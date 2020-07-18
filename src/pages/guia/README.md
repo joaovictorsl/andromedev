@@ -2,11 +2,13 @@
 title: Guia de Bordo
 ---
 
-**Andromedev** é um evento organizado pela OpenDevUFCG com intuitivo de incentivar a participação de estudantes da Universidade Federal de Campina Grande em projetos Open Source.
+**Andromedev** é um evento organizado pela OpenDevUFCG com intuito de incentivar a participação de estudantes da Universidade Federal de Campina Grande em projetos Open Source.
 
 Aprenda sobre o Andromedev e Open Source aqui neste guia e na nossa página principal.
 
-## Guia
+> O **Guia de Bordo** busca trazer informações a respeito do Andromedev de maneira mais concisa e acessível, com diversas dicas para todos os participantes. Entretanto, sempre considere a [documentação oficial](LINKAQUI) como a fonte de verdade, na qual estão contidos mais detalhes relativos às responsabilidades e ao andamento do evento.
+
+## Seções
 
 Separamos o guia entre os tipos de atores no evento:
 
@@ -18,7 +20,7 @@ Separamos o guia entre os tipos de atores no evento:
 
 ## Open Source e Software Livre
 
-A alma do evento é o Open Source e Software Livre, por isso parte de nosso guia explicará sobre projetos Open Source. Porém caso você não tenha tenha conhecimento anterior sobre e queira aprendar mais, reunimos uma série de guias introduzindo sobre projetos e organizações Open Source. Segue abaixo as sugestões de material para cada participante:
+Como a alma do evento é o Open Source e o Software Livre, o nosso guia está inserido nesse contexto. Entretanto, caso você não tenha conhecimento anterior sobre esses tópicos ou queira aprender mais, reunimos uma série de guias e postagens introduzindo sobre projetos e organizações Open Source. Seguem abaixo as sugestões de material para cada participante:
 
 ### Organização e mentores
 
@@ -39,6 +41,6 @@ A alma do evento é o Open Source e Software Livre, por isso parte de nosso guia
 - [Iniciando um Projeto Open Source - Open Source Guide](https://opensource.guide/pt/starting-a-project/)
 - [Entendendo Git - Júlio Guedes](https://medium.com/@Juliobguedes/entendendo-git-883464f379de)
 
-## Algo faltando?
-
-Se você sente que algo que está faltando ou algo está confuso, por favor crie uma issue no nosso repositório do site com sugestões de melhorias, ou nos comunique no [Discord](https://chat.opendevufcg.org).
+> ## Algo faltando?
+>
+> Se você sente que algo que está faltando ou não está bem esclarecido, por favor, crie uma issue no [nosso repositório](https://github.com/OpenDevUFCG/andromedev) do site com sugestões de melhorias, ou nos comunique no [Discord](https://chat.opendevufcg.org).

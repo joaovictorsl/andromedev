@@ -2,70 +2,70 @@
 title: Guia do Mentor
 ---
 
-Cada [projeto](../organizacao/projeto) possui um _mentor_, esta é a pessoa responsável por ajudar os _aprendizes_ ao decorrer do projeto e servir como guia para auxílio na realização de tarefas. Também possui um mentor auxiliar que atuará no projeto caso o(a) mentor não possa concluir o projeto.
+Cada [projeto](../organizacao/projeto) possui um _mentor_, a pessoa responsável por ajudar os [aprendizes](../aprendiz) na realização das tarefas ao longo do decorrer do projeto. Cada um também possui um mentor auxiliar que atuará no projeto caso o(a) mentor(a) não possa concluir a participação no evento.
 
 ## Requisitos
 
 - Estar vinculado à organização que submeteu o projeto;
 - Ter conhecimento das tecnologias e/ou do contexto do projeto submetido para que possa ajudar o(a) aprendiz;
-- Dedicar, no mínimo, **20 (vinte) horas ao longo do evento** para a execução das atividades referentes ao projeto, devendo esta carga horária ser distribuída igualmente durante o evento (aproximadamente 2,5 horas semanais);
+- Dedicar, no mínimo, **20 (vinte) horas ao longo do evento** para a execução das atividades referentes ao projeto, devendo esta carga horária ser distribuída igualmente durante o evento (aproximadamente 2,5 horas semanais).
 
 ## Atividades e responsabilidades
 
 O mentor é reponsável por avaliar candidatos a aprendiz do seu projeto, visando escolher de forma justa a pessoa com perfil mais adequado ao projeto e incentivando a participação de minorias sociais e grupos minoritários, como também pessoas que não possuam experiência.
 
-Durante o evento, o mentor deve guiar o aluno durante o desenvolvimento, não necessariamente dando as respostas para os problemas, mas ajudando o aprendiz a encontrar suas próprias soluções. Ter acompanhamento semanais é essencial para que o projeto ocorra bem, seja por chamadas de voz/vídeo, mensagens de texto ou revisões de código, por isso recomendados no início da fase de desenvolvimento combinar horários definidos com seu aprendiz e também estabelecer meios de comunicações que serão usados.
+Durante o evento, o mentor deve guiar o aprendiz no desenvolvimento. Isso não quer dizer necessariamente dar as respostas aos problemas, mas apoiar e orientar para que o aprendiz encontre suas próprias soluções. Ter acompanhamentos diários ou no mínimo semanais é essencial para que o projeto corra bem, seja por chamadas de voz/vídeo, mensagens de texto ou revisões de código. Por isso, recomendados no início da fase de desenvolvimento combinar horários com seu aprendiz e também estabelecer os meios de comunicações que serão usados.
 
-O mentor não produz código, porém junto ao aprendiz deve realizar três apresentações, duas nas entregas particias e uma apresentação final, conforme as datas estipuladas no programa. Ideal é que consiga expor o progresso feito, e caso haja necessidade, apresentar mudanças que ocorreram a proposta de projeto ao longo do desenvolvimento.
+O mentor não deve produzir código, porém, junto ao aprendiz, deve realizar três apresentações: duas nas entregas parciais e uma apresentação final, conforme as datas estipuladas no programa. O ideal é que consiga expor o progresso feito e, caso haja necessidade, apresentar as mudanças que ocorreram na proposta de projeto ao longo do desenvolvimento.
 
 O mentor será avaliado pelo aprendiz e pela OpenDevUFCG, e também deverá avaliar o aprendiz e o andamento do projeto através de um formulário que iremos disponibilizar semanalmente.
 
 ## Como acompanhar o aprendiz
 
-Acompanhar o aprendiz não é uma tarefa difícil, mas exige constância. Estar presente semanalmente para tirar dúvidas e analisar o progresso é importante para avaliar se o projeto está indo bem ou exige mudanças. Mesmo que o aprendiz demonstre que não precisa de ajuda, tente sempre fazer perguntas para acompanhar o progresso, algumas sugestões de perguntas são:
+Acompanhar o aprendiz não deve ser uma tarefa difícil, mas exige constância. Estar presente semanalmente para tirar dúvidas e analisar o progresso é importante para avaliar se o projeto está indo bem ou exige mudanças. Mesmo que o aprendiz demonstre que não precisa de ajuda, tente sempre fazer perguntas para acompanhar o progresso. Algumas sugestões são:
 
-- O que aprendeu nos últimos dias?
-- O que fez nos últimos dias?
-- Está com dúvida em algo?
-- Está com alguma dúvida nas tecnologias?
+- O que você fez e aprendeu nos últimos dias?
+- Está com dúvida em alguma parte do código? Em alguma tecnologia?
+- Tem algo que está travando seu andamento?
 - Após terminar essa atividade, o que irá fazer depois?
-- Como você fez essa atividade? Que passos você seguiu?
-- Tem algo que está lhe travando?
+- Como você fez essa atividade? Quais passos seguiu?
 - As especificações do projeto ainda fazem sentido?
 
-Leve em consideração que não necessariamente concluir uma atividade toda semana é sinônimo de progresso, o aprendiz estar tentando e aprendendo conceitos e tecnologias novas é um progresso e deve reportá-lo para você também. Procure mantê-lo motivado pois o processo de aprendizado pode ser frustante no início.
+Leve em consideração que concluir uma atividade toda semana não é necessariamente sinônimo de progresso. Na verdade, o que se espera é que aprendiz esteja se esforçando e aprendendo conceitos e tecnologias novas, e é seu papel acompanhar esse andamento. Procure mantê-lo motivado, pois o processo de aprendizado pode ser frustante no início.
 
 ### Modelos de reuniões
 
-Caso esteja em dúvida que modelos de reuniões seguir, temos algumas sugestões usadas por vários times de desenvolvimento de software ao redor do mundo, sinta-se livra para adequar as suas necessidades.
+Caso esteja em dúvida de que modelos de reuniões seguir, temos algumas sugestões usadas por vários times de desenvolvimento de software ao redor do mundo. Sinta-se livra para adequá-los às suas necessidades! De maneira geral, priorize realizar reuniões curtas e adiantar o que se pode por texto.
 
-O ideal é que possa reuniões de **acompanhamento de atividades** e de **planejamento**, sendo a primeira muito mais simples e direta, e a segunda exigindo discussões e estudo.
+O ideal é que sejam realizadas reuniões de **acompanhamento de atividades** e de **planejamento**, sendo a primeira muito mais simples e direta e a segunda exigindo discussões e estudo. A seguir, descrevemos orientações para ambos tipos de reunião.
 
-As reuniões de acompanhamento podem acontecer em várias frequência, idealmente em intervalos menores, onde o aprendiz pode relatar o que aprendeu e que atividades conseguiu ou não realizar, podendo haver discussões rápidas para tirar dúvidas ou mentor fazer sugestões. Sugerimos os seguintes modelos:
+#### Reuniões de acompanhamento
 
-- Reuniões diárias com menos de 15 min para relatar progresso feito, você pode adequar para ser apenas nos dias que o aprendiz trabalha. São ótimas por serem rápidas e sempre conseguir acompanhar cada pequeno progresso feito;
-- Reuniões semanais de 20 min à 40 min para repassar atividades, sendo mais longas disponilizam maior espaço para discutir cada atividade.
+As reuniões de acompanhamento podem acontecer com frequência variada, idealmente em intervalos menores.Nelas, o aprendiz pode relatar o que aprendeu e que atividades conseguiu ou não realizar, podendo haver discussões rápidas para tirar dúvidas ou para o mentor fazer sugestões. Sugerimos os seguintes modelos:
 
-Já as reuniões de planejamento podem ocorrer em frequências menores, nelas devem se analisar o que foi feito e junto com o aprendiz planejar as próximas atividades possíveis e idealmente produzir algum tipo de documento que as descreva:
+- Reuniões diárias com menos de 15 minutos para relatar progresso feito, o que pode se adequar para acontecer apenas nos dias em que o aprendiz trabalha. São ótimas por serem rápidas e sempre conseguir acompanhar cada pequeno progresso feito;
+- Reuniões semanais de 20 a 40 minutos para repassar atividades, sendo mais longas para disponibilizar maior espaço para discutir cada atividade.
 
-- Reuniões semanais, dependendo da frequência de reuniões de acompanhamento, para não sobrecarregar o aluno.
-- Reuniões quinzenais, podendo ser de 20min à 1 hora;
-- Reuniões mensais, entre 30min à 1 hora, atentando as datas de entregas parciais.
+#### Reuniões de planejamento
 
-Priorize realizar reuniões curtas e adiantar o que se pode por texto.
+As reuniões de planejamento podem ocorrer em frequências menores. Nelas, deve-se analisar o que foi feito e junto ao aprendiz planejar as próximas atividades. Idealmente, deve-se produzir algum tipo de documento que as descreva:
+
+- Reuniões semanais, dependendo da frequência de reuniões de acompanhamento, para não sobrecarregar o aluno;
+- Reuniões quinzenais, podendo ser de 20 minutos a uma hora;
+- Reuniões mensais, entre 30 minutos a uma hora, atentando às datas de entregas parciais e final.
 
 ### Revisão de código
 
-Caso seu aprendiz produza código constantemente, recomendamos que faça constantes revisões de código para avaliar a qualidade e corretude. Caso não tenha conhecimento técnico, avalie apenas o código produz e peça para outra pessoa revisar o código em si. A revisão do que está sendo desenvolvido é perfeita para acompanhar o que o aluno aprendeu e fazer sugestões construtivas.
+Caso seu aprendiz produza código constantemente, recomendamos que você também faça constantes revisões de código para avaliar a qualidade e corretude. Caso não tenha conhecimento técnico, avalie apenas o resultado produzido pelo código e peça para outra pessoa revisá-lo. A revisão do que está sendo desenvolvido é o momento perfeito para acompanhar o que o aprendiz aprendeu e fazer sugestões construtivas.
 
-Se seu projeto está no Github ou Gitlab, essas ferramentas possuem ótimas páginas que facilitam na revisão de código e permitem fazer sugestões. Você pode seguir esse tutorial do [github de revisão de pull requests](https://docs.github.com/pt/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request) para aprender como fazer.
+Se seu projeto está no GitHub ou GitLab, essas ferramentas possuem ótimas páginas que facilitam na revisão de código e permitem fazer sugestões. Você pode seguir esse tutorial do [GitHub de revisão de _pull requests_](https://docs.github.com/pt/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request) para aprender como funciona o processo.
 
-Havendo uma boa separação de atividades no planejamento, o aprendiz conseguirá submeter pequenas partes para revisão, podendo ser para branch `master` ou caso o projeto esteja sendo feito em um branch isolada, irá para a mesma.
+Havendo uma boa separação de atividades no planejamento, o aprendiz conseguirá submeter pequenas partes para revisão, podendo ser para branch `master` ou, para uma branch isolada, sendo o caso do projeto.
 
-Você também pode usar o sistema de Issues dessas ferramentas para separar atividades e acompanhar seu progresso, nela você pode adicionar descrição, comentários, fazer referências a Pull Request como também adicionar _labels_ que a categorizem. Se não for utilizar Issues, é fortemente recomendado que você use outra ferramenta para cadastrar progresso de atividades.
+Você também pode usar o sistema de _issues_ dessas ferramentas para separar atividades e acompanhar seu progresso. Nelas, você pode adicionar descrição, comentários, fazer referências a _pull requests_ como também adicionar _labels_ que as categorizem. Se não for utilizar _issues_, é fortemente recomendado que você use outra ferramenta para cadastrar progresso de atividades.
 
 ### Peça ajuda também
 
-O mentor não precisa ser o conhecedor de todo o projeto e suas tecnologias, nem precisa saber responder todas as dúvidas do aprendiz de imediato. Seu papel é ser guia e acompanhar o aluno, não abandoná-lo e estar sempre disposta a ajudar. Por isso, caso precise de ajuda, seja sobre o projeto em si ou alguma dúvida de tecnologia ou gerencimaneto, peça ajuda!
+O mentor não precisa ser o conhecedor de todo o projeto e suas tecnologias, nem precisa saber responder todas as dúvidas do aprendiz de imediato. Seu papel é ser guia e acompanhar o aluno, não abandoná-lo e estar sempre disposto a ajudar. Por isso, caso tenha dúvidas, seja sobre o projeto em si ou sobre tecnologias ou gerenciamento, peça ajuda! 
 
-Peça ajuda para sua organização, para a comunidade do evento no [Discord](https://chat.opendevufcg.org) ou a própria OpenDevUFCG. Somos uma comunidada que cresce juntos, por isso ajudamos uns aos outros.
+Peça ajuda para sua organização, para a comunidade do evento no [Discord](https://chat.opendevufcg.org) ou para a própria OpenDevUFCG. Somos uma comunidade que quer que todos seus membros cresçam juntos, e por isso ajudamos uns aos outros!

@@ -36,7 +36,7 @@ export const events = [
       "A lista de projetos inscritos será anunciada juntamente aos seus respectivos mentores. A partir disso, os alunos poderão começar a se planejar para quais projetos aplicarão e a entrar em contato com os mentores para demonstrar interesse e tirar possíveis dúvidas.",
   },
   {
-    date: new Date("2020-08-16T00:00:00.000-03:00"),
+    date: new Date("2020-08-17T00:00:00.000-03:00"),
     title: "Abertura da aplicação para aprendizes",
     description:
       "Início do período para alunos interessados aplicarem para serem aprendizes em projetos.",

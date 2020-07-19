@@ -2,20 +2,20 @@
 title: Criação de um Projeto
 ---
 
-Um projeto Open Source possui código aberto que qualquer um pode ver, usar, modificar e distribuir por qualquer motivo, sendo essas permissões reforçadas e minimamente modificadas através de uma licença OSI.
+Um projeto _open source_ possui código aberto que qualquer um pode ver, usar, modificar e distribuir por qualquer motivo, sendo essas permissões reforçadas e minimamente modificadas através de uma [licença OSI](https://opensource.org/licenses).
 
-Open Source Guides possui um ótimo [artigo](https://opensource.guide/pt/starting-a-project/) explicando sobre como funcionam os projetos Open Source e como criar o seu próprio. Nas seções a seguir, focaremos nas especificações que um projeto deve ter e em dicas para mantê-lo durante o evento.
+O portal _Open Source Guides_ possui um ótimo [artigo](https://opensource.guide/pt/starting-a-project/) explicando sobre como funcionam os projetos _open source_ e como criar o seu próprio. Nas seções a seguir, focaremos nas especificações que um projeto deve ter para ser elegível ao evento e em dicas para mantê-lo.
 
 ## Requisitos
 
-Temos alguns requisitos para que o projeto seja aceito no evento, que podem ser verificados abaixo:
+Para participar do Andromedev, um projeto deve seguir os critérios mencionados a seguir:
 
-- Estar contido em um ou mais repositório _open source_, disponíveis em alguma plataforma de hospedagem de código e que utilizem licenças [aprovadas pela OSI](https://opensource.org/licenses);
+- Estar contido em um ou mais repositórios _open source_, disponíveis em alguma plataforma de hospedagem de código e que utilizem licenças [aprovadas pela OSI](https://opensource.org/licenses);
 - Ser acompanhado por um mentor ou uma mentora que oferecerá suporte referente a dúvidas técnicas, comunidade e demais tópicos do processo de contribuição;
 - Descrever uma implementação viável para o período do evento;
 - Ser relacionado a código, incluindo, mas não somente: automação de processos, design de interface UX, documentação, implementação de _features_, implementação de testes, infraestrutura e refatoração;
-- Seguir uma estrutura de repositório descrita [aqui](repositorio);
-- Descrever as macroatividades ou principais funcionalidades do sistema;
+- Seguir uma estrutura de repositório baseada na descrita [aqui](repositorio);
+- Descrever bem as macroatividades ou principais funcionalidades do sistema;
 - Não ser duplicata de outro projeto submetido no evento pela mesma organização.
 
 ## Como escolher um projeto
@@ -28,13 +28,13 @@ A escolha de projetos para o evento pode não ser uma atividade trivial para sua
 
 Outros pontos bons a se considerar:
 
-- Avaliar em mente a utilidade desse projeto para sua aplicação no futuro;
+- Avaliar a utilidade desse projeto para sua aplicação no futuro;
 - Esclarecer bem quais as macroatividades do seu projeto;
-- Levar em consideração que existe o tempo de aprendizado de tecnologias e ferramentas do aprendiz;
-- Discutir com a comunidade as ideias antes de submetê-las. Isso pode ajudar bastante o processo de construir a proposta e também já elencar possíveis aprendizes, sendo aqueles que mostraram mais interesse nessas discussões.
+- Levar em consideração que existe o tempo de aprendizado de tecnologias e ferramentas por parte do aprendiz;
+- Discutir com a comunidade as ideias antes de submetê-las. Isso pode ajudar bastante o processo de construir a(s) proposta(s) e também já elencar possíveis aprendizes a partir dos que já demonstraram mais interesse nessas discussões.
 
 Temos alguns [exemplos](/exemplos) de projetos para inspirar o processo de elaboração da sua organização.
 
 ## Proposta do projeto
 
-Para submeter o projeto ao evento, você deve seguir o nosso [template](PROPOSAL), explicitando bem quais serão as macroatividades do aprendiz durante o evento e demais tópicos. Para compreendeer melhor o que incluir, você também pode checar um exemplo de proposta de projeto [aqui](PROPOSAL_EXEMPLO).
+Para submeter um projeto ao evento, você deve seguir o nosso [template](proposta), explicitando bem quais serão as macroatividades do aprendiz durante o evento e demais tópicos. Para compreendeer melhor o que incluir, você também pode checar um exemplo de proposta de projeto [aqui](proposta-exemplo).

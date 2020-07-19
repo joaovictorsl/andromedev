@@ -38,7 +38,7 @@
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  background-color: #edf2f7;
+  background-color: #f7fafc;
 }
 
 .waves svg {
@@ -113,7 +113,7 @@
   }
 
   .planets-section :nth-child(3) {
-    top: -20px;
+    top: 0;
     left: 650px;
   }
 
@@ -128,7 +128,7 @@
   }
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1750px) {
   .planets-section {
     height: 420px;
   }
@@ -139,22 +139,22 @@
   }
 
   .planets-section :nth-child(2) {
-    top: 100px;
+    top: 120px;
     left: 460px;
   }
 
   .planets-section :nth-child(3) {
-    top: -10px;
-    left: 800px;
+    top: 30px;
+    left: 850px;
   }
 
   .planets-section :nth-child(4) {
-    top: 90px;
-    left: 1200px;
+    top: 120px;
+    left: 1250px;
   }
 
   .planets-section :nth-child(5) {
     top: -20px;
-    left: 1550px;
+    left: 1600px;
   }
 }

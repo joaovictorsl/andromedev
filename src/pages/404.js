@@ -4,5 +4,5 @@ export default () => {
   useEffect(() => {
     if (typeof window !== "undefined") window.location = "/";
   }, []);
-  return <></>
+  return <></>;
 };

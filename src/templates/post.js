@@ -2,7 +2,6 @@ import React from "react";
 import { graphql } from "gatsby";
 
 import Layout from "../components/layouts/layout";
-import SEO from "../components/seo";
 import Navbar from "../components/navbar";
 
 const Post = ({ data }) => {
@@ -14,8 +13,7 @@ const Post = ({ data }) => {
   } = data;
 
   return (
-    <Layout>
-      <SEO title={title} />
+    <Layout title={title} className="bg-gray-100">
       <Navbar />
       <h1 className="text-center mb-8 font-bold text-purple-800 sm:text-lg md:text-xl lg:text-5xl xl:text-5xl ">
         {title}

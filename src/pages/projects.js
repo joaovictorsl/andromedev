@@ -1,39 +1,19 @@
 import React from "react";
 import Project from "../components/project";
 import Layout from "../components/layouts/layout";
+import { projects } from "../lib/projects";
 
 const ProjectsPage = () => {
-  const projects = [
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-    { name: "Laguinho1", description: "Projeto laguinho", org: "OpendevUFCG" },
-  ];
-
   return (
-    <Layout>
-      <section className="container py-10">
-        <div className="w-full flex flex-col items-center justify-center">
-          <h2>Projetos</h2>
-            asdasdasd
-            {/* <p>Lista de projetos do Andromedev</p> */}
+    <Layout title="Projetos">
+      <section className="py-10 flex flex-col w-full items-center justify-center">
+        <div className="w-full flex flex-col pb-5 items-center justify-center">
+          <h1>Projetos</h1>
         </div>
-        <div className="w-full flex flex-wrap justify-center">
-          {projects.map((project, index) => <Project info={project} key={index} />)}
+        <div className="w-full px-32 flex flex-wrap justify-center">
+          {projects.map((project, index) => (
+            <Project info={project} key={index} />
+          ))}
         </div>
       </section>
     </Layout>

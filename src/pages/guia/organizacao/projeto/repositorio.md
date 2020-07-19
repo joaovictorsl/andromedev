@@ -4,50 +4,50 @@ title: Requisitos do Repositório
 
 ## Estrutura
 
-Acreditamos que um repositório de código que possui uma boa documentação facilitará a adesão de novos contribuidores e tornará a experiência da comunidade melhor, por isso definimos uma estrutura básica para ser seguida:
+Acreditamos que um repositório de código que possui uma boa documentação facilitará a adesão de novos contribuidores e tornará a experiência da comunidade melhor. Por isso, definimos uma estrutura básica para ser seguida:
 
 - `README.md`
 - `CODE_OF_CONDUCT.md`
 - `CONTRIBUTING.md`
 - `LICENSE`
 
-Você pode checar mais detalhes de cada arquivo no texto da Open Source Guide citado no início.
+> Você pode checar mais detalhes de cada arquivo no artigo "[Iniciando um Projeto Open Source](https://opensource.guide/pt/starting-a-project/)" da Open Source Guide.
 
 ### `README.MD`
 
-O `README.MD` é o primeiro documento visto quando entra no repositório, por isso é de suma importância que o mesmo contenha informações que responda as seguintes perguntas:
+O `README.MD` é o primeiro documento visto quando se entra no repositório, por isso é de suma importância que o mesmo contenha informações que responda às seguintes perguntas:
 
 - O que esse projeto faz?
-- Como começo?
-- Onde posso conseguir ajuda, seu eu precisar?
+- Por onde começo?
+- Como posso conseguir ajuda, se eu precisar?
 
-Você pode tratar de outras questões mais especificas do seu repotistório, como por exemplo outros repositórios associados ou como os mantedores lidam com contribuições.
+Você pode tratar de outras questões mais especificas do seu repositório, como se há outros repositórios associados ou como os mantenedores lidam com contribuições.
 
 ### `CODE_OF_CONDUCT.md`
 
-O código de conduta ajuda a criar regras básicas de comportamento esperado dos participantes do seu projeto. É de suma importância que você garanta um ambiente saudável e respeitoso para toda a comunidade do seu projeto.
+O **código de conduta** ajuda a criar regras básicas acerca do comportamento esperado dos participantes do seu projeto. É de suma importância que você garanta um ambiente saudável e respeitoso para toda a comunidade em torno do seu repositório.
 
-Você não precisa escrever o seu, você pode usar já existentes e adaptar, como por exemplo o do [Contributor Covenant](https://www.contributor-covenant.org/), que possui [tradução para português](https://www.contributor-covenant.org/translations/) também.
+Você não precisa escrever o seu próprio código de conduta do zero; é possível e recomendado adaptar os já existentes, como o do [Contributor Covenant](https://www.contributor-covenant.org/), que também possui [tradução para português](https://www.contributor-covenant.org/translations/).
 
 ### `CONTRIBUTING.md`
 
-Este arquivo explica a sua audiência como participar do projeto e também pode comunicar suas espectativas de padrão de contribuição, pode conter informações como:
+O `CONTRIBUTING` explica aos seus potenciais contribuidores como participar do projeto e também pode comunicar suas expectativas de padrão de contribuição. Pode conter informações como:
 
-- Como abrir relatório de bug ou feature;
+- Como abrir relatório de _bug_ ou _feature_ (_issue_);
 - Como configurar seu ambiente;
-- Os tipos de contribuição que está procurando;
-- Como abrir uma sugestão de código (Pull Request);
+- Os tipos de contribuição que se espera receber;
+- Como abrir uma sugestão de código (_pull request_).
 
-Use um tom acolhedor, lembre que você está conversando com possivelmente um contribuidor de primeira viagem!
+Use um tom acolhedor, pois lembre que você está se comunicando com possivelmente um contribuidor de primeira viagem!
 
 ### `LICENSE`
 
-Uma licença garante a distribuição e acesso do seu repositório, mas também lhe protege de situações legais problemáticas, como a cópia por exemplo.
+Uma **licença** garante a distribuição e acesso do seu repositório, mas também te protege de situações legais problemáticas, como a cópia, por exemplo.
 
-Você não precisa escrever uma licença do zero! Pode adicionar uma das existentes que mais se adapta ao seu projeto. Siga esse [guia](https://choosealicense.com/) para escolher sua licença.
+Você não precisa escrever uma licença do zero! Recomenda-se adicionar uma das existentes que mais se adapta ao seu projeto. Siga esse [guia](https://choosealicense.com/) para escolher sua licença.
 
 ## Dicas
 
-- Se sua ferramente permitir, use `labels` para categorizar issues e pull requests.
-- Crie templates de issue e pull requests para forçar descrições claras e concisas.
-- Você pode incluir ferramentas de CI/CD para facilitar rodar testes no repositório, como também o deploy.
+- Se sua ferramenta permitir, use `labels` para categorizar _issues_ e _pull requests_;
+- Crie templates de _issue_ e _pull requests_ para incentivar descrições claras e concisas;
+- Você pode incluir ferramentas de **CI/CD** (integração/entrega contínuas) para facilitar executar testes no repositório, como também o procedimento de _deploy_.

@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 
 import Layout from "../components/layouts/layout";
 import EventSchedule from "../components/eventSchedule";
-import Margarete from "../assets/svg/margarete.svg";
 import Planet1 from "../assets/svg/planeta1.svg";
 import Planet2 from "../assets/svg/planeta2.svg";
 import Planet3 from "../assets/svg/planeta3.svg";
@@ -11,12 +10,10 @@ import Planet4 from "../assets/svg/planeta4.svg";
 import Planet5 from "../assets/svg/planeta5.svg";
 import Logo from "../assets/png/andromedev.png";
 import "../styles/home.css";
-import SEO from "../components/seo";
 
 const Home = () => {
   return (
-    <Layout className={"bg-dark-gray text-white"}>
-      <SEO title="Início" />
+    <Layout title="Início" className={"bg-dark-gray text-white"}>
       <section className="w-full linear bg-primary">
         <article className="w-full flex justify-center mx-auto max-w-3xl">
           <div className="max-w-xl flex flex-col items-center justify-center xl:mx-auto">
@@ -78,7 +75,7 @@ const Home = () => {
           alt="Planet5"
         />
       </section>
-      <section class="waves">
+      <section className="waves">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -87,18 +84,18 @@ const Home = () => {
         >
           <path
             d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-            class="shape-fill"
+            className="shape-fill"
           ></path>
         </svg>
       </section>
-      <section className="schedule text-gray-700 body-font bg-gray-200">
+      <section className="schedule text-gray-700 body-font bg-gray-100">
         <article className="container px-5 pb-10 mx-auto flex flex-wrap">
           <EventSchedule />
         </article>
         <article className="container px-5 pb-12 mx-auto flex flex-wrap text-center items-center justify-center">
           <Link
             className="text-xl text-orange hover:underline"
-            to="/cronograma"
+            to="/cronograma#full"
           >
             Visualizar o cronograma completo
           </Link>

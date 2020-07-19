@@ -13,20 +13,20 @@ const EventSchedule = ({ className, full = false }) => {
       Math.min(events.length, nextEventIndex + 4)
     );
   };
-  const filteredEvents = getFilteredEvents();
-  const items = full ? events : filteredEvents;
+
+  const items = full ? events : getFilteredEvents();
 
   return (
-    <div className={className}>
+    <article className={className}>
       {items.map((event, index) => (
-        <div className="w-full flex flex-col items-center">
-          <div
-            key={event.title + index}
-            className="flex relative py-8 sm:items-center md:w-2/3 mx-auto"
-          >
+        <div
+          key={event.title + index}
+          className="w-full flex flex-col items-center"
+        >
+          <div className="flex relative py-8 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex flex-col items-center justify-center">
               <div className="h-full w-1 pointer-events-none bg-dark-gray" />
-              {index === filteredEvents.length - 1 &&
+              {index === items.length - 1 &&
                 event !== events[events.length - 1] &&
                 !full && <div className="font-bold text-2xl">...</div>}
             </div>
@@ -47,7 +47,7 @@ const EventSchedule = ({ className, full = false }) => {
           </div>
         </div>
       ))}
-    </div>
+    </article>
   );
 };
 

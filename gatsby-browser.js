@@ -6,11 +6,3 @@
 
 // You can delete this file if you're not using it
 import "./src/styles/index.css";
-
-export const shouldUpdateScroll = ({
-  routerProps: { location },
-  getSavedScrollPosition,
-}) => {
-  const currentPosition = getSavedScrollPosition(location);
-  console.log(currentPosition);
-};

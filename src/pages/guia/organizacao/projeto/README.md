@@ -33,8 +33,6 @@ Outros pontos bons a se considerar:
 - Levar em consideração que existe o tempo de aprendizado de tecnologias e ferramentas por parte do(a) aprendiz;
 - Discutir com a comunidade as ideias antes de submetê-las. Isso pode ajudar bastante o processo de construir a(s) proposta(s) e também já elencar possíveis aprendizes a partir dos que já demonstraram mais interesse nessas discussões.
 
-Temos alguns [exemplos](exemplos) de projetos para inspirar o processo de elaboração da sua organização.
-
 ## Proposta do projeto
 
 Para submeter um projeto ao evento, você deve seguir o nosso [template](proposta), explicitando bem quais serão as macroatividades do(a) aprendiz durante o evento e demais tópicos. Para compreender melhor o que incluir, você também pode checar um exemplo de proposta de projeto [aqui](proposta-exemplo).

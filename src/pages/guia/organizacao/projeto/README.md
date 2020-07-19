@@ -22,7 +22,7 @@ Para participar do Andromedev, um projeto deve seguir os critérios mencionados 
 
 A escolha de projetos para o evento pode não ser uma atividade trivial para sua organização. Alguns parâmetros extras devem ser avaliados além dos [requisitos](#requisitos) citados acima, e discussões podem ser iniciadas entre membros da organização e/ou a comunidade externa antes da submissão final.
 
-**Caso você possua uma aplicação que já exista**, o primeiro passo que poderia ser tomado é avaliar quais atividades poderiam ser feitas para trazer novas funcionalidades ou melhorias em aspectos já existentes. É importante que essas atividades não sejam dependentes de outras que não estejam no escopo do projeto, pois o [aprendiz](/aprendiz) precisa ter a garantia que o projeto dependa apenas dele para ser finalizado.
+**Caso você possua uma aplicação que já exista**, o primeiro passo que poderia ser tomado é avaliar quais atividades poderiam ser feitas para trazer novas funcionalidades ou melhorias em aspectos já existentes. É importante que essas atividades não sejam dependentes de outras que não estejam no escopo do projeto, pois o(a) [aprendiz](../../aprendiz) precisa ter a garantia que o projeto dependa apenas dele(a) para ser finalizado.
 
 **Caso sua aplicação ainda não exista** e você deseja trazer algo totalmente novo, o primeiro passo seria avaliar quais seriam as atividades iniciais e isso inclui até as tarefas que parecem triviais, como planejar arquitetura, criar o repositório e configurar o projeto. É importante adiantar essas atividades que não incluem exatamente adição de funcionalidades para não sobrecarregar o(a) aprendiz.
 
@@ -33,8 +33,8 @@ Outros pontos bons a se considerar:
 - Levar em consideração que existe o tempo de aprendizado de tecnologias e ferramentas por parte do(a) aprendiz;
 - Discutir com a comunidade as ideias antes de submetê-las. Isso pode ajudar bastante o processo de construir a(s) proposta(s) e também já elencar possíveis aprendizes a partir dos que já demonstraram mais interesse nessas discussões.
 
-Temos alguns [exemplos](/exemplos) de projetos para inspirar o processo de elaboração da sua organização.
+Temos alguns [exemplos](exemplos) de projetos para inspirar o processo de elaboração da sua organização.
 
 ## Proposta do projeto
 
-Para submeter um projeto ao evento, você deve seguir o nosso [template](proposta), explicitando bem quais serão as macroatividades do(a) aprendiz durante o evento e demais tópicos. Para compreendeer melhor o que incluir, você também pode checar um exemplo de proposta de projeto [aqui](proposta-exemplo).
+Para submeter um projeto ao evento, você deve seguir o nosso [template](proposta), explicitando bem quais serão as macroatividades do(a) aprendiz durante o evento e demais tópicos. Para compreender melhor o que incluir, você também pode checar um exemplo de proposta de projeto [aqui](proposta-exemplo).

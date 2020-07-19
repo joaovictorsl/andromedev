@@ -5,7 +5,7 @@ slug: /codigo-de-conduta
 
 # Código de Conduta
 
-Este código de conduta aplica-se a todos os organizadores, projetos, mentores e mentorados do evento _Andromedev_ realizado pela [OpenDevUFCG](https://github.com/opendevufcg). Seu cumprimento é mandatório para todos os participantes do evento citado.
+Este código de conduta aplica-se a todos os organizadores, projetos, mentores e aprendizes do evento _Andromedev_ realizado pela [OpenDevUFCG](https://github.com/opendevufcg). Seu cumprimento é mandatório para todos os participantes do evento citado.
 
 ## Nossa promessa
 
@@ -41,16 +41,16 @@ Os organizadores do evento têm o direito e a responsabilidade de remover, edita
 
 Esse código de conduta aplica-se aos seguintes ambientes do _Andromedev_:
 
-- [Site oficial do Andromedev](https://opendevufcg.com)
-- [Site oficial da OpenDevUFCG](https://opendevufcg.com)
-- [Discord da OpenDevUFCG](https://discordapp.com/invite/vFFGGEE)
-- [Twitter da OpenDevUFCG](https://twitter.com/opendevufcg)
-- [Instagram da OpenDevUFCG](https://www.instagram.com/opendevufcg/)
-- [GitHub da OpenDevUFCG](https://github.com/OpenDevUFCG)
-- [E-mail oficial da OpenDevUFCG](mailto:opendevufcg@gmail.com)
-- [Blog da OpenDevUFCG](https://dev.to/opendevufcg)
-- Listas de e-mail da OpenDevUFCG.
-- Quaisquer outras formas de comunicação pública ou privada entre participantes do Andromedev, sejam eles organizadores, mentores ou mentorados.
+- [Site oficial do Andromedev](https://opendevufcg.com);
+- [Site oficial da OpenDevUFCG](https://opendevufcg.com);
+- [Discord da OpenDevUFCG](https://discordapp.com/invite/vFFGGEE);
+- [Twitter da OpenDevUFCG](https://twitter.com/opendevufcg);
+- [Instagram da OpenDevUFCG](https://www.instagram.com/opendevufcg/);
+- [GitHub da OpenDevUFCG](https://github.com/OpenDevUFCG);
+- [E-mail oficial da OpenDevUFCG](mailto:opendevufcg@gmail.com);
+- [Blog da OpenDevUFCG](https://dev.to/opendevufcg);
+- Listas de e-mail da OpenDevUFCG;
+- Quaisquer outras formas de comunicação pública ou privada entre participantes do Andromedev, sejam eles organizadores, mentores ou aprendizes.
 
 ## Aplicação
 

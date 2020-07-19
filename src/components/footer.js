@@ -24,7 +24,7 @@ const Footer = () => (
           target="_blank"
           rel="noreferrer"
         >
-          Github
+          GitHub
         </a>
       </li>
       <li className="hover:text-orange">

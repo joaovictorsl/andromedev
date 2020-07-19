@@ -33,6 +33,6 @@ Participar do Andromedev irá trazer tanto benefícios para alunos como para seu
 
 Você pode ler este [Guia de Projeto](projeto) para entender quais são os requisitos para a escolha e formulação de um projeto, além de como se dará a submissão da proposta para o evento.
 
-Cada projeto deve possuir um mentor e um mentor auxiliar; o essencial é escolher integrantes da sua organização que tenham contexto das atividades a serem realizadas e possuam boas habilidades de comunicação. É recomendado que o mentor tenha conhecimento nas tecnologias, mas caso não possua, o ideal é ter outras pessoas na sua organização com quem manter contato para tirar dúvidas do [aprendiz](/guia/aprendiz). A OpenDevUFCG e a comunidade do evento também pode oferecer _ajuda técnica_ através do nosso [chat](https://chat.opendevufcg.org/).
+Cada projeto deve possuir um(a) mentor(a) e um(a) mentor(a) auxiliar; o essencial é escolher integrantes da sua organização que tenham contexto das atividades a serem realizadas e possuam boas habilidades de comunicação. É recomendado que o(a) mentor(a) tenha conhecimento nas tecnologias, mas caso não possua, o ideal é ter outras pessoas na sua organização com quem manter contato para tirar dúvidas do(a) [aprendiz](/guia/aprendiz). A OpenDevUFCG e a comunidade do evento também pode oferecer _ajuda técnica_ através do nosso [chat](https://chat.opendevufcg.org/).
 
 Para mais detalhes sobre mentores, você pode conferir o [Guia do Mentor](../mentor).

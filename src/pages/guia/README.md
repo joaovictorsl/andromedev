@@ -18,9 +18,9 @@ Separamos o guia entre os tipos de atores no evento:
 
 - [Aprendiz](aprendiz/)
 
-## _Open Source_ e Software Livre
+## _Open Source_ e _Software Livre_
 
-Como a alma do evento é o _open source_ e o Software Livre, o nosso guia está inserido nesse contexto. Entretanto, caso você não tenha conhecimento anterior sobre esses tópicos ou queira aprender mais, reunimos uma série de guias e postagens introduzindo sobre projetos e organizações _open source_. Seguem abaixo as sugestões de material para cada participante:
+Como a alma do evento é o _open source_ e o _software livre_, o nosso guia está inserido nesse contexto. Entretanto, caso você não tenha conhecimento anterior sobre esses tópicos ou queira aprender mais, reunimos uma série de guias e postagens introduzindo sobre projetos e organizações _open source_. Seguem abaixo as sugestões de material para cada participante:
 
 ### Organização e mentores
 

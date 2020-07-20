@@ -11,11 +11,11 @@ Acreditamos que um repositório de código que possui uma boa documentação fac
 - `CONTRIBUTING.md`
 - `LICENSE`
 
-> Você pode checar mais detalhes de cada arquivo no artigo "[Iniciando um Projeto Open Source](https://opensource.guide/pt/starting-a-project/)" da Open Source Guide.
+> Você pode checar mais detalhes de cada arquivo no artigo "[Iniciando um Projeto Open Source](https://opensource.guide/pt/starting-a-project/)" da _Open Source Guide_.
 
 ### `README.MD`
 
-O `README.MD` é o primeiro documento visto quando se entra no repositório, por isso é de suma importância que o mesmo contenha informações que responda às seguintes perguntas:
+O `README.MD` é o primeiro documento visto quando se entra no repositório, por isso é de suma importância que o mesmo responda pelo menos às seguintes perguntas:
 
 - O que esse projeto faz?
 - Por onde começo?
@@ -38,13 +38,11 @@ O `CONTRIBUTING` explica aos seus potenciais contribuidores como participar do p
 - Os tipos de contribuição que se espera receber;
 - Como abrir uma sugestão de código (_pull request_).
 
-Use um tom acolhedor, pois lembre que você está se comunicando com possivelmente um contribuidor de primeira viagem!
+Use um tom acolhedor, pois lembre que você está se comunicando com possivelmente um(a) contribuidor(a) de primeira viagem!
 
 ### `LICENSE`
 
-Uma **licença** garante a distribuição e acesso do seu repositório, mas também te protege de situações legais problemáticas, como a cópia, por exemplo.
-
-Você não precisa escrever uma licença do zero! Recomenda-se adicionar uma das existentes que mais se adapta ao seu projeto. Siga esse [guia](https://choosealicense.com/) para escolher sua licença.
+Uma **licença** garante a distribuição e acesso do seu repositório, mas também te protege de situações legais problemáticas, como a cópia. Você não precisa escrever uma licença do zero! Recomenda-se adicionar uma das existentes que mais se adapta ao seu projeto. Para descobrir qual licença usar, recomendamos seguir esse [guia](https://choosealicense.com/).
 
 ## Dicas
 

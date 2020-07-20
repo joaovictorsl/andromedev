@@ -2,11 +2,11 @@
 title: Guia de Bordo
 ---
 
-**Andromedev** é um evento organizado pela OpenDevUFCG com intuito de incentivar a participação de estudantes da Universidade Federal de Campina Grande em projetos Open Source.
+**Andromedev** é um evento organizado pela [OpenDevUFCG](https://opendevufcg.org/) com intuito de incentivar a participação de estudantes de Ciência da Computação da Universidade Federal de Campina Grande em projetos _open source_.
 
-Aprenda sobre o Andromedev e Open Source aqui neste guia e na nossa página principal.
+Aprenda sobre o Andromedev e _open source_ aqui neste guia e na nossa [página principal](..).
 
-> O **Guia de Bordo** busca trazer informações a respeito do Andromedev de maneira mais concisa e acessível, com diversas dicas para todos os participantes. Entretanto, sempre considere a [documentação oficial](LINKAQUI) como a fonte de verdade, na qual estão contidos mais detalhes relativos às responsabilidades e ao andamento do evento.
+> O **Guia de Bordo** busca trazer informações a respeito do Andromedev de maneira mais concisa e acessível, com diversas dicas para todos os participantes. Entretanto, sempre considere a [documentação oficial](https://drive.google.com/file/d/1ggJiprXrr0iE8tRNwhMpXTKA0rHfVAkQ/view) como a fonte de verdade, com detalhamento relativo às responsabilidades e ao andamento do evento.
 
 ## Seções
 
@@ -18,9 +18,9 @@ Separamos o guia entre os tipos de atores no evento:
 
 - [Aprendiz](aprendiz/)
 
-## Open Source e Software Livre
+## _Open Source_ e _Software Livre_
 
-Como a alma do evento é o Open Source e o Software Livre, o nosso guia está inserido nesse contexto. Entretanto, caso você não tenha conhecimento anterior sobre esses tópicos ou queira aprender mais, reunimos uma série de guias e postagens introduzindo sobre projetos e organizações Open Source. Seguem abaixo as sugestões de material para cada participante:
+Como a alma do evento é o _open source_ e o _software livre_, o nosso guia está inserido nesse contexto. Entretanto, caso você não tenha conhecimento anterior sobre esses tópicos ou queira aprender mais, reunimos uma série de guias e postagens introduzindo sobre projetos e organizações _open source_. Seguem abaixo as sugestões de material para cada participante:
 
 ### Organização e mentores
 
@@ -41,6 +41,4 @@ Como a alma do evento é o Open Source e o Software Livre, o nosso guia está in
 - [Iniciando um Projeto Open Source - Open Source Guide](https://opensource.guide/pt/starting-a-project/)
 - [Entendendo Git - Júlio Guedes](https://medium.com/@Juliobguedes/entendendo-git-883464f379de)
 
-> ## Algo faltando?
->
-> Se você sente que algo que está faltando ou não está bem esclarecido, por favor, crie uma issue no [nosso repositório](https://github.com/OpenDevUFCG/andromedev) do site com sugestões de melhorias, ou nos comunique no [Discord](https://chat.opendevufcg.org).
+> Se você sentir que algo que está faltando ou não está bem esclarecido, por favor, crie uma _issue_ no [nosso repositório](https://github.com/OpenDevUFCG/andromedev) do site com sugestões de melhorias, ou nos comunique no [Discord](https://chat.opendevufcg.org), onde temos um canal `#faq` dedicado para tirar dúvidas.

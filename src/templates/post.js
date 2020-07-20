@@ -20,7 +20,7 @@ const Post = ({ data }) => {
       </h1>
       <section
         dangerouslySetInnerHTML={{ __html: html }}
-        className="markdown max-w-3xl mx-auto"
+        className="markdown max-w-3xl mx-auto px-6 lg:px-0"
       />
     </Layout>
   );

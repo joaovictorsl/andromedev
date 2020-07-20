@@ -14,10 +14,12 @@ import "../styles/home.css";
 const Home = () => {
   return (
     <Layout title="Início" className={"bg-dark-gray text-white"}>
-      <section className="w-full linear bg-primary">
+      <section className="w-full">
         <article className="w-full flex justify-center mx-auto max-w-3xl">
           <div className="max-w-xl flex flex-col items-center justify-center xl:mx-auto">
-            <img src={Logo} alt="Andromedev Logo" />
+            <div>
+              <img src={Logo} alt="Andromedev Logo" />
+            </div>
             <p className="p-2 text-white text-center sm:text-xl mt-3">
               O primeiro evento de mentoria organizado pela{" "}
               <a
@@ -31,15 +33,15 @@ const Home = () => {
               &nbsp; com o intuito de incentivar a participação de estudantes em
               projetos <i>open source</i>!
             </p>
-            <div className="p-6 w-full text-center flex justify-center">
+            <div className="p-6 w-full text-center block lg:flex lg:flex-row justify-center">
               <Link
-                className="w-48 block bg-blue-700 hover:bg-blue-600 px-4 py-2 mr-6"
+                className="w-full my-2 lg:my-0 lg:w-48 block bg-blue-700 hover:bg-blue-600 px-4 py-2 mr-6"
                 to="/sobre"
               >
                 Saiba mais
               </Link>
               <Link
-                className="w-48 block text-white bg-blue-700 hover:bg-blue-600 px-4 py-2"
+                className="w-full my-2 lg:my-0 lg:w-48 block text-white bg-blue-700 hover:bg-blue-600 px-4 py-2"
                 to="/guia"
               >
                 Guia de Bordo
@@ -48,7 +50,7 @@ const Home = () => {
           </div>
         </article>
       </section>
-      <section className="planets-section bg-dark-gray relative">
+      <section className="hidden lg:block planets-section bg-dark-gray relative">
         <img
           className="planet absolute z-10 h-auto"
           src={Planet1}
@@ -89,7 +91,7 @@ const Home = () => {
         </svg>
       </section>
       <section className="schedule text-gray-700 body-font bg-gray-100">
-        <article className="container px-5 pb-10 mx-auto flex flex-wrap">
+        <article className="container mt-10 lg:mt-0 px-5 pb-10 mx-auto flex flex-wrap">
           <EventSchedule />
         </article>
         <article className="container px-5 pb-12 mx-auto flex flex-wrap text-center items-center justify-center">

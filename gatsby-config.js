@@ -68,6 +68,17 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-173131386-1",
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+        defer: false,
+        sampleRate: 5,
+      },
+    },
     `gatsby-plugin-catch-links`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

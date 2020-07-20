@@ -97,7 +97,7 @@ const Home = () => {
         <article className="container px-5 pb-12 mx-auto flex flex-wrap text-center items-center justify-center">
           <Link
             className="text-xl text-orange hover:underline"
-            to="/cronograma#full"
+            to="/cronograma"
           >
             Visualizar o cronograma completo
           </Link>

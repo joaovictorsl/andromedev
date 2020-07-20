@@ -11,7 +11,7 @@ const Item = ({ children, slug, className }) => (
 );
 const Navbar = () => {
   return (
-    <aside className="w-64 my-2 absolute hidden md:block lg:block">
+    <aside className="w-64 my-2 absolute hidden xl:block">
       <nav className="flex flex-col">
         <Item slug="/guia">Introdução</Item>
         <Item slug="/guia/organizacao">Guia da Organização</Item>

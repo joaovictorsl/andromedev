@@ -3,6 +3,9 @@ module.exports = {
     title: `Andromedev`,
     description: `Andromedev OpendevUFCG 2020.`,
     author: `OpenDevUFCG`,
+    url: 'https://andromedev.opendevufcg.org/',
+    twitterUsername: "@OpenDevUFCG",
+    image: 'src/images/andromedev.png',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -66,17 +69,6 @@ module.exports = {
           },
           "gatsby-remark-relative-links",
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-173131386-1",
-        head: true,
-        anonymize: true,
-        respectDNT: true,
-        defer: false,
-        sampleRate: 5,
       },
     },
     `gatsby-plugin-catch-links`,

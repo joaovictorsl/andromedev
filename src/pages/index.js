@@ -17,7 +17,7 @@ const Home = () => {
       <section className="w-full">
         <article className="w-full flex justify-center mx-auto max-w-3xl">
           <div className="max-w-xl flex flex-col items-center justify-center xl:mx-auto">
-            <div>
+            <div className="logo">
               <img src={Logo} alt="Andromedev Logo" />
             </div>
             <p className="p-2 text-white text-center sm:text-xl mt-3">

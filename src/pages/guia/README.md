@@ -41,4 +41,4 @@ Como a alma do evento é o _open source_ e o _software livre_, o nosso guia est�
 - [Iniciando um Projeto Open Source - Open Source Guide](https://opensource.guide/pt/starting-a-project/)
 - [Entendendo Git - Júlio Guedes](https://medium.com/@Juliobguedes/entendendo-git-883464f379de)
 
-> Se você sentir que algo que está faltando ou não está bem esclarecido, por favor, crie uma _issue_ no [nosso repositório](https://github.com/OpenDevUFCG/andromedev) do site com sugestões de melhorias, ou nos comunique no [Discord](https://chat.opendevufcg.org).
+> Se você sentir que algo que está faltando ou não está bem esclarecido, por favor, crie uma _issue_ no [nosso repositório](https://github.com/OpenDevUFCG/andromedev) do site com sugestões de melhorias, ou nos comunique no [Discord](https://chat.opendevufcg.org), onde temos um canal `#faq` dedicado para tirar dúvidas.

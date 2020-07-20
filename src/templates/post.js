@@ -9,12 +9,15 @@ const Post = ({ data }) => {
     markdownRemark: {
       html,
       frontmatter: { title },
+      fields: { slug },
     },
   } = data;
 
+  const showNavBar = /guia/.test(slug);
+
   return (
     <Layout title={title} className="bg-gray-100">
-      <Navbar />
+      {showNavBar && <Navbar />}
       <h1 className="text-center mb-8 font-bold text-purple-800 sm:text-lg md:text-xl lg:text-5xl xl:text-5xl ">
         {title}
       </h1>
@@ -32,6 +35,9 @@ export const query = graphql`
       html
       frontmatter {
         title
+      }
+      fields {
+        slug
       }
     }
   }

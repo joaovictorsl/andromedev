@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 const Item = ({ children, slug, className, active }) => (
   <Link
     className={
-      `block p-4 text-dark-gray hover:bg-purple-200 hover:bg-opacity-25 hover:text-purple-600 ${active ? 'bg-purple-200' : ''} ${className}`
+      `block p-4 hover:bg-purple-200 hover:bg-opacity-25 hover:text-purple-600 ${active ? 'bg-purple-600 font-bold text-white' : 'text-dark-gray'} ${className}`
     }
     to={slug}
   >
@@ -42,22 +42,18 @@ const items = [
 ]
 
 const Navbar = ({ pageSlug }) => {
-  console.log(pageSlug)
   return (
     <aside className="w-64 my-2 absolute hidden xl:block">
       <nav className="flex flex-col">
-        {items.map((item, index) => {
-          console.log(item.slug, pageSlug)
-          return (
-            <Item
-              key={index}
-              slug={item.slug}
-              className={item.className}
-              active={item.slug === pageSlug}>
-              {item.text}
-            </Item>
-          )
-        })}
+        {items.map((item, index) => (
+          <Item
+            key={index}
+            slug={item.slug}
+            className={item.className}
+            active={item.slug === pageSlug}>
+            {item.text}
+          </Item>
+        ))}
       </nav>
     </aside>
   );

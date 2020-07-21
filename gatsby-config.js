@@ -5,7 +5,7 @@ module.exports = {
     author: `OpenDevUFCG`,
     url: "https://andromedev.opendevufcg.org/",
     twitterUsername: "@OpenDevUFCG",
-    image: "/images/andromedev.png",
+    image: "https://i.imgur.com/mYBvYiQ.png",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 const Item = ({ children, slug, className, active }) => (
   <Link
     className={
-      `block p-4 hover:bg-purple-200 hover:bg-opacity-25 hover:text-purple-600 ${active ? 'bg-purple-600 font-bold text-white' : 'text-dark-gray'} ${className}`
+      `block my-1 p-4 hover:bg-purple-600 font-bold hover:text-white ${active ? 'bg-purple-600 font-bold text-white' : 'text-dark-gray'} ${className}`
     }
     to={slug}
   >

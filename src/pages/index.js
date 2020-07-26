@@ -35,16 +35,16 @@ const Home = () => {
             </p>
             <div className="p-6 w-full text-center block lg:flex lg:flex-row justify-center">
               <Link
-                className="w-full my-2 lg:my-0 lg:w-48 block bg-blue-700 hover:bg-blue-600 px-4 py-2 mr-6"
+                className="w-full my-2 lg:my-0 lg:w-48 block bg-purple-700 hover:bg-purple-600 px-4 py-2 mr-6 rounded"
                 to="/sobre"
               >
                 Saiba mais
               </Link>
               <Link
-                className="w-full my-2 lg:my-0 lg:w-48 block text-white bg-blue-700 hover:bg-blue-600 px-4 py-2"
+                className="w-full my-2 lg:my-0 lg:w-48 block text-white bg-purple-700 hover:bg-purple-600 px-4 py-2 rounded"
                 to="/guia"
               >
-                Guia de Bordo
+                Guia de bordo
               </Link>
             </div>
           </div>
@@ -95,12 +95,14 @@ const Home = () => {
           <EventSchedule />
         </article>
         <article className="container px-5 pb-12 mx-auto flex flex-wrap text-center items-center justify-center">
-          <Link
-            className="text-xl text-orange hover:underline"
-            to="/cronograma"
-          >
-            Visualizar o cronograma completo
-          </Link>
+          <div className="p-6 w-full text-center block lg:flex lg:flex-row justify-center">
+              <Link
+                className="w-full my-2 lg:my-0 lg:w-48 block text-white bg-purple-800 hover:bg-purple-600 px-4 py-2 mr-6 rounded"
+                to="/cronograma"
+              >
+                Cronograma completo
+              </Link>
+          </div>
         </article>
       </section>
     </Layout>

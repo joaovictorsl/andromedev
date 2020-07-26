@@ -48,7 +48,7 @@ const items = [
   },
 ];
 
-const Navbar = ({ pageSlug }) => {
+const Navbar = ({ currentPage, className }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -68,12 +68,13 @@ const Navbar = ({ pageSlug }) => {
       </button>
       <aside
         className={classNames(
-          "z-20 absolute border-gray-300 border-r-2 overflow-hidden duration-500 bg-white h-full",
+          "z-20 fixed border-gray-300 border-r-2 overflow-hidden duration-500 bg-white h-full",
           {
             "w-0": !isOpen,
             "w-4/5 border-solid border-r-2": isOpen,
           },
-          "xl:w-64 xl:border-solid xl:border-r-2"
+          "xl:w-64 xl:border-solid xl:border-r-2",
+          className
         )}
       >
         <nav className="flex flex-col">
@@ -82,7 +83,7 @@ const Navbar = ({ pageSlug }) => {
               key={index}
               slug={item.slug}
               className={item.className}
-              active={item.slug === pageSlug}
+              active={item.slug === currentPage}
             >
               {item.text}
             </Item>

@@ -1,9 +1,18 @@
+import React from "react";
+
 export const events = [
   {
     date: new Date("2020-07-27T00:00:00.000-03:00"),
     title: "Abertura das inscrições das organizações",
-    description:
-      "Início do período de inscrição para organizações que possuem interesse de submeter projetos para o Andromedev.",
+    description: (
+      <span>
+        Início do período de inscrição para organizações que possuem interesse
+        de submeter projetos para o Andromedev.{" "}
+        <a className="text-orange hover:underline" href="">
+          Inscreva sua organização.
+        </a>
+      </span>
+    ),
   },
   {
     date: new Date("2020-07-31T00:00:00.000-03:00"),

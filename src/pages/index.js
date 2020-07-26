@@ -35,16 +35,10 @@ const Home = () => {
             </p>
             <div className="p-6 w-full text-center block lg:flex lg:flex-row justify-center">
               <Link
-                className="w-full my-2 lg:my-0 lg:w-48 block bg-purple-700 hover:bg-purple-600 px-4 py-2 mr-6 rounded"
+                className="w-full my-2 lg:my-0 lg:w-64 block bg-purple-700 hover:bg-purple-600 px-4 py-2 mr-6 rounded"
                 to="/sobre"
               >
                 Inscreva sua organização
-              </Link>
-              <Link
-                className="w-full my-2 lg:my-0 lg:w-48 block text-white bg-purple-700 hover:bg-purple-600 px-4 py-2 rounded"
-                to="/guia"
-              >
-                Guia de bordo
               </Link>
             </div>
           </div>

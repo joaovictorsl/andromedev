@@ -38,7 +38,7 @@ const Home = () => {
                 className="w-full my-2 lg:my-0 lg:w-48 block bg-purple-700 hover:bg-purple-600 px-4 py-2 mr-6 rounded"
                 to="/sobre"
               >
-                Saiba mais
+                Inscreva sua organização
               </Link>
               <Link
                 className="w-full my-2 lg:my-0 lg:w-48 block text-white bg-purple-700 hover:bg-purple-600 px-4 py-2 rounded"
@@ -96,12 +96,12 @@ const Home = () => {
         </article>
         <article className="container px-5 pb-12 mx-auto flex flex-wrap text-center items-center justify-center">
           <div className="p-6 w-full text-center block lg:flex lg:flex-row justify-center">
-              <Link
-                className="w-full my-2 lg:my-0 lg:w-48 block text-white bg-purple-800 hover:bg-purple-600 px-4 py-2 mr-6 rounded"
-                to="/cronograma"
-              >
-                Cronograma completo
-              </Link>
+            <Link
+              className="w-full my-2 lg:my-0 lg:w-48 block text-white bg-purple-800 hover:bg-purple-600 px-4 py-2 mr-6 rounded"
+              to="/cronograma"
+            >
+              Cronograma completo
+            </Link>
           </div>
         </article>
       </section>

@@ -8,7 +8,7 @@ export const events = [
       <span>
         Início do período de inscrição para organizações que possuem interesse
         de submeter projetos para o Andromedev.{" "}
-        <a className="text-orange hover:underline" href="">
+        <a className="text-orange hover:underline" href="https://docs.google.com/forms/d/e/1FAIpQLSdD8a9ug98Zaat2nyjrC5mMlvKesIsIX8ZqBDIK68smxL6uqw/viewform?usp=sf_link">
           Inscreva sua organização.
         </a>
       </span>

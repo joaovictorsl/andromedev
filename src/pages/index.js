@@ -36,7 +36,7 @@ const Home = () => {
             <div className="p-6 w-full text-center block lg:flex lg:flex-row justify-center">
               <Link
                 className="w-full my-2 lg:my-0 lg:w-64 block bg-purple-700 hover:bg-purple-600 px-4 py-2 mr-6 rounded"
-                to="/sobre"
+                to="https://docs.google.com/forms/d/e/1FAIpQLSdD8a9ug98Zaat2nyjrC5mMlvKesIsIX8ZqBDIK68smxL6uqw/viewform?usp=sf_link"
               >
                 Inscreva sua organização
               </Link>

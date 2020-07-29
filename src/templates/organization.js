@@ -7,14 +7,14 @@ import '../styles/organization.css'
 
 const Organization = (data) => {
   const slug = data.pageContext.slug;
-  const { name, category, description, github, logo } = getOrg(slug);
+  const { name, category, description, github, logo, email } = getOrg(slug);
 
   return (
     <Layout Layout title={name} className="bg-dark-gray" >
       <article className="pt-20 w-full">
         <div className="flex flex-col md:flex-row mr-auto w-auto items-center md:items-start justify-center">
           <div className="m-10 flex flex-col items-center max-w-lg">
-            <div className="font-bold text-xl mb-2 text-center text-white">{name}</div>
+            <div className="font-bold text-xl uppercase mb-2 text-center text-white">{name}</div>
             <p className="org-description">
               {description}
             </p>
@@ -28,7 +28,7 @@ const Organization = (data) => {
               <div className="org-tag">{category}</div>
               <div className="divider" />
               <div className="w-64 flex items-center justify-center">
-                <a href={github} className="org-link">Acessar o GitHub</a>
+                <a href={github} className="org-link">Github / Site</a>
               </div>
               <div className="divider" />
               <div className="w-64 flex items-center justify-center">
@@ -36,15 +36,15 @@ const Organization = (data) => {
               </div>
               <div className="divider" />
               <div className="w-64 flex items-center justify-center">
-                <a href={github} className="org-link">Enviar e-mail</a>
+                <a href={`mailto:${email}`} className="org-link">E-mail</a>
               </div>
               <div className="divider" />
               <div className="w-full mb-10 mt-8 text-center block justify-center">
                 <Link
-                  className="w-full block text-white bg-purple-800 hover:bg-purple-600 px-4 py-3 rounded"
+                  className="w-full block text-white bg-purple-800 hover:bg-purple-600 px-4 py-3 uppercase font-bold rounded"
                   to="/cronograma"
                 >
-                  Ver projetos
+                  Projetos
                 </Link>
               </div>
             </div>

@@ -33,12 +33,12 @@ const Home = () => {
               &nbsp; com o intuito de incentivar a participação de estudantes em
               projetos <i>open source</i>!
             </p>
-            <div className="p-6 w-full text-center block lg:flex lg:flex-row justify-center">
+            <div className="py-8 w-full text-center block lg:flex lg:flex-row justify-center uppercase font-bold">
               <Link
-                className="w-full my-2 lg:my-0 lg:w-64 block bg-purple-700 hover:bg-purple-600 px-4 py-2 mr-6 rounded"
-                to="https://docs.google.com/forms/d/e/1FAIpQLSdD8a9ug98Zaat2nyjrC5mMlvKesIsIX8ZqBDIK68smxL6uqw/viewform?usp=sf_link"
+                className="w-full my-2 lg:my-0 lg:w-64 block bg-purple-700 hover:bg-purple-600 py-4 z-10 mr-6 rounded"
+                to="/inscricoes"
               >
-                Inscreva sua organização
+                Inscrições
               </Link>
             </div>
           </div>

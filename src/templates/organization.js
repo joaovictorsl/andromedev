@@ -7,7 +7,7 @@ import '../styles/organization.css'
 
 const Organization = (data) => {
   const slug = data.pageContext.slug;
-  const { name, category, description, logo, email } = getOrg(slug);
+  const { name, category, description, logo, email, discord, representant } = getOrg(slug);
 
   return (
     <Layout Layout title={name} className="bg-dark-gray" >
@@ -26,12 +26,16 @@ const Organization = (data) => {
                 <img className="org-logo" src={logo} alt={name} />
               </div>
               <div className="org-tag">{category}</div>
-              <div className="divider" />
-              <div className="w-64 flex items-center justify-center">
-                <a href={`/orgs/${slug}`} className="org-link">Canal no Discord</a>
+              <div className="pt-10 pb-3 w-full text-dark-gray">
+                <p className="uppercase font-bold text-sm">Representante:</p>
+                <p>{representant}</p>
               </div>
               <div className="divider" />
-              <div className="w-64 flex items-center justify-center">
+              <div className="w-full flex items-center justify-center">
+                <a href={discord} className="org-link">Canal no Discord</a>
+              </div>
+              <div className="divider" />
+              <div className="w-full flex items-center justify-center">
                 <a href={`mailto:${email}`} className="org-link">E-mail</a>
               </div>
               <div className="divider" />

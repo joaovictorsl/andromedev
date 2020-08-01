@@ -15,7 +15,7 @@
 
 .org-tag {
   font-size: 0.6rem;
-  @apply font-bold uppercase rounded-md text-center p-2 bg-gray-400 text-gray-600
+  @apply font-bold uppercase rounded-md text-center p-2 bg-gray-400 text-gray-600 w-64
 }
 
 .divider {

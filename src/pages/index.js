@@ -33,15 +33,27 @@ const Home = () => {
               &nbsp; com o intuito de incentivar a participação de estudantes em
               projetos <i>open source</i>!
             </p>
-            <div className="pt-8 pb-4 px-3 w-full text-center block lg:flex lg:flex-row opacity-25 justify-center uppercase font-bold">
-              <Link
-                className="w-full my-2 lg:my-0 lg:w-64 block bg-purple-700 cursor-not-allowed py-4 z-10 rounded"
-                to="/"
-              >
-                Inscrições
+            <div className="w-full block lg:flex items-start">
+              <div className="pt-8 w-full lg:w-1/2 px-3 text-center block lg:flex lg:flex-col items-center justify-center uppercase font-bold">
+                <Link
+                  className="w-full my-2 lg:my-0 lg:w-64 block bg-purple-700 hover:bg-purple-600 py-4 z-10 rounded uppercase"
+                  to="/orgs"
+                >
+                  Organizações
+                </Link>
+              </div>
+              <div className="pt-8 w-full lg:w-1/2 pb-4 px-3 text-center block lg:flex lg:flex-col items-center justify-center uppercase font-bold">
+                <Link
+                  className="w-full my-2 lg:my-0 lg:w-64 block bg-purple-700 cursor-not-allowed py-4 z-10 rounded opacity-25"
+                  to="/"
+                >
+                  Inscrições
               </Link>
+                <div className="uppercase text-secondary-400 font-bold text-sm py-3">
+                  Abertura de inscrições de aprendizes a partir do dia 17 de agosto
+                </div>
+              </div>
             </div>
-            <div className="uppercase text-purple-400 font-bold text-sm">Abertura de inscrições de aprendizes a partir do dia 17/08</div>
           </div>
         </article>
       </section>

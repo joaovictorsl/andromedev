@@ -14,7 +14,7 @@ const OrganizationCard = (props) => {
             <img alt={org.name} className="w-24 lg:w-32 xl:w-48 object-cover object-center flex-shrink-0 mr-4" src={org.logo} />
           ) :
           (
-            <div className="w-24 lg:w-32 xl:w-48 bg-white flex items-center justify-center text-4xl lg:text-6xl font-bold text-secondary-400" >
+            <div className="w-24 lg:w-32 xl:w-48 bg-gray-100 flex items-center justify-center text-4xl lg:text-6xl font-bold text-secondary-400" >
               {org.name[0]}
             </div>
           )}

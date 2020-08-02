@@ -23,7 +23,14 @@ const Organization = (data) => {
           <div className="max-w-lg rounded-none md:rounded-sm bg-gray-100 overflow-hidden shadow-lg">
             <div className="px-8 py-6 flex flex-col items-center">
               <div className="org-logo-container">
-                <img className="org-logo" src={logo} alt={name} />
+                {logo ?
+                  (
+                    <img className="org-logo" src={logo} alt={name} />
+                  ) :
+                  (
+                    <p className="uppercase py-3 font-bold">{name}</p>
+                  )
+                }
               </div>
               <div className="org-tag">{category}</div>
               <div className="pt-10 pb-3 w-full text-dark-gray">
@@ -41,11 +48,14 @@ const Organization = (data) => {
               <div className="divider" />
               <div className="w-full mb-10 mt-8 text-center block justify-center">
                 <Link
-                  className="w-full block text-white bg-purple-800 hover:bg-purple-600 px-4 py-3 uppercase font-bold rounded"
-                  to="/cronograma"
+                  className="w-full block text-white bg-purple-800 px-4 py-3 uppercase font-bold rounded opacity-25 cursor-not-allowed"
+                  to={`/orgs/${slug}`}
                 >
                   Projetos
                 </Link>
+                <div className="uppercase text-secondary-400 font-bold text-sm py-3">
+                  Divulgação de projetos inscritos dia 16 de agosto
+                </div>
               </div>
             </div>
           </div>

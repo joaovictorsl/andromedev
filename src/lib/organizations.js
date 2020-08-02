@@ -184,7 +184,7 @@ const orgs = [
     description:
       "O Django Public Admin surgiu para ajudar projetos que querem disponibilizar dados publicamente, para humanos, utilizando todo o poder do Django Admin _ mas sem precisar criar contas de usuários, fazer login etc.",
     category: categories.PARTNER,
-    discord: "https://discord.gg/yzhste8",
+    discord: "https://discord.gg/vAhQWdr",
     email: "cuducos@gmail.com",
   },
   {
@@ -194,7 +194,7 @@ const orgs = [
     description:
       "A Calculadora do Cidadão é um pacote em Python para efetuar correção monetária de valores, muito útil em análise históricas. A ideia é criar uma interface unificada para diversos índices econômicos — atualmente temos família IPCA, IGPM, Taxa Selic e FED (EUA).",
     category: categories.PARTNER,
-    discord: "https://discord.gg/yzhste8",
+    discord: "https://discord.gg/xbg2U6d",
     email: "cuducos@gmail.com",
   },
   {
@@ -204,7 +204,7 @@ const orgs = [
     description:
       "O Minha Receita é uma solução para que pequenas organizações tenham sua própria API web para consulta de informações sobre CNPJ. É uma API construída com base nos dados gerados pela Receita Federal e tratados pelo Brasil.IO.",
     category: categories.PARTNER,
-    discord: "https://discord.gg/yzhste8",
+    discord: "https://discord.gg/P4aNMN2",
     email: "cuducos@gmail.com",
   },
   {
@@ -214,7 +214,7 @@ const orgs = [
     description:
       "Flask-SimpleLogin é a solução mais fácil para um sistema super fácil e simples de autenticação de usuário em Flask. Ideal para pequenos projetos, protótipos e MVPs.",
     category: categories.PARTNER,
-    discord: "https://discord.gg/yzhste8",
+    discord: "https://discord.gg/34jAec4",
     email: "cuducos@gmail.com",
   },
   {
@@ -224,7 +224,7 @@ const orgs = [
     description:
       "Flask-AlchemyDumps é uma ferramenta simples de backup de banco de dados para aplicações que utilizam Flask e Flask-SQLAlchemy.",
     category: categories.PARTNER,
-    discord: "https://discord.gg/yzhste8",
+    discord: "https://discord.gg/CtVDtcm",
     email: "cuducos@gmail.com",
   },
   {
@@ -234,7 +234,7 @@ const orgs = [
     description:
       "GetGist é um programa de linha de comando que permite acesso e atualização de Gists no GitHub como se fossem arquivos locais.",
     category: categories.PARTNER,
-    discord: "https://discord.gg/yzhste8",
+    discord: "https://discord.gg/fcNvXsd",
     email: "cuducos@gmail.com",
   },
 ];

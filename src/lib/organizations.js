@@ -174,7 +174,7 @@ const orgs = [
       "O Alt Zap é uma aplicação feita para ajudar pequenos e médios negócios a venderem na internet, especialmente pra quem faz entrega por delivery. Atualmente usa tecnologias modernas como React, Gatsby e Firebase e já temos um roadmap bem definido para ser implementado!",
     category: categories.PARTNER,
     logo: "https://i.imgur.com/nTUJq2g.png",
-    discord: "https://discord.gg/yzhste8",
+    discord: "https://discord.gg/qtpc4SD",
     email: "lucis@vtex.com",
   },
   {
@@ -237,7 +237,14 @@ const orgs = [
     discord: "https://discord.gg/fcNvXsd",
     email: "cuducos@gmail.com",
   },
-];
+].sort((a, b) => {
+  const nameA = a.name.toUpperCase()
+  const nameB = b.name.toUpperCase()
+  console.log(nameA, nameB)
+  if(nameA < nameB) { return -1; }
+  if(nameA > nameB) { return 1; }
+  return 0;
+});
 
 function getOrg(slug) {
   return orgs.find(org => org.slug === slug)

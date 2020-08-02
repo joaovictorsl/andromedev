@@ -9,6 +9,9 @@ const OrgsPage = () => {
       <section className="pt-20 pb-10 flex flex-col w-full items-center justify-center">
         <div className="w-full flex flex-col items-center justify-center">
           <h1 className="mb-8 text-center font-bold text-purple-800 sm:text-lg md:text-xl lg:text-5xl xl:text-5xl">Organizações homologadas</h1>
+          <div className="lg:mx-64 mx-20">
+            Algumas organizações podem ainda não estar aqui listadas por pendências internas.
+          </div>
         </div>
         <div className="w-full px-10 flex flex-wrap justify-center">
           {orgs.map((org, index) => (

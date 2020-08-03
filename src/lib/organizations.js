@@ -8,7 +8,7 @@ const orgs = [
     description:
       "A Open Knowledge Brasil (OKBR), também chamada de Rede pelo Conhecimento Livre, é o capítulo da Open Knowledge Internacional no Brasil. Nós utilizamos e desenvolvemos ferramentas cívicas, projetos, análises de políticas públicas, jornalismo de dados e promovemos o conhecimento livre nos diversos campos da sociedade. Na esfera política, buscamos tornar a relação entre governo e sociedade mais próxima e transparente.",
     category: categories.STARS,
-    logo: "https://i.imgur.com/GFqCFMu.png",
+    logo: "https://i.imgur.com/TshegeU.png",
     discord: "https://discord.gg/PASGyqa",
     email: "mario@ok.org.br",
   },

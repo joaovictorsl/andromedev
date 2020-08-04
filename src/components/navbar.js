@@ -12,7 +12,7 @@ const Item = ({ children, slug, className, active }) => (
   <Link
     className={`my-1 p-4 hover:bg-purple-600 hover:text-white ${
       active ? "bg-purple-600 font-bold text-white" : "text-dark-gray"
-    } ${className}`}
+      } ${className}`}
     to={slug}
   >
     {children}
@@ -54,7 +54,7 @@ const Navbar = ({ currentPage, className }) => {
   return (
     <>
       <button
-        className={`bg-purple-800 text-white rounded-full fixed p-4 bottom-0 right-0 mr-4 mb-4 xl:hidden`}
+        className={`bg-purple-800 w-16 h-16 text-white flex items-center justify-center rounded-full fixed bottom-0 right-0 mr-1 mb-4 xl:hidden`}
         onClick={() => setIsOpen(!isOpen)}
       >
         {!isOpen ? (
@@ -63,8 +63,8 @@ const Navbar = ({ currentPage, className }) => {
             <FontAwesomeIcon icon={faGreaterThan} />
           </>
         ) : (
-          <FontAwesomeIcon icon={faTimes} />
-        )}
+            <FontAwesomeIcon icon={faTimes} size="lg" />
+          )}
       </button>
       <aside
         className={classNames(

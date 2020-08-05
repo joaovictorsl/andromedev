@@ -246,7 +246,7 @@ const orgs = [
       "A Red Hat é líder mundial no fornecimento de soluções open source para TI corporativa. Por meio de um modelo de subscrição acessível e previsível, nossos clientes têm acesso à tecnologias confiáveis e de alta performance em cloud, Linux, gerenciamento, middleware, mobile, armazenamento e virtualização. Oferecemos também premiados serviços de suporte, treinamento e consultoria.",
     category: categories.PARTNER,
     discord: "https://discord.gg/3NMUGyq",
-    logo: "https://imgur.com/H0zjkri",
+    logo: "https://i.imgur.com/H0zjkri.png",
     email: "imelofer@redhat.com",
   },
 ].sort((a, b) => {

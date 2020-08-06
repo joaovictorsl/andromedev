@@ -30,7 +30,7 @@ const orgs = [
     representant: "Thayanne Luiza Victor Landim Sousa",
     description:
       "A VTEX é uma empresa global de tecnologia focada em produtos para e-commerce que impacta diariamente o trabalho de milhares de pessoas ao redor do mundo. Através dos seus produtos e serviços, oferece aos lojistas uma plataforma coesa para executar todo o seu negócio e proporcionar aos seus clientes sempre a melhor experiência de compra. No contexto da Universidade Federal de Campina Grande (UFCG), a VTEX e o SPLab firmaram parceria para o desenvolvimento de componentes e soluções da plataforma.",
-    category: categories.LAB,
+    category: categories.PARTNER,
     logo: "https://i.imgur.com/xS3ul8s.png",
     discord: "https://discord.gg/yzhste8",
     email: "thayannevls@gmail.com",

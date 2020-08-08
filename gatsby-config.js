@@ -1,3 +1,7 @@
+require('dotenv').config({
+  path: `.env`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Andromedev`,
@@ -81,5 +85,21 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-prismic`,
+      options: {
+        repositoryName: `${process.env.PRISMIC_PROJECT}`,
+        accessToken: `${process.env.PRISMIC_KEY}`,
+        linkResolver: ({ field, value, node}) => doc => {
+          if (doc.type === 'organization')
+            return `organization/${doc.uid}`
+          return `/${doc.uid}`
+        },
+        schemas: {
+          organization: require('./src/schemas/org.json'),
+          project: require('./src/schemas/project.json')
+        },
+      },
+    },
   ],
 };

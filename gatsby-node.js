@@ -1,5 +1,4 @@
 const path = require(`path`);
-const { orgs } = require('./src/lib/organizations')
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -36,15 +35,37 @@ exports.createPages = async ({ graphql, actions }) => {
           }
         }
       }
+      allPrismicOrganization {
+        edges {
+          node {
+            uid
+          }
+        }
+      }
+      allPrismicProject {
+        edges {
+          node {
+            data {
+              organization {
+                uid
+              }
+            }
+            uid
+          }
+        }
+      }
     }
   `);
 
   if (result.errors) {
     throw result.errors;
   }
-
+  
   const posts = result.data.allMarkdownRemark.edges;
-  const postsTemplate = path.resolve(`./src/templates/post.js`)
+  const postsTemplate = path.resolve(`./src/templates/post.js`);
+
+  const organizationsPages = result.data.allPrismicOrganization.edges;
+  const organizationTemplate = path.resolve("src/templates/org.js");
 
   posts.forEach(({ node }) => {
     createPage({
@@ -56,16 +77,13 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
-  const organizationTemplate = path.resolve('src/templates/organization.js');
-
-  orgs.forEach(({ slug }) => {
+  organizationsPages.forEach(edge => {
     createPage({
-      path: `orgs/${slug}`,
+      path: `orgs/${edge.node.uid}`,
       component: organizationTemplate,
       context: {
-        slug,
-      }
+        uid: edge.node.uid,
+      },
     })
-  });
-
+  })
 };

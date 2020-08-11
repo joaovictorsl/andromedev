@@ -8,7 +8,10 @@ export const events = [
       <span>
         Início do período de inscrição para organizações que possuem interesse
         de submeter projetos para o Andromedev.{" "}
-        <a className="text-orange hover:underline" href="https://docs.google.com/forms/d/e/1FAIpQLSdD8a9ug98Zaat2nyjrC5mMlvKesIsIX8ZqBDIK68smxL6uqw/viewform?usp=sf_link">
+        <a
+          className="text-orange hover:underline"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdD8a9ug98Zaat2nyjrC5mMlvKesIsIX8ZqBDIK68smxL6uqw/viewform?usp=sf_link"
+        >
           Inscreva sua organização.
         </a>
       </span>
@@ -33,19 +36,19 @@ export const events = [
       "Início do período para as organizações submeterem suas propostas de projeto e seus mentores. Os alunos podem fazer parte da discussão e criação de ideias entrando em contato com as organizações por meio dos canais abertos no nosso Discord e/ou pelos meios de comunicação informados pela organização.",
   },
   {
-    date: new Date("2020-08-14T00:00:00.000-03:00"),
+    date: new Date("2020-08-19T00:00:00.000-03:00"),
     title: "Encerramento da submissão de projetos",
     description:
       "Todas as organizações devem submeter seus projetos até às 23:59 do dia 14 de agosto no horário de Brasília.",
   },
   {
-    date: new Date("2020-08-16T00:00:00.000-03:00"),
+    date: new Date("2020-08-24T00:00:00.000-03:00"),
     title: "Anúncio da lista de projetos inscritos",
     description:
       "A lista de projetos inscritos será anunciada juntamente aos seus respectivos mentores. A partir disso, os alunos poderão começar a se planejar para quais projetos aplicarão e a entrar em contato com os mentores para demonstrar interesse e tirar possíveis dúvidas.",
   },
   {
-    date: new Date("2020-08-17T00:00:00.000-03:00"),
+    date: new Date("2020-08-24T00:00:00.000-03:00"),
     title: "Abertura da aplicação para aprendizes",
     description:
       "Início do período para alunos interessados aplicarem para serem aprendizes em projetos.",

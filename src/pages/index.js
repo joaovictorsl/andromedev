@@ -50,7 +50,7 @@ const Home = () => {
                   Inscrições
               </Link>
                 <div className="uppercase text-secondary-400 font-bold text-sm py-3">
-                  Abertura de inscrições de aprendizes a partir do dia 17 de agosto
+                  Abertura de inscrições de aprendizes a partir do dia 24 de agosto
                 </div>
               </div>
             </div>

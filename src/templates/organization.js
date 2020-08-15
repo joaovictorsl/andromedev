@@ -54,7 +54,7 @@ const Organization = (data) => {
                   Projetos
                 </Link>
                 <div className="uppercase text-secondary-400 font-bold text-sm py-3">
-                  Divulgação de projetos inscritos dia 16 de agosto
+                  Divulgação de projetos inscritos dia 24 de agosto
                 </div>
               </div>
             </div>

@@ -49,7 +49,7 @@ const Organization = ({ data: { prismicOrganization, allPrismicProject } }) => {
               <div className="w-full mb-10 mt-8 text-center block justify-center">
                 <Link
                   className="w-full block text-white bg-purple-800 px-4 py-3 uppercase font-bold rounded opacity-25 cursor-not-allowed"
-                  to={`/orgs/${org.ui}`}
+                  to={`/orgs/${prismicOrganization.uid}`}
                 >
                   Projetos
                 </Link>

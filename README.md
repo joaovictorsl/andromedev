@@ -6,6 +6,8 @@ Esse repositório contém o código do [site do Andromedev](https://andromedev.o
 
 O site é feito utilizando [Gatsby](https://www.gatsbyjs.org/) que é um gerador de site estático que utiliza [React](https://reactjs.org/) e [GraphQL](https://graphql.org/), e para ajudar na estilização usamos [Tailwindcss](https://tailwindcss.com/).
 
+Para dados de organizações e projetos utilizamos um [CMS](https://pt.wikipedia.org/wiki/Sistema_de_gerenciamento_de_conte%C3%BAdo) chamado [Prismic](https://prismic.io/) e consumimos aqui no Gatsby.
+
 ### Estrutura
 
 Nosso código se concentra dentro da página `src/`. Abaixo segue a explicação da estrutura do código e o funcionamento de cada componente.
@@ -20,6 +22,8 @@ Nosso código se concentra dentro da página `src/`. Abaixo segue a explicação
 ```
 
 ## Desenvolvimento
+
+Antes de começar a desenvolver, siga esse [tutorial](https://github.com/OpenDevUFCG/andromedev/wiki/Configurando-Prismic) para configurar o Prismic.
 
 Para executar o site localmente, é necessário ter o NodeJS e Yarn instalados e rodar os comandos abaixo:
 

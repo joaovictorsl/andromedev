@@ -20,9 +20,9 @@ const ProjectCard = ({ info }) => {
 					<h3 className="uppercase text-xs mb-2">Nome do projeto</h3>
 					<h2 className="uppercase text-xl md:text-2xl font-bold">{info.name.text}</h2>
 				</div>
-				<div className="mt-3 md:mt-0 font-bold uppercase text-sm md:text-base rounded-md text-center p-1 md:p-2 bg-gray-400 text-gray-800 w-full md:w-48">
+				{/* <div className="mt-3 md:mt-0 font-bold uppercase text-sm md:text-base rounded-md text-center p-1 md:p-2 bg-gray-400 text-gray-800 w-full md:w-48">
 					{info.registered} inscritos
-				</div>
+				</div> */}
 			</div>
 			<div className="flex mb-10 flex-wrap space-y-4 md:space-y-0 md:space-x-4">
 				{categories.map((category, index) => <ProjectCategory key={index} category={category} />)}
@@ -33,8 +33,12 @@ const ProjectCard = ({ info }) => {
 			</div>
 			<div className="inline-flex flex-col mb-10">
 				<h3 className="uppercase text-xs mb-2">Mentores</h3>
-				<a href={`mailto:${info.mentor_email.text}`} className="items-center text-purple-700 hover:text-blue-600 text-sm md:text-lg">{info.mentor.text}</a>
-				<a href={`mailto:${info.auxiliary_mentor_email.text}`} className="items-center text-purple-700 hover:text-blue-600 text-sm md:text-lg">{info.auxiliary_mentor.text}</a>
+				<a href={`mailto:${info.mentor_email.text}`} className="items-center text-purple-700 hover:text-blue-600 text-sm md:text-lg">
+					{info.mentor.text}
+				</a>
+				<a href={`mailto:${info.auxiliary_mentor_email.text}`} className="items-center text-purple-700 hover:text-blue-600 text-sm md:text-lg">
+					{info.auxiliary_mentor.text}
+				</a>
 			</div>
 			<div className="flex w-full">
 				<a
@@ -43,7 +47,7 @@ const ProjectCard = ({ info }) => {
 					target="_blank"
 					rel="noreferrer"
 				>
-					Ler proposta
+					Ler proposta de projeto
 				</a>
 			</div>
 		</div>

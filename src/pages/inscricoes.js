@@ -3,12 +3,6 @@ import { Link } from 'gatsby'
 
 import Layout from "../components/layouts/layout";
 
-const dates = {
-  organizations: new Date('2020-07-27T00:00:00.000-03:00'),
-  projects: new Date('2020-08-03T00:00:00.000-03:00'),
-  apprentices: new Date('2020-08-17T00:00:00.000-03:00'),
-}
-
 const contentObject = {
   organizations: {
     title: 'Inscrição de organizações',
@@ -33,7 +27,6 @@ const Applications = () => {
   const [currTabContent, setCurrTabContent] = useState(contentObject[currTab])
 
   function getInitialTab() {
-    const today = new Date().getTime()
 
     return 'organizations'
   }

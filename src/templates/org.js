@@ -9,7 +9,7 @@ import '../styles/organization.css'
 
 const Organization = ({ data: { prismicOrganization, allPrismicProject } }) => {
   const { data: org } = prismicOrganization;
-  const { edges:  projects } = allPrismicProject;
+  const { edges: projects } = allPrismicProject;
 
   return (
     <Layout Layout title={org.name.text} className="bg-dark-gray" >
@@ -17,10 +17,10 @@ const Organization = ({ data: { prismicOrganization, allPrismicProject } }) => {
         <div className="flex flex-col md:flex-row mr-auto w-auto items-center md:items-start justify-center">
           <div className="m-10 flex flex-col items-center max-w-lg">
             <div className="font-bold text-xl uppercase mb-2 text-center text-white">{org.name.text}</div>
-            <p className="org-description" dangerouslySetInnerHTML={{ __html: org.description.html }}/>
+            <p className="org-description" dangerouslySetInnerHTML={{ __html: org.description.html }} />
           </div>
 
-          <div className="max-w-lg rounded-none md:rounded-sm bg-gray-100 overflow-hidden shadow-lg">
+          <div className="org-card">
             <div className="px-8 py-6 flex flex-col items-center">
               <div className="org-logo-container">
                 {org.image.url ?
@@ -34,8 +34,8 @@ const Organization = ({ data: { prismicOrganization, allPrismicProject } }) => {
               </div>
               <div className="org-tag">{getCategoryLabel(org.category)}</div>
               <div className="pt-10 pb-3 w-full text-dark-gray">
-                <p className="uppercase font-bold text-sm">Representante:</p>
-                <p>{org.representant.text}</p>
+                <p className="uppercase font-bold text-sm text-center">Representante:</p>
+                <p className="text-center">{org.representant.text}</p>
               </div>
               <div className="divider" />
               <div className="w-full flex items-center justify-center">
@@ -48,17 +48,19 @@ const Organization = ({ data: { prismicOrganization, allPrismicProject } }) => {
               <div className="divider" />
               <div className="w-full mb-10 mt-8 text-center block justify-center">
                 <Link
-                  className="w-full block text-white bg-purple-800 px-4 py-3 uppercase font-bold rounded opacity-25 cursor-not-allowed"
-                  to={`/orgs/${prismicOrganization.uid}`}
+                  className="w-full block text-white bg-purple-800 hover:bg-purple-600 px-4 py-3 uppercase font-bold rounded"
+                  to={`/orgs/${prismicOrganization.uid}#projetos`}
                 >
                   Projetos
                 </Link>
-                <div className="uppercase text-secondary-400 font-bold text-sm py-3">
-                  Divulgação de projetos inscritos dia 16 de agosto
-                </div>
+
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex flex-col mr-auto w-auto items-center justify-center">
+          <p id="projetos" className="text-white uppercase font-bold my-8">Projetos</p>
+          <ProjectsList projects={projects} />
         </div>
       </article>
     </Layout>
@@ -100,14 +102,34 @@ export const organizationQuery = graphql`
       edges {
         node {
           data {
-            organization {
-              uid
+            approved
+            auxiliary_mentor {
+              text
             }
-            proposal {
-              link_type
+            description {
+              text
+            }
+            mentor {
+              text
             }
             name {
               text
+            }
+            registered
+            proposal {
+              url
+            }
+            mentor_email {
+              text
+            }
+            auxiliary_mentor_email {
+              text
+            }
+            category {
+              text
+            }
+            organization {
+              uid
             }
           }
         }

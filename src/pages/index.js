@@ -15,12 +15,12 @@ const Home = () => {
   return (
     <Layout title="Início" className={"bg-dark-gray text-white"}>
       <section className="w-full pt-20">
-        <article className="w-full flex justify-center mx-auto max-w-3xl">
-          <div className="max-w-xl flex flex-col items-center justify-center xl:mx-auto">
+        <article className="w-full flex justify-center mx-auto">
+          <div className="flex flex-col items-center justify-center xl:mx-auto">
             <div className="logo">
               <img src={Logo} alt="Andromedev Logo" />
             </div>
-            <p className="p-2 text-white text-center sm:text-xl mt-3">
+            <p className="p-2 max-w-3xl text-white text-center sm:text-xl mt-3">
               O primeiro evento de mentoria organizado pela{" "}
               <a
                 href="https://opendevufcg.org/"
@@ -34,7 +34,7 @@ const Home = () => {
               projetos <i>open source</i>!
             </p>
             <div className="w-full block lg:flex items-start">
-              <div className="pt-8 w-full lg:w-1/2 px-3 text-center block lg:flex lg:flex-col items-center justify-center uppercase font-bold">
+              <div className="pt-8 w-full px-3 text-center block lg:flex lg:flex-col items-center justify-center uppercase font-bold">
                 <Link
                   className="w-full my-2 lg:my-0 lg:w-64 block bg-purple-700 hover:bg-purple-600 py-4 z-10 rounded uppercase"
                   to="/orgs"
@@ -42,7 +42,15 @@ const Home = () => {
                   Organizações
                 </Link>
               </div>
-              <div className="pt-8 w-full lg:w-1/2 pb-4 px-3 text-center block lg:flex lg:flex-col items-center justify-center uppercase font-bold">
+              <div className="pt-8 w-full px-3 text-center block lg:flex lg:flex-col items-center justify-center uppercase font-bold">
+                <Link
+                  className="w-full my-2 lg:my-0 lg:w-64 block bg-purple-700 hover:bg-purple-600 py-4 z-10 rounded uppercase"
+                  to="/projetos"
+                >
+                  Projetos
+                </Link>
+              </div>
+              <div className="pt-8 w-full pb-4 px-3 text-center block lg:flex lg:flex-col items-center justify-center uppercase font-bold">
                 <Link
                   className="w-full my-2 lg:my-0 lg:w-64 block bg-purple-700 cursor-not-allowed py-4 z-10 rounded opacity-25"
                   to="/"

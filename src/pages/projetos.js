@@ -79,7 +79,15 @@ const ProjectsPage = ({ data: { allPrismicProject } }) => {
           </Link>
         </div>
         <div className="flex flex-col mr-auto w-auto items-center justify-center">
-          <ProjectsList projects={projectsRendered} />
+          {
+            projectsRendered.length ?
+              <ProjectsList projects={projectsRendered} /> :
+              <div className="px-4">
+                <p className="text-xl text-gray-700 mt-12 text-center">
+                  Nenhum projeto cadastrado com essa categoria
+                </p>
+              </div>
+          }
         </div>
       </article>
     </Layout>

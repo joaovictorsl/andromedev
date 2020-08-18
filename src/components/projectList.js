@@ -15,7 +15,6 @@ const ProjectCard = ({ info }) => {
 
 	return (
 		<div className="shadow-lg w-full border border-solid border-gray-100 bg-gray-100 px-6 md:px-12 py-6 md:py-8">
-			{console.log(info)}
 			<div className="flex flex-col md:flex-row justify-between items-center mb-5">
 				<div className="">
 					<h3 className="uppercase text-xs mb-2">Nome do projeto</h3>

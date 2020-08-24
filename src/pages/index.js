@@ -50,16 +50,13 @@ const Home = () => {
                   Projetos
                 </Link>
               </div>
-              <div className="pt-8 w-full pb-4 px-3 text-center block lg:flex lg:flex-col items-center justify-center uppercase font-bold">
+              <div className="pt-8 w-full px-3 text-center block lg:flex lg:flex-col items-center justify-center uppercase font-bold">
                 <Link
-                  className="w-full my-2 lg:my-0 lg:w-64 block bg-purple-700 cursor-not-allowed py-4 z-10 rounded opacity-25"
-                  to="/"
+                  className="w-full my-2 lg:my-0 lg:w-64 block bg-purple-700 hover:bg-purple-600 py-4 z-10 rounded uppercase"
+                  to="https://docs.google.com/forms/d/e/1FAIpQLSfVlEjDzv1-4oTcVjC9gBYysv7FfYbFxoG8RltZ2XH0PvrUAA/viewform?usp=sf_link"
                 >
                   Inscrições
               </Link>
-                <div className="uppercase text-secondary-400 font-bold text-sm py-3">
-                  Abertura de inscrições de aprendizes a partir do dia 24 de agosto
-                </div>
               </div>
             </div>
           </div>

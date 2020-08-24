@@ -8,7 +8,7 @@ import ProjectsList from "../components/projectList";
 function shuffle(array) {
   const shuffledArray = JSON.parse(JSON.stringify(array));
 
-  let currentIndex = shuffledArray.length;
+  let currentIndex = shuffledArray.length
   let temporaryValue;
   let randomIndex;
 

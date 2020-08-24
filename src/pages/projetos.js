@@ -5,27 +5,8 @@ import { withPreview } from "gatsby-source-prismic";
 import Layout from "../components/layouts/layout";
 import ProjectsList from "../components/projectList";
 
-function shuffle(array) {
-  const shuffledArray = JSON.parse(JSON.stringify(array));
-
-  let currentIndex = shuffledArray.length
-  let temporaryValue;
-  let randomIndex;
-
-  while (0 !== currentIndex) {
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    temporaryValue = shuffledArray[currentIndex];
-    shuffledArray[currentIndex] = shuffledArray[randomIndex];
-    shuffledArray[randomIndex] = temporaryValue;
-  }
-
-  return shuffledArray;
-}
-
 const ProjectsPage = ({ data: { allPrismicProject } }) => {
-  const allProjects = shuffle(allPrismicProject.edges);
+  const allProjects = allPrismicProject.edges;
   const [searchTerm, setSearchTerm] = useState("");
   const [projectsRendered, setProjectsRendered] = useState(allProjects);
 

@@ -78,7 +78,7 @@ const ProjectsPage = ({ data: { allPrismicProject } }) => {
             <input
               className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
               type="text"
-              placeholder="Filtrar por categoria"
+              placeholder="Filtrar por categoria ou  nome do projeto"
               aria-label="Search term"
               value={searchTerm}
               onChange={handleChangeSearchTerm}
@@ -109,12 +109,12 @@ const ProjectsPage = ({ data: { allPrismicProject } }) => {
           {projectsRendered.length ? (
             <ProjectsList projects={projectsRendered} />
           ) : (
-            <div className="px-4">
-              <p className="text-xl text-gray-700 mt-12 text-center">
-                Nenhum projeto cadastrado com essa categoria
+              <div className="px-4">
+                <p className="text-xl text-gray-700 mt-12 text-center">
+                  Nenhum projeto cadastrado com essa categoria
               </p>
-            </div>
-          )}
+              </div>
+            )}
         </div>
       </article>
     </Layout>

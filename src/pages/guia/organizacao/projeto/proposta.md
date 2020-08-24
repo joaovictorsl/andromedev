@@ -21,7 +21,7 @@ Descreva ao potencial aprendiz o porquê de escolher se candidatar a esse projet
 
 ## Quais tecnologias e ferramentas devem ser utilizadas?
 
-Listar tecnologias que provavelmente serão utilizadas, tanto para compreensão do código existente quanto para o desenvolvimento. Não precisa ser limitado necessariamente apenas a linguagens de programação, pode incluir o detalhamento de *frameworks* e bibliotecas que deverão ser utilizadas. É interessante adicionar o link para a documentação de cada uma, possibilitando que os candidatos e candidatas possam ler sobre elas.
+Listar tecnologias que provavelmente serão utilizadas, tanto para compreensão do código existente quanto para o desenvolvimento. Não precisa ser limitado necessariamente apenas a linguagens de programação, pode incluir o detalhamento de _frameworks_ e bibliotecas que deverão ser utilizadas. É interessante adicionar o link para a documentação de cada uma, possibilitando que os candidatos e candidatas possam ler sobre elas.
 
 - Tecnologia ou ferramenta 1
 - Tecnologia ou ferramenta 2
@@ -75,14 +75,14 @@ Essa seção deve dizer às pessoas interessadas quem é o mentor ou a mentora d
 
 ### Contate-me
 
-- **Discord:** Informe o *handle* do Discord do(a) mentor(a) do projeto, por exemplo, `FulanoDeTal#1234`.
+- **Discord:** Informe o _handle_ do Discord do(a) mentor(a) do projeto, por exemplo, `FulanoDeTal#1234`.
 - **E-mail:** Informe o e-mail para contato com o(a) mentor(a) do projeto.
-- **[ GitHub | GitLab | Plataforma que hospedará o projeto ]:** Informe o *username* do(a) mentor(a) do projeto.
+- **[ GitHub | GitLab | Plataforma que hospedará o projeto ]:** Informe o _username_ do(a) mentor(a) do projeto.
 - Com permissão do(a) mentor(a) de seu projeto, sinta-se livre para disponibilizar outras formas de contato (incluindo redes sociais).
 
 ## [ Sobre a organização ]
 
-Esta seção é opcional. Se não desejar incluí-la em sua proposta de projeto, sinta-se livre para removê-la integralmente. Caso contrário, utilize este espaço para familiarizar os inscritos à sua organização através de uma descrição sucinta. 
+Esta seção é opcional. Se não desejar incluí-la em sua proposta de projeto, sinta-se livre para removê-la integralmente. Caso contrário, utilize este espaço para familiarizar os inscritos à sua organização através de uma descrição sucinta.
 
 ### Contate-me
 

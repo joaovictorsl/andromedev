@@ -1,36 +1,41 @@
-import React from 'react'
+import React from "react";
 import { Link } from "gatsby";
 
-import { getOrg } from '../lib/organizations'
+import { getOrg } from "../lib/organizations";
 import Layout from "../components/layouts/layout";
-import '../styles/organization.css'
+import "../styles/organization.css";
 
 const Organization = (data) => {
   const slug = data.pageContext.slug;
-  const { name, category, description, logo, email, discord, representant } = getOrg(slug);
+  const {
+    name,
+    category,
+    description,
+    logo,
+    email,
+    discord,
+    representant,
+  } = getOrg(slug);
 
   return (
-    <Layout Layout title={name} className="bg-dark-gray" >
+    <Layout Layout title={name} className="bg-dark-gray">
       <article className="pt-20 w-full">
         <div className="flex flex-col md:flex-row mr-auto w-auto items-center md:items-start justify-center">
           <div className="m-10 flex flex-col items-center max-w-lg">
-            <div className="font-bold text-xl uppercase mb-2 text-center text-white">{name}</div>
-            <p className="org-description">
-              {description}
-            </p>
+            <div className="font-bold text-xl uppercase mb-2 text-center text-white">
+              {name}
+            </div>
+            <p className="org-description">{description}</p>
           </div>
 
           <div className="max-w-lg rounded-none md:rounded-sm bg-gray-100 overflow-hidden shadow-lg">
             <div className="px-8 py-6 flex flex-col items-center">
               <div className="org-logo-container">
-                {logo ?
-                  (
-                    <img className="org-logo" src={logo} alt={name} />
-                  ) :
-                  (
-                    <p className="uppercase py-3 font-bold">{name}</p>
-                  )
-                }
+                {logo ? (
+                  <img className="org-logo" src={logo} alt={name} />
+                ) : (
+                  <p className="uppercase py-3 font-bold">{name}</p>
+                )}
               </div>
               <div className="org-tag">{category}</div>
               <div className="pt-10 pb-3 w-full text-dark-gray">
@@ -39,11 +44,15 @@ const Organization = (data) => {
               </div>
               <div className="divider" />
               <div className="w-full flex items-center justify-center">
-                <a href={discord} className="org-link">Canal no Discord</a>
+                <a href={discord} className="org-link">
+                  Canal no Discord
+                </a>
               </div>
               <div className="divider" />
               <div className="w-full flex items-center justify-center">
-                <a href={`mailto:${email}`} className="org-link">E-mail</a>
+                <a href={`mailto:${email}`} className="org-link">
+                  E-mail
+                </a>
               </div>
               <div className="divider" />
               <div className="w-full mb-10 mt-8 text-center block justify-center">
@@ -62,7 +71,7 @@ const Organization = (data) => {
         </div>
       </article>
     </Layout>
-  )
-}
+  );
+};
 
-export default Organization
+export default Organization;

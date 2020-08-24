@@ -12,7 +12,7 @@ const Item = ({ children, slug, className, active }) => (
   <Link
     className={`my-1 p-4 hover:bg-purple-600 hover:text-white ${
       active ? "bg-purple-600 font-bold text-white" : "text-dark-gray"
-      } ${className}`}
+    } ${className}`}
     to={slug}
   >
     {children}
@@ -63,8 +63,8 @@ const Navbar = ({ currentPage, className }) => {
             <FontAwesomeIcon icon={faGreaterThan} />
           </>
         ) : (
-            <FontAwesomeIcon icon={faTimes} size="lg" />
-          )}
+          <FontAwesomeIcon icon={faTimes} size="lg" />
+        )}
       </button>
       <aside
         className={classNames(

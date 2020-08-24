@@ -66,6 +66,6 @@ Você também pode usar o sistema de _issues_ dessas ferramentas para separar at
 
 ### Peça ajuda também
 
-O(a) mentor(a) não precisa ser o conhecedor de todo o projeto e suas tecnologias, nem precisa saber responder todas as dúvidas do(a) aprendiz de imediato. Seu papel é ser guia e acompanhar o(a) aprendiz, não abandoná-lo(a) e estar sempre disposto(a) a ajudar. Por isso, caso tenha dúvidas, seja sobre o projeto em si, sobre tecnologias ou sobre gerenciamento, peça ajuda! 
+O(a) mentor(a) não precisa ser o conhecedor de todo o projeto e suas tecnologias, nem precisa saber responder todas as dúvidas do(a) aprendiz de imediato. Seu papel é ser guia e acompanhar o(a) aprendiz, não abandoná-lo(a) e estar sempre disposto(a) a ajudar. Por isso, caso tenha dúvidas, seja sobre o projeto em si, sobre tecnologias ou sobre gerenciamento, peça ajuda!
 
 Peça ajuda para sua organização, para a comunidade do evento no [Discord](https://chat.opendevufcg.org) ou para a própria OpenDevUFCG. Somos uma comunidade que quer que todos seus membros cresçam juntos, e por isso ajudamos uns aos outros!

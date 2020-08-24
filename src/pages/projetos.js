@@ -1,51 +1,74 @@
-import React, { useState } from 'react'
-import { graphql, Link } from 'gatsby'
-import { withPreview } from 'gatsby-source-prismic'
+import React, { useState } from "react";
+import { graphql, Link } from "gatsby";
+import { withPreview } from "gatsby-source-prismic";
 
-import Layout from "../components/layouts/layout"
-import ProjectsList from "../components/projectList"
+import Layout from "../components/layouts/layout";
+import ProjectsList from "../components/projectList";
+
+function shuffle(array) {
+  const shuffledArray = array.slice();
+
+  let currentIndex = shuffledArray.length;
+  let temporaryValue;
+  let randomIndex;
+
+  while (0 !== currentIndex) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    temporaryValue = shuffledArray[currentIndex];
+    shuffledArray[currentIndex] = shuffledArray[randomIndex];
+    shuffledArray[randomIndex] = temporaryValue;
+  }
+
+  return shuffledArray;
+}
 
 const ProjectsPage = ({ data: { allPrismicProject } }) => {
-  const [searchTerm, setSearchTerm] = useState('')
-  const { edges: allProjects } = allPrismicProject;
-  const [projectsRendered, setProjectsRendered] = useState(allProjects)
+  const allProjects = shuffle(allPrismicProject.edges);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [projectsRendered, setProjectsRendered] = useState(allProjects);
 
   const handleChangeSearchTerm = (e) => {
-    setSearchTerm(e.target.value)
-  }
+    setSearchTerm(e.target.value);
+  };
 
   const clearSearch = () => {
-    setSearchTerm('')
-    setProjectsRendered(allProjects)
-  }
+    setSearchTerm("");
+    setProjectsRendered(allProjects);
+  };
 
   const search = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
-    let projects
+    let projects;
 
-    if (searchTerm === '') {
-      projects = allProjects
+    if (searchTerm === "") {
+      projects = allProjects;
     } else {
-      projects = projectsRendered.filter(project => {
-        const projectCategory = project.node.data.category.text
-        const categories = projectCategory.split(',')
+      projects = allProjects.filter((project) => {
+        const search = searchTerm.toLowerCase();
+        const name = project.node.data.name.text;
+        const projectCategory = project.node.data.category.text;
+        const categories = projectCategory.split(",");
+
+        if (name.toLowerCase().includes(search)) return true;
 
         for (const category of categories) {
-          if (category.toLowerCase().includes(searchTerm.toLowerCase())) {
-            return true
+          if (category.toLowerCase().includes(search)) {
+            return true;
           }
         }
 
-        return false
-      })
+        return false;
+      });
     }
 
-    setProjectsRendered(projects)
-  }
+    setProjectsRendered(projects);
+  };
 
   return (
-    <Layout Layout title={'Projetos'} className="bg-gray-100" >
+    <Layout Layout title={"Projetos"} className="bg-gray-100">
       <article className="pt-20 w-full">
         <div className="flex w-full flex-col items-center space-x-4 justify-center mb-6 md:mb-0 p-2">
           <form
@@ -58,7 +81,8 @@ const ProjectsPage = ({ data: { allPrismicProject } }) => {
               placeholder="Filtrar por categoria"
               aria-label="Search term"
               value={searchTerm}
-              onChange={handleChangeSearchTerm} />
+              onChange={handleChangeSearchTerm}
+            />
             <button
               className="flex-shrink-0 bg-purple-600 hover:bg-purple-700 border-purple-600 hover:border-purple-700 text-sm border-4 text-white py-1 px-2 rounded"
               type="button"
@@ -74,27 +98,30 @@ const ProjectsPage = ({ data: { allPrismicProject } }) => {
               Limpar
             </button>
           </form>
-          <Link to="/orgs" className="items-center text-purple-700 hover:text-blue-600 text-sm md:text-lg my-5">
+          <Link
+            to="/orgs"
+            className="items-center text-purple-700 hover:text-blue-600 text-sm md:text-lg my-5"
+          >
             Visualizar projetos por organização
           </Link>
         </div>
         <div className="flex flex-col mr-auto w-auto items-center justify-center">
-          {
-            projectsRendered.length ?
-              <ProjectsList projects={projectsRendered} /> :
-              <div className="px-4">
-                <p className="text-xl text-gray-700 mt-12 text-center">
-                  Nenhum projeto cadastrado com essa categoria
-                </p>
-              </div>
-          }
+          {projectsRendered.length ? (
+            <ProjectsList projects={projectsRendered} />
+          ) : (
+            <div className="px-4">
+              <p className="text-xl text-gray-700 mt-12 text-center">
+                Nenhum projeto cadastrado com essa categoria
+              </p>
+            </div>
+          )}
         </div>
       </article>
     </Layout>
-  )
-}
+  );
+};
 
-export default withPreview(ProjectsPage)
+export default withPreview(ProjectsPage);
 
 export const projectsQuery = graphql`
   query AllProjects {
@@ -136,4 +163,4 @@ export const projectsQuery = graphql`
       }
     }
   }
-`
+`;

@@ -27,9 +27,7 @@
       "type": "Link",
       "config": {
         "select": "document",
-        "customtypes": [
-          "organization"
-        ],
+        "customtypes": ["organization"],
         "label": "organization",
         "placeholder": "Slug da Organização"
       }

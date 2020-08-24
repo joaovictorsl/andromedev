@@ -33,7 +33,7 @@ Seguem algumas dicas que podem te ajudar a ser selecionado(a) no projeto em que 
 - Inicie discussões no canais de comunicação da organização e do projeto, preferencialmente nos canais do [Discord](https://chat.opendevufcg.org). Pode ser uma ótima maneira de demonstrar interesse e engajamento para os mentores;
 - Comece a ler sobre as tecnologias do projeto em que se interessou;
 - Caso já exista um repositório e seja executável, tente rodá-lo;
-- Caso já exista um repositório, verifique se possui *issues* abertas e inicie discussões nas mesmas. Quem sabe já dê para abrir *pull request* com alguma contribuição;
+- Caso já exista um repositório, verifique se possui _issues_ abertas e inicie discussões nas mesmas. Quem sabe já dê para abrir _pull request_ com alguma contribuição;
 - Faça sugestões de melhorias nas propostas de projeto caso tenha ideias que podem melhorar o plano original.
 
 ## Processo de desenvolvimento
@@ -50,7 +50,8 @@ Caso esteja em um projeto no qual não conheça as tecnologias utilizadas, **nã
 
 ### Divisão de tarefas e o uso de _issues_, _pull requests_ e _branches_
 
-Não tem mais dúvidas e está pronto(a) para começar a trabalhar em algo? Ótimo! Separe alguns minutos para planejar sua atividade; se possível, divida-a em tarefas menores em que possa fazer pequenas entregas. Ferramentas no _GitHub_/_GitLab_ podem ajudar nessa organização: 
+Não tem mais dúvidas e está pronto(a) para começar a trabalhar em algo? Ótimo! Separe alguns minutos para planejar sua atividade; se possível, divida-a em tarefas menores em que possa fazer pequenas entregas. Ferramentas no _GitHub_/_GitLab_ podem ajudar nessa organização:
+
 - Use o sistema de **issues** para registrar o progresso das atividades envolvidas, categorizá-las e também adicionar comentários;
 - Use **pull requests** para fazer as pequenas entregas, sugerindo que seu mentor ou mentora as revise;
 - Use **branches** para versionar seu código, separando as mudanças de código.
@@ -65,6 +66,6 @@ Sentiu dificuldades para começar a trabalhar no repositório do seu projeto? Re
 
 ### Divirta-se!
 
-Divirta-se ao aprender novas tecnologias e ao compartilhar do conhecimento da comunidade! Para isso, faça sua parte para garantir um ambiente de respeito e não se sobrecarregue ao ponto de se frustar. Lembre-se que o **Andromedev** é uma oportunidade de aprendizado e que cada um tem seu tempo! 
+Divirta-se ao aprender novas tecnologias e ao compartilhar do conhecimento da comunidade! Para isso, faça sua parte para garantir um ambiente de respeito e não se sobrecarregue ao ponto de se frustar. Lembre-se que o **Andromedev** é uma oportunidade de aprendizado e que cada um tem seu tempo!
 
 > Se perceber qualquer problema maior, não hesite em reportar aos organizadores do evento.

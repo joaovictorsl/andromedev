@@ -66,7 +66,7 @@ function SEO({ description, lang, meta, title }) {
           content: title,
         },
         {
-          name: 'og:image',
+          name: "og:image",
           content: site.siteMetadata.defaultImage,
         },
         {
@@ -86,7 +86,7 @@ SEO.defaultProps = {
   lang: `pt-br`,
   meta: [],
   description: ``,
-  image: PropTypes.string
+  image: PropTypes.string,
 };
 
 SEO.propTypes = {

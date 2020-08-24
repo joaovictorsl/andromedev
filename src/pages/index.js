@@ -56,7 +56,7 @@ const Home = () => {
                   to="https://docs.google.com/forms/d/e/1FAIpQLSfVlEjDzv1-4oTcVjC9gBYysv7FfYbFxoG8RltZ2XH0PvrUAA/viewform?usp=sf_link"
                 >
                   Inscrições
-              </Link>
+                </Link>
               </div>
             </div>
           </div>

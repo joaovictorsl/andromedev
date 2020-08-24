@@ -1,8 +1,16 @@
 import React from "react";
 
+const languages = ["JavaScript", "React", "NodeJS"];
+
 const ProjectCategory = ({ category }) => (
   <div className="inline-block bg-purple-200 uppercase rounded-full px-3 py-1 text-xs font-semibold text-purple-800 mr-2 md:mr-0">
     {category}
+  </div>
+);
+
+const ProjectLanguage = ({ language }) => (
+  <div className="inline-block bg-secondary-800 uppercase rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 md:mr-0">
+    {language}
   </div>
 );
 
@@ -16,11 +24,9 @@ const ProjectCard = ({ info }) => {
   return (
     <div className="shadow-lg w-full border border-solid border-gray-100 bg-gray-100 px-6 md:px-12 py-6 md:py-8">
       <div className="flex flex-col md:flex-row justify-between items-center mb-5">
-        <div className="">
+        <div className="w-full">
           <h3 className="uppercase text-xs mb-2">Nome do projeto</h3>
-          <h2 className="uppercase text-xl md:text-2xl font-bold">
-            {info.name.text}
-          </h2>
+          <h2 className="text-xl md:text-2xl font-bold">{info.name.text}</h2>
         </div>
         {/* <div className="mt-3 md:mt-0 font-bold uppercase text-sm md:text-base rounded-md text-center p-1 md:p-2 bg-gray-400 text-gray-800 w-full md:w-48">
 					{info.registered} inscritos
@@ -50,6 +56,14 @@ const ProjectCard = ({ info }) => {
           {info.auxiliary_mentor.text}
         </a>
       </div>
+      {false && <h3 className="uppercase text-xs mb-2">Linguagens</h3>}
+      {false && (
+        <div className="flex mb-10 w-full flex-wrap space-y-4 md:space-y-0 md:space-x-4">
+          {languages.map((language, index) => (
+            <ProjectLanguage key={index} language={language} />
+          ))}
+        </div>
+      )}
       <div className="flex w-full">
         <a
           className="text-white text-center w-full md:w-auto bg-orange px-4 py-3 font-bold uppercase text-lg transition duration-150 ease-in-out hover:bg-secondary-600"

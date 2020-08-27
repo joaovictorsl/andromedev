@@ -54,7 +54,7 @@ const Navbar = ({ currentPage, className }) => {
   return (
     <>
       <button
-        className={`bg-purple-800 w-16 h-16 text-white flex items-center justify-center rounded-full fixed bottom-0 right-0 mr-1 mb-4 xl:hidden`}
+        className={`bg-purple-800 w-16 h-16  text-white flex items-center justify-center rounded-full fixed bottom-0 right-0 mr-1 mb-4 xl:hidden z-40`}
         onClick={() => setIsOpen(!isOpen)}
       >
         {!isOpen ? (

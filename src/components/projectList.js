@@ -56,6 +56,14 @@ const ProjectCard = ({ info }) => {
           {info.auxiliary_mentor.text}
         </a>
       </div>
+      <div className="mb-10">
+        <h3 className="uppercase text-xs mb-2">Aprendiz</h3>
+        <span
+          className="items-center text-sm md:text-lg"
+        >
+         {(info.aprendiz && info.aprendiz.text) ? info.aprendiz.text : "Em análise..."}
+        </span>
+      </div>
       {false && <h3 className="uppercase text-xs mb-2">Linguagens</h3>}
       {false && (
         <div className="flex mb-10 w-full flex-wrap space-y-4 md:space-y-0 md:space-x-4">

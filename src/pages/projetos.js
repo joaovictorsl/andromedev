@@ -133,6 +133,9 @@ export const projectsQuery = graphql`
             auxiliary_mentor_email {
               text
             }
+            aprendiz {
+              text
+            }
             category {
               text
             }

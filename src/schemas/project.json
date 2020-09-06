@@ -1,104 +1,104 @@
 {
-  "Main": {
-    "uid": {
-      "type": "UID",
-      "config": {
-        "label": "slug",
-        "placeholder": "Slug"
+  "Main" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "slug",
+        "placeholder" : "Slug"
       }
     },
-    "name": {
-      "type": "StructuredText",
-      "config": {
-        "single": "heading1",
-        "label": "Name",
-        "placeholder": "Nome do Projeto"
+    "name" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1",
+        "label" : "Name",
+        "placeholder" : "Nome do Projeto"
       }
     },
-    "proposal": {
-      "type": "Link",
-      "config": {
-        "allowTargetBlank": true,
-        "label": "proposal",
-        "placeholder": "Link da Proposta"
+    "proposal" : {
+      "type" : "Link",
+      "config" : {
+        "allowTargetBlank" : true,
+        "label" : "proposal",
+        "placeholder" : "Link da Proposta"
       }
     },
-    "organization": {
-      "type": "Link",
-      "config": {
-        "select": "document",
-        "customtypes": ["organization"],
-        "label": "organization",
-        "placeholder": "Slug da Organização"
+    "organization" : {
+      "type" : "Link",
+      "config" : {
+        "select" : "document",
+        "customtypes" : [ "organization" ],
+        "label" : "organization",
+        "placeholder" : "Slug da Organização"
       }
     },
-    "description": {
-      "type": "StructuredText",
-      "config": {
-        "multi": "paragraph",
-        "label": "description",
-        "placeholder": "Descrição"
+    "description" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "description",
+        "placeholder" : "Descrição"
       }
     },
-    "approved": {
-      "type": "Boolean",
-      "config": {
-        "default_value": true,
-        "label": "approved"
+    "approved" : {
+      "type" : "Boolean",
+      "config" : {
+        "default_value" : true,
+        "label" : "approved"
       }
     },
-    "category": {
-      "type": "StructuredText",
-      "config": {
-        "multi": "paragraph",
-        "label": "category",
-        "placeholder": "Categoria"
+    "category" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "category",
+        "placeholder" : "Categoria"
       }
     },
-    "mentor": {
-      "type": "StructuredText",
-      "config": {
-        "multi": "paragraph",
-        "label": "Mentor",
-        "placeholder": "Mentor"
+    "mentor" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "Mentor",
+        "placeholder" : "Mentor"
       }
     },
-    "mentor_email": {
-      "type": "StructuredText",
-      "config": {
-        "multi": "paragraph",
-        "label": "mentor_email",
-        "placeholder": "E-mail do mentor"
+    "mentor_email" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "mentor_email",
+        "placeholder" : "E-mail do mentor"
       }
     },
-    "auxiliary_mentor": {
-      "type": "StructuredText",
-      "config": {
-        "multi": "paragraph",
-        "label": "auxiliary_mentor",
-        "placeholder": "Mentor Auxiliar"
+    "auxiliary_mentor" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "auxiliary_mentor",
+        "placeholder" : "Mentor Auxiliar"
       }
     },
-    "auxiliary_mentor_email": {
-      "type": "StructuredText",
-      "config": {
-        "multi": "paragraph",
-        "label": "auxiliary_mentor_email",
-        "placeholder": "E-mail do mentor auxiliar"
+    "auxiliary_mentor_email" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "auxiliary_mentor_email",
+        "placeholder" : "E-mail do mentor auxiliar"
       }
     },
-    "registered": {
-      "type": "Number",
-      "config": {
-        "label": "registered",
-        "placeholder": "Inscritos"
+    "registered" : {
+      "type" : "Number",
+      "config" : {
+        "label" : "registered",
+        "placeholder" : "Inscritos"
       }
     },
-    "aprendiz": {
-      "type": "StructuredText",
-      "config": {
-        "multi": "paragraph",
-        "label": "Aprendiz"
+    "aprendiz" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "Aprendiz"
       }
     }
   }

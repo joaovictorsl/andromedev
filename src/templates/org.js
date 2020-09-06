@@ -137,6 +137,9 @@ export const organizationQuery = graphql`
             mentor_email {
               text
             }
+            aprendiz {
+              text
+            }
             auxiliary_mentor_email {
               text
             }

@@ -77,7 +77,7 @@ const Navbar = ({ currentPage, className }) => {
           className
         )}
       >
-        <nav className="flex flex-col">
+        <nav className="flex flex-col truncate">
           {items.map((item, index) => (
             <Item
               key={index}

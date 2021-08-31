@@ -1,7 +1,5 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-
-const Titulo = ({ titulo }: { titulo: string }) => <h1>{titulo}</h1>;
+import type { NextPage } from 'next'
+import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
@@ -12,9 +10,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Titulo titulo="Aqui haverá a home do site do Andromedev" />
+      <h1>Aqui haverá a home do site do Andromedev</h1>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

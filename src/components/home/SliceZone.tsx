@@ -6,7 +6,7 @@ interface Props {
   slice: any
 }
 
-const SliceZone: FC<Props> = ({ slice }) => {
+const SliceZone = ({ slice }: Props) => {
   switch (slice.slice_type) {
     case 'homesection':
       return (

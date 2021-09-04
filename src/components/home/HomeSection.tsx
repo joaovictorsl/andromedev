@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { Box, Button, Heading } from '@chakra-ui/react'
 
 interface Props {
   title: string
@@ -7,12 +7,12 @@ interface Props {
   variant: 'primary' | 'secondary' | 'centered'
 }
 
-const HomeSection: FC<Props> = ({ title, buttonLabel, paragraph }) => (
-  <div style={{ border: 'solid 1px', padding: 30, marginBottom: 10 }}>
-    <h1>{title}</h1>
+const HomeSection = ({ title, buttonLabel, paragraph }: Props) => (
+  <Box p="10">
+    <Heading>{title}</Heading>
     {paragraph}
-    <button>{buttonLabel}</button>
-  </div>
+    <Button>{buttonLabel}</Button>
+  </Box>
 )
 
 export default HomeSection

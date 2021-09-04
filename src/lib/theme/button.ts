@@ -30,7 +30,6 @@ export default {
     },
     link: {
       color: 'primary.normal',
-      padding: 0,
     },
   },
   defaultProps: {

@@ -21,8 +21,6 @@ export const getStaticProps: GetStaticProps = async ({ previewData = {} }) => {
 const Home: NextPage = ({
   doc,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
-  console.log(doc.data)
-
   return (
     <>
       <Head>

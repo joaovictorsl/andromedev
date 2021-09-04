@@ -1,15 +1,21 @@
 import { extendTheme } from '@chakra-ui/react'
-import { Fonts } from './fonts'
+import Button from './button'
 
 const theme = extendTheme({
-  color: {
-    wine: '#3F1A60',
-    bg: '#50339A',
-    darkePurple: '#250D5C',
-    lightPurple: '#50339A',
-    orange: '#FF8A0F',
-    grayText: '#737373',
-    blackText: '#525252',
+  colors: {
+    primary: {
+      normal: '#FF8A0F',
+      dark: '#E67600',
+    },
+    secondary: {
+      light: '#3F1A60',
+      normal: '#50339A',
+      dark: '#37236A',
+      darker: '#250D5C',
+    },
+  },
+  components: {
+    Button,
   },
   fontWeights: {
     hairline: 100,

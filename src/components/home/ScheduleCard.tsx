@@ -1,5 +1,4 @@
 import { LinkBox, LinkOverlay, Flex, Text } from '@chakra-ui/react'
-import { start } from '@popperjs/core'
 
 interface Props {
   title: string
@@ -16,8 +15,8 @@ const ScheduleCard = ({
   place,
   placeLink,
 }: Props) => {
-  const startDay = startTime.getDate().toString()
-  const startMonth = startTime.toLocaleString('default', { month: 'long' })
+  const startDay = startTime.toLocaleString('pt-BR', { day: '2-digit' })
+  const startMonth = startTime.toLocaleString('pt-BR', { month: 'long' })
 
   const startHour = startTime.toLocaleTimeString('pt-BR', {
     hour: '2-digit',
@@ -37,7 +36,6 @@ const ScheduleCard = ({
             {title}
           </Text>
           <Text fontSize="sm">
-            {' '}
             {startHour} - {endHour} | {place}
           </Text>
         </Flex>

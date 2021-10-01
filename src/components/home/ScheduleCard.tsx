@@ -8,6 +8,8 @@ import {
   Text,
 } from '@chakra-ui/react'
 
+import ActiveableCard from './ActiveableCard'
+
 interface Props {
   title: string
   startTime: Date
@@ -46,27 +48,10 @@ const ScheduleCard = ({
     )
   }
 
-  interface StructureCardProps {
-    variant: string
-  }
-
-  const StructureCard = ({
-    variant,
-    children,
-  }: PropsWithChildren<StructureCardProps>) => {
-    const styles = useStyleConfig('ScheduleCard', { variant })
-
-    return (
-      <Flex direction="column" __css={styles}>
-        {children}
-      </Flex>
-    )
-  }
-
   return (
     <LinkBox>
       <LinkOverlay href={placeLink}>
-        <StructureCard variant={isToday(startTime) ? 'today' : 'base'}>
+        <ActiveableCard variant={isToday(startTime) ? 'highlighted' : 'base'}>
           <Text
             fontFamily="heading"
             fontSize="6xl"
@@ -98,7 +83,7 @@ const ScheduleCard = ({
           <Text fontSize="sm" marginTop="3">
             Mais informações @andromedev
           </Text>
-        </StructureCard>
+        </ActiveableCard>
       </LinkOverlay>
     </LinkBox>
   )

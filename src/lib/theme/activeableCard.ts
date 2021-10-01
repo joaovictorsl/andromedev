@@ -9,7 +9,7 @@ export default {
     base: {
       bg: 'white',
     },
-    today: {
+    highlighted: {
       bg: 'primary.normal',
       color: 'white',
     },

@@ -2,7 +2,7 @@ export default {
   baseStyle: {
     borderRadius: 'base',
     padding: 8,
-    width: '25vw',
+    width: ['calc(100vw-3em)', '50vw', '20em'],
   },
   sizes: {},
   variants: {

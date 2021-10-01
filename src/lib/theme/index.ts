@@ -1,5 +1,6 @@
 import { extendTheme } from '@chakra-ui/react'
 import Button from './button'
+import ScheduleCard from './scheduleCard'
 
 const theme = extendTheme({
   colors: {
@@ -16,6 +17,7 @@ const theme = extendTheme({
   },
   components: {
     Button,
+    ScheduleCard,
   },
   fontWeights: {
     hairline: 100,

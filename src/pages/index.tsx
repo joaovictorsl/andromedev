@@ -5,6 +5,7 @@ import SliceZone from '../components/home/SliceZone'
 import ScheduleCard from '../components/home/ScheduleCard'
 
 import { Client } from '../lib/prismic'
+import { Stack } from '@chakra-ui/layout'
 
 export const getStaticProps: GetStaticProps = async ({ previewData = {} }) => {
   const { ref } = previewData as QueryOptions
@@ -23,7 +24,7 @@ const Home: NextPage = ({
   doc,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
   const startDate = new Date(2018, 9, 8, 19, 30)
-  const endDate = new Date(2018, 9, 8, 19, 30)
+  const endDate = new Date(2018, 9, 8, 20, 30)
 
   return (
     <>
@@ -37,13 +38,27 @@ const Home: NextPage = ({
         <SliceZone key={idx} slice={slice} />
       ))}
 
-      <ScheduleCard
-        title="Abertura de inscrição de organizações"
-        startTime={startDate}
-        endTime={endDate}
-        place="Discord"
-        placeLink="discord.gg"
-      />
+      <Stack
+        direction="row"
+        padding="6"
+        backgroundColor="#50339A"
+        spacing="24px"
+      >
+        <ScheduleCard
+          title="Abertura de inscrição de organizações"
+          startTime={startDate}
+          endTime={endDate}
+          place="Discord"
+          placeLink="discord.gg"
+        />
+        <ScheduleCard
+          title="Abertura de inscrição de organizações"
+          startTime={startDate}
+          endTime={endDate}
+          place="Discord"
+          placeLink="discord.gg"
+        />
+      </Stack>
     </>
   )
 }

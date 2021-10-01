@@ -3,10 +3,13 @@ import { PropsWithChildren } from 'react'
 import { useStyleConfig, Flex } from '@chakra-ui/react'
 
 interface Props {
-  variant: 'base' | 'highlighted'
+  variant?: 'base' | 'highlighted'
 }
 
-const ActiveableCard = ({ variant, children }: PropsWithChildren<Props>) => {
+const ActiveableCard = ({
+  variant = 'base',
+  children,
+}: PropsWithChildren<Props>) => {
   const styles = useStyleConfig('ActiveableCard', { variant })
 
   return (

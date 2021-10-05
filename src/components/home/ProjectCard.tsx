@@ -1,4 +1,4 @@
-import { Avatar, Flex, SimpleGrid, Text, Button } from '@chakra-ui/react'
+import { Avatar, Flex, Text, Button, Box } from '@chakra-ui/react'
 
 interface Props {
   avatarUrl: string
@@ -8,24 +8,15 @@ interface Props {
 }
 
 const ProjectCard = ({ avatarUrl, name, description, category }: Props) => (
-  <SimpleGrid bg="secondary.darker" position="relative" py="4" px="14">
-    <Flex
-      bg="white"
-      width="lg"
-      height="80"
-      borderRadius="md"
-      textColor="black"
-      direction="column"
-      paddingTop="8"
-      px="8"
-    >
-      <Avatar
-        size="lg"
-        name={name}
-        src={avatarUrl}
-        marginLeft="96"
-        marginBottom="-16"
-      />
+  <Flex
+    bg="white"
+    width="lg"
+    height="80"
+    borderRadius="md"
+    textColor="black"
+    padding="8"
+  >
+    <Box width="full">
       <Text
         fontFamily="heading"
         marginBottom="4"
@@ -61,10 +52,14 @@ const ProjectCard = ({ avatarUrl, name, description, category }: Props) => (
         marginBottom="6"
         noOfLines={2}
       >
-        Categoria: {category}
+        Categoria:{' '}
+        <Text as="span" fontWeight="normal">
+          {category}
+        </Text>
       </Text>
-    </Flex>
-  </SimpleGrid>
+    </Box>
+    <Avatar size="lg" name={name} src={avatarUrl} />
+  </Flex>
 )
 
 export default ProjectCard

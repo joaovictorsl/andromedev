@@ -11,8 +11,12 @@ const HomeSection = ({ title, buttonLabel, paragraph, variant }: Props) => {
   switch (variant) {
     case 'primary':
       return (
-        <Flex backgroundColor="secondary.normal" textColor="white">
-          <Box marginLeft="155" paddingTop="148" marginRight="886">
+        <Flex
+          backgroundColor="secondary.normal"
+          textColor="white"
+          direction="row"
+        >
+          <Box marginX="60" paddingTop="36">
             <Heading fontSize="6xl">{title}</Heading>
             <Box marginTop="8" fontSize="xl">
               {paragraph}
@@ -21,14 +25,17 @@ const HomeSection = ({ title, buttonLabel, paragraph, variant }: Props) => {
               {buttonLabel}
             </Button>
           </Box>
-          <Box></Box>
+
+          <Box marginX="60" align="center">
+            oi renan, eu sou a coluna 2
+          </Box>
         </Flex>
       )
 
     case 'secondary':
       return (
         <Flex backgroundColor="secondary.dark" textColor="white">
-          <Box marginLeft="155" paddingTop="148" marginRight="843">
+          <Box marginX="60" paddingTop="36">
             <Heading fontSize="3xl">{title}</Heading>
             <Box marginTop="8" fontSize="md">
               {paragraph}
@@ -37,19 +44,14 @@ const HomeSection = ({ title, buttonLabel, paragraph, variant }: Props) => {
               {buttonLabel}
             </Button>
           </Box>
-          <Box></Box>
+          <Box marginX="60"></Box>
         </Flex>
       )
 
     case 'centered':
       return (
         <Flex backgroundColor="secondary.normal" textColor="white">
-          <Box
-            paddingTop="69"
-            align="center"
-            marginRight="576.95"
-            marginLeft="576.05"
-          >
+          <Box paddingTop="16" align="center" marginX="96">
             <Heading margin="6" fontSize="2xl">
               {title}
             </Heading>
@@ -58,7 +60,6 @@ const HomeSection = ({ title, buttonLabel, paragraph, variant }: Props) => {
               {buttonLabel}
             </Button>
           </Box>
-          <Box></Box>
         </Flex>
       )
 

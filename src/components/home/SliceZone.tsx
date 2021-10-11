@@ -1,5 +1,4 @@
 import { RichText } from 'prismic-reactjs'
-import { FC } from 'react'
 import HomeSection from './HomeSection'
 
 interface Props {
@@ -16,13 +15,6 @@ const SliceZone = ({ slice }: Props) => {
           paragraph={<RichText render={slice.primary.paragraph} />}
           buttonLabel={slice.primary.button_label}
         />
-      )
-
-    case 'organizations':
-      return (
-        <div style={{ border: 'solid 1px', padding: 30, marginBottom: 10 }}>
-          <h1>Aqui fica o carrosel de orgs</h1>
-        </div>
       )
 
     default:

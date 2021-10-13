@@ -22,6 +22,7 @@ const Schedule = ({ eventList }: Props) => {
   const sortedEventList = eventList.sort(compareDate)
   const listItems = sortedEventList.map((card) => (
     <ScheduleCard
+      key={`${card.title}-${card.startTime}-${card.endTime}`}
       title={card.title}
       startTime={new Date(card.startTime)}
       endTime={new Date(card.endTime)}

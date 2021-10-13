@@ -1,0 +1,18 @@
+.hoverable:hover {
+  color: #ff8a0f;
+  transition: 200ms;
+}
+
+.d_flex_md {
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .d_none_md {
+    display: none !important;
+  }
+
+  .d_flex_md {
+    display: flex !important;
+  }
+}

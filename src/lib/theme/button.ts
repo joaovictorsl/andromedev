@@ -1,6 +1,6 @@
 export default {
   baseStyle: {
-    fontWeight: 'semibold',
+    fontWeight: 'bold',
     borderRadius: 'base',
     fontSize: 'lg',
   },

@@ -1,22 +1,18 @@
 import { extendTheme } from '@chakra-ui/react'
 import Button from './button'
+import Heading from './heading'
 import ActiveableCard from './activeableCard'
 
 const theme = extendTheme({
   colors: {
     primary: {
-      normal: '#FF8A0F',
-      dark: '#E67600',
-    },
-    secondary: {
-      light: '#3F1A60',
-      normal: '#50339A',
-      dark: '#37236A',
-      darker: '#250D5C',
+      normal: '#4FB5F9',
+      dark: '#0090d1',
     },
   },
   components: {
     Button,
+    Heading,
     ActiveableCard,
   },
   fontWeights: {
@@ -31,8 +27,8 @@ const theme = extendTheme({
     black: 900,
   },
   fonts: {
-    heading: 'Bahnschrift',
-    body: 'Open Sans',
+    heading: 'Poppins',
+    body: 'Poppins',
   },
 })
 

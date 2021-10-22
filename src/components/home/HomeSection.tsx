@@ -1,4 +1,12 @@
-import { Flex, Box, Button, Heading, Image } from '@chakra-ui/react'
+import {
+  Flex,
+  Box,
+  Button,
+  Heading,
+  Image,
+  useBreakpointValue,
+} from '@chakra-ui/react'
+import type { CSSObject } from '@chakra-ui/react'
 import { FC } from 'react'
 
 interface Props {
@@ -8,27 +16,39 @@ interface Props {
   variant: 'primary' | 'secondary' | 'centered'
 }
 
-const HomeSectionContainer: FC = ({ children }) => (
-  <Flex direction="row" paddingX="60">
+const HomeSectionContainer: FC<{ sx?: CSSObject }> = ({
+  children,
+  sx = {},
+}) => (
+  <Flex
+    direction="row"
+    lineHeight="8"
+    paddingX={[14, 32, 48]}
+    color="gray.200"
+    sx={sx}
+  >
     {children}
   </Flex>
 )
 
 const HomeSection = ({ title, buttonLabel, paragraph, variant }: Props) => {
+  const hiddenImage = useBreakpointValue({ base: true, lg: false })
   switch (variant) {
     case 'primary':
       return (
-        <HomeSectionContainer>
-          <Box flex="5" paddingY="36">
-            <Heading fontSize="6xl">{title}</Heading>
-            <Box paddingTop="8" fontSize="lg">
+        <HomeSectionContainer sx={{ paddingTop: '36' }}>
+          <Box flex="1">
+            <Heading fontSize="6xl" fontWeight="semibold">
+              {title}
+            </Heading>
+            <Box paddingTop="8" fontSize="xl">
               {paragraph}
             </Box>
             <Button marginTop="8" marginBottom="20" size="lg" variant="solid">
               {buttonLabel}
             </Button>
           </Box>
-          <Box flex="5" align="center">
+          <Box flex="1" hidden={hiddenImage} align="center">
             <Image />
           </Box>
         </HomeSectionContainer>
@@ -36,17 +56,17 @@ const HomeSection = ({ title, buttonLabel, paragraph, variant }: Props) => {
 
     case 'secondary':
       return (
-        <HomeSectionContainer>
-          <Box flex="5" paddingY="24">
+        <HomeSectionContainer sx={{ paddingTop: '24' }}>
+          <Box flex="1">
             <Heading fontSize="4xl">{title}</Heading>
             <Box marginTop="8" fontSize="lg">
               {paragraph}
             </Box>
-            <Button marginTop="8" marginBottom="36" variant="link">
+            <Button marginTop="8" variant="link">
               {buttonLabel}
             </Button>
           </Box>
-          <Box flex="5" align="center">
+          <Box flex="1" align="center" hidden={hiddenImage}>
             <Image />
           </Box>
         </HomeSectionContainer>
@@ -54,16 +74,23 @@ const HomeSection = ({ title, buttonLabel, paragraph, variant }: Props) => {
 
     case 'centered':
       return (
-        <HomeSectionContainer>
-          <Box paddingTop="16" align="center" paddingX="96">
-            <Heading margin="6" fontSize="2xl">
-              {title}
-            </Heading>
-            <Box fontSize="md">{paragraph}</Box>
-            <Button marginTop="6" marginBottom="20" variant="solid">
-              {buttonLabel}
-            </Button>
+        <HomeSectionContainer
+          sx={{
+            textAlign: 'center',
+            flexDirection: 'column',
+            paddingTop: '36',
+            alignItems: 'center',
+          }}
+        >
+          <Heading margin="6" fontSize="2xl" fontWeight="bold">
+            {title}
+          </Heading>
+          <Box maxWidth="lg" fontSize="lg" lineHeight="7">
+            {paragraph}
           </Box>
+          <Button marginTop="6" marginBottom="20" variant="solid">
+            {buttonLabel}
+          </Button>
         </HomeSectionContainer>
       )
 

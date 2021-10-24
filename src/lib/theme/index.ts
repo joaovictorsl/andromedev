@@ -8,6 +8,7 @@ const theme = extendTheme({
     primary: {
       normal: '#4FB5F9',
       dark: '#0090d1',
+      grey: '#B2B2B2',
     },
   },
   components: {

@@ -2,7 +2,8 @@ export default {
   baseStyle: {
     borderRadius: 'base',
     padding: 8,
-    width: 'xs',
+    width: 'md',
+    height: 'xs',
   },
   sizes: {},
   variants: {
@@ -11,7 +12,10 @@ export default {
     },
     highlighted: {
       bg: 'primary.normal',
-      color: 'white',
+    },
+    disabled: {
+      bg: 'disabled.bg',
+      color: 'disabled.text',
     },
   },
   defaultProps: {

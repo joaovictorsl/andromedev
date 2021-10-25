@@ -1,12 +1,4 @@
-import { PropsWithChildren } from 'react'
-
-import {
-  useStyleConfig,
-  LinkBox,
-  LinkOverlay,
-  Flex,
-  Text,
-} from '@chakra-ui/react'
+import { LinkBox, LinkOverlay, Text } from '@chakra-ui/react'
 
 import ActiveableCard from './ActiveableCard'
 
@@ -48,10 +40,31 @@ const ScheduleCard = ({
     )
   }
 
+  const isPastEvent = (someDate: Date) => {
+    const today = new Date()
+
+    return (
+      someDate.getUTCFullYear() < today.getUTCFullYear() ||
+      (someDate.getUTCFullYear() === today.getUTCFullYear() &&
+        someDate.getUTCMonth() < today.getUTCMonth()) ||
+      (someDate.getUTCFullYear() === today.getUTCFullYear() &&
+        someDate.getUTCMonth() === today.getUTCMonth() &&
+        someDate.getUTCDate() < today.getUTCDate())
+    )
+  }
+
   return (
     <LinkBox>
       <LinkOverlay href={placeLink}>
-        <ActiveableCard variant={isToday(startTime) ? 'highlighted' : 'base'}>
+        <ActiveableCard
+          variant={
+            isToday(startTime)
+              ? 'highlighted'
+              : isPastEvent(startTime)
+              ? 'disabled'
+              : 'base'
+          }
+        >
           <Text
             fontFamily="heading"
             fontSize="6xl"
@@ -63,24 +76,24 @@ const ScheduleCard = ({
           <Text
             fontFamily="heading"
             fontSize="2xl"
-            marginBottom="20"
-            fontWeight="semibold"
+            marginBottom="16"
+            fontWeight="normal"
             letterSpacing="widest"
           >
             {startMonth}
           </Text>
           <Text
-            fontWeight="bold"
+            fontWeight="medium"
             marginBottom="3"
             lineHeight="1.2"
             fontSize="2xl"
           >
             {title}
           </Text>
-          <Text fontSize="md">
+          <Text fontSize="md" fontWeight="light">
             {startHour} {endTime && <>— {endHour}</>} {place && <>| {place}</>}
           </Text>
-          <Text fontSize="sm" marginTop="3">
+          <Text fontSize="sm" fontWeight="light" marginTop="3">
             Mais informações @andromedev
           </Text>
         </ActiveableCard>

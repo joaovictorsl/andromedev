@@ -14,7 +14,6 @@ Nosso código se concentra dentro da página `src/`. Abaixo segue a explicação
 
 ```
 /components         --> Componentes em React que montam o site.
-    /layouts        --> Layout básico de todas as páginas.
 /lib                --> Contém alguns dados que usamos no site.
     /theme          --> Contém customizações do tema do Chakra.
 /pages              --> Cada arquivo representa uma página no site e pode conter páginas aninhadas utilizando subpastas.

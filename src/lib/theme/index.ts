@@ -10,6 +10,10 @@ const theme = extendTheme({
       dark: '#0090d1',
       grey: '#B2B2B2',
     },
+    disabled: {
+      bg: '#f7f8f8',
+      text: '#919192',
+    },
   },
   components: {
     Button,

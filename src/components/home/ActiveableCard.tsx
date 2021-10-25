@@ -3,7 +3,7 @@ import { PropsWithChildren } from 'react'
 import { useStyleConfig, Flex } from '@chakra-ui/react'
 
 interface Props {
-  variant?: 'base' | 'highlighted'
+  variant?: 'base' | 'highlighted' | 'disabled'
 }
 
 const ActiveableCard = ({

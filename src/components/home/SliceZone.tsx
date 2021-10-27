@@ -1,6 +1,6 @@
 import { RichText } from 'prismic-reactjs'
 import HomeSection from './HomeSection'
-
+import Schedule from './Schedule'
 interface Props {
   slice: any
 }
@@ -16,6 +16,9 @@ const SliceZone = ({ slice }: Props) => {
           buttonLabel={slice.primary.button_label}
         />
       )
+
+    case 'schedule':
+      return <Schedule eventList={slice.items} />
 
     default:
       return null

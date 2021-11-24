@@ -2,22 +2,30 @@ import { Box, HStack } from '@chakra-ui/layout'
 import { Progress, Heading } from '@chakra-ui/react'
 import ScheduleCard from './ScheduleCard'
 
+export interface Event {
+  title: string
+  startTime: Date
+  endTime: Date
+  place: string
+  placeLink: string
+}
 interface Props {
-  eventList: any[]
+  eventList: Event[]
 }
 
 const Schedule = ({ eventList }: Props) => {
-  function compareDate(x, y) {
-    return new Date(x.start_time) - new Date(y.start_time)
+  function compareDate(x: Event, y: Event) {
+    if (new Date(x.startTime) > new Date(y.startTime)) return 1
+    return -1
   }
   const sortedEventList = eventList.sort(compareDate)
   const listItems = sortedEventList.map((card) => (
     <ScheduleCard
       title={card.title}
-      startTime={new Date(card.start_time)}
-      endTime={new Date(card.end_time)}
+      startTime={new Date(card.startTime)}
+      endTime={new Date(card.endTime)}
       place={card.place}
-      placeLink={card.place_link}
+      placeLink={card.placeLink}
     />
   ))
 

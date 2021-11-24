@@ -1,6 +1,7 @@
 import { RichText } from 'prismic-reactjs'
 import HomeSection from './HomeSection'
 import Schedule from './Schedule'
+import { Event } from './Schedule'
 interface Props {
   slice: any
 }
@@ -18,7 +19,29 @@ const SliceZone = ({ slice }: Props) => {
       )
 
     case 'schedule':
-      return <Schedule eventList={slice.items} />
+      interface EventLink {
+        link_type: string
+        url: string
+        target: string
+      }
+      interface EventCMS {
+        title: string
+        start_time: Date
+        end_time: Date
+        place: string
+        place_link: EventLink
+      }
+      var newList: Event[] = slice.items.map(function (list: EventCMS) {
+        return {
+          title: list.title,
+          startTime: new Date(list.start_time),
+          endTime: new Date(list.end_time),
+          place: list.place,
+          placeLink: list.place_link.url,
+        }
+      })
+
+      return <Schedule eventList={newList} />
 
     default:
       return null

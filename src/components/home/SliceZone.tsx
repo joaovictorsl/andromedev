@@ -31,6 +31,7 @@ const SliceZone = ({ slice }: Props) => {
         place: string
         place_link: EventLink
       }
+
       var newList: Event[] = slice.items.map(function (list: EventCMS) {
         return {
           title: list.title,

@@ -22,7 +22,7 @@ export default function Footer() {
         flexWrap="wrap"
         gridGap={[10, 14, 20, 24]}
       >
-        <Image src="/assets/img/andromedev.svg" alt="Andromedev Logo"></Image>
+        <Image src="/andromedev-white.svg" alt="Andromedev Logo" />
         <Flex gridGap={[10, 14, 20, 24]} flexWrap="wrap">
           <Flex direction="column" gridGap={22}>
             <Text size={titleSize}>ANDROMEDEV</Text>

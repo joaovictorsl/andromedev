@@ -9,6 +9,7 @@ export interface Event {
   place: string
   placeLink: string
 }
+
 interface Props {
   eventList: Event[]
 }

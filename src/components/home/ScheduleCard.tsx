@@ -55,7 +55,7 @@ const ScheduleCard = ({
 
   return (
     <LinkBox>
-      <LinkOverlay href={placeLink}>
+      <LinkOverlay target="_blank" href={placeLink}>
         <ActiveableCard
           variant={
             isToday(startTime)

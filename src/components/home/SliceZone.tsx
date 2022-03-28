@@ -1,7 +1,10 @@
 import { RichText } from 'prismic-reactjs'
+
 import HomeSection from './HomeSection'
+import type { Event } from './Schedule'
 import Schedule from './Schedule'
-import { Event } from './Schedule'
+import type { Testimonial } from './Testimonials'
+import Testimonials from './Testimonials'
 
 interface Props {
   slice: any
@@ -17,6 +20,17 @@ interface EventCMS {
     url: string
     target: string
   }
+}
+
+interface TestimonialCMS {
+  avatar_photo: {
+    url: string
+  }
+  person_name: string
+  occupation: string
+  testimonial: Array<{
+    text: string
+  }>
 }
 
 const SliceZone = ({ slice }: Props) => {
@@ -43,6 +57,18 @@ const SliceZone = ({ slice }: Props) => {
       })
 
       return <Schedule eventList={newList} />
+
+    case 'organizations':
+      const newTestimonials: Testimonial[] = slice.items.map(
+        (item: TestimonialCMS) => ({
+          avatarUrl: item.avatar_photo.url,
+          personName: item.person_name,
+          occupation: item.occupation,
+          testimonial: item.testimonial,
+        })
+      )
+
+      return <Testimonials testimonials={newTestimonials} />
 
     default:
       return null

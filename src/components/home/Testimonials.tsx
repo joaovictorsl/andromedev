@@ -24,7 +24,7 @@ const ArrowBtn = ({ direction, onClick }: ArrowBtnProps) => (
     colorScheme="blackAlpha"
     height="full"
     position="absolute"
-    color="#4FB5F9"
+    color="primary.normal"
     top={0}
     left={direction === 'left' ? 0 : undefined}
     right={direction === 'right' ? 0 : undefined}

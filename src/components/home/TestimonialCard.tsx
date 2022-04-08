@@ -2,7 +2,7 @@ import { Avatar, Flex, Text } from '@chakra-ui/react'
 
 interface Props {
   avatarUrl: string
-  testimonial: string
+  testimonial: JSX.Element
   name: string
   occupation: string
 }

@@ -19,7 +19,7 @@ const TestimonialCard = ({
     direction="column"
     align="center"
     py="10"
-    px="6"
+    px={[10, 16, 36, 48]}
   >
     <Avatar size="xl" name={name} src={avatarUrl} marginBottom="7" />
     <Text marginBottom="4" textAlign="center">

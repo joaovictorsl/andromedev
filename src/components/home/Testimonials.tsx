@@ -61,14 +61,13 @@ const Testimonials = ({ testimonials }: Props) => {
   }
 
   const listItems = testimonials.map((item, index) => (
-    <Box key={index} px={[10, 16, 36, 48]} w="full">
-      <TestimonialCard
-        avatarUrl={item.avatarUrl}
-        testimonial={<RichText render={item.testimonial} />}
-        name={item.personName}
-        occupation={item.occupation}
-      />
-    </Box>
+    <TestimonialCard
+      key={index}
+      avatarUrl={item.avatarUrl}
+      testimonial={<RichText render={item.testimonial} />}
+      name={item.personName}
+      occupation={item.occupation}
+    />
   ))
 
   return (

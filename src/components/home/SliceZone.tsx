@@ -42,7 +42,7 @@ const SliceZone = ({ slice }: Props) => {
     case 'schedule':
       return <Schedule eventList={scheduleFormatted(slice.items)} />
 
-    case 'organizations':
+    case 'testimonials':
       return <Testimonials testimonials={testimonialsFormatted(slice.items)} />
 
     default:

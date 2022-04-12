@@ -1,25 +1,33 @@
 import { RichText } from 'prismic-reactjs'
+
 import HomeSection from './HomeSection'
 import Schedule from './Schedule'
-import { Event } from './Schedule'
+import Testimonials from './Testimonials'
 
 interface Props {
   slice: any
 }
 
-interface EventCMS {
-  title: string
-  start_time: Date
-  end_time: Date
-  place: string
-  place_link: {
-    link_type: string
-    url: string
-    target: string
-  }
-}
-
 const SliceZone = ({ slice }: Props) => {
+  const testimonialsFormatted = (testimonials: TestimonialCMS[]) =>
+    testimonials.map((item) => ({
+      avatarUrl: item.avatar_photo.url,
+      personName: item.person_name,
+      occupation: item.occupation,
+      testimonial: item.testimonial,
+    }))
+
+  const scheduleFormatted = (events: EventCMS[]) =>
+    events.map((event) => {
+      return {
+        title: event.title,
+        startTime: new Date(event.start_time),
+        endTime: new Date(event.end_time),
+        place: event.place,
+        placeLink: event.place_link.url,
+      }
+    })
+
   switch (slice.slice_type) {
     case 'homesection':
       return (
@@ -32,17 +40,10 @@ const SliceZone = ({ slice }: Props) => {
       )
 
     case 'schedule':
-      var newList: Event[] = slice.items.map(function (list: EventCMS) {
-        return {
-          title: list.title,
-          startTime: new Date(list.start_time),
-          endTime: new Date(list.end_time),
-          place: list.place,
-          placeLink: list.place_link.url,
-        }
-      })
+      return <Schedule eventList={scheduleFormatted(slice.items)} />
 
-      return <Schedule eventList={newList} />
+    case 'testimonials':
+      return <Testimonials testimonials={testimonialsFormatted(slice.items)} />
 
     default:
       return null

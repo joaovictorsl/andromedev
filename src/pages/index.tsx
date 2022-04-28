@@ -2,8 +2,8 @@ import type { QueryOptions } from '@prismicio/client/types/ResolvedApi'
 import type { GetStaticProps, InferGetStaticPropsType, NextPage } from 'next'
 import Head from 'next/head'
 import Footer from '../components/common/Footer'
+import Navbar from '../components/header/Navbar'
 import SliceZone from '../components/home/SliceZone'
-import { Header } from '../components/header'
 import { Main } from '../components/main'
 
 import { Client } from '../lib/prismic'
@@ -12,17 +12,24 @@ export const getStaticProps: GetStaticProps = async ({ previewData = {} }) => {
   const { ref } = previewData as QueryOptions
   const client = Client()
 
-  const doc = (await client.getSingle('homepage', ref ? { ref } : {})) || {}
+  const docHomepage =
+    (await client.getSingle('homepage', ref ? { ref } : {})) || {}
+  const docHeader = (await client.getSingle('header', ref ? { ref } : {})) || {}
+  const docFooter = (await client.getSingle('footer', ref ? { ref } : {})) || {}
 
   return {
     props: {
-      doc,
+      docHomepage,
+      docHeader,
+      docFooter,
     },
   }
 }
 
 const Home: NextPage = ({
-  doc,
+  docHomepage,
+  docFooter,
+  docHeader,
 }: InferGetStaticPropsType<typeof getStaticProps>) => (
   <>
     <Head>
@@ -31,15 +38,14 @@ const Home: NextPage = ({
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <Header />
+    <Navbar cmsNavitems={docHeader.data.navitems} />
 
     <Main>
-      {doc.data.body.map((slice: unknown, idx: number) => (
+      {docHomepage.data.body.map((slice: unknown, idx: number) => (
         <SliceZone key={idx} slice={slice} />
       ))}
+      <Footer />
     </Main>
-
-    <Footer />
   </>
 )
 

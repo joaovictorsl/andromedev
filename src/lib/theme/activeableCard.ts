@@ -14,8 +14,8 @@ export default {
       bg: 'primary.normal',
     },
     disabled: {
-      bg: 'disabled.bg',
-      color: 'disabled.text',
+      bg: '#f7f8f8',
+      color: '#919192',
     },
   },
   defaultProps: {

@@ -2,14 +2,12 @@ import React from 'react'
 import { Flex } from '@chakra-ui/react'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 
-import styles from '../../styles.module.css'
-
-interface Props {
+interface MenuIconProps {
   isOpen: boolean
   onToggle: () => void
 }
 
-export const MenuIcon: React.FC<Props> = ({ isOpen, onToggle }) => {
+const CollapsibleToggleButton = ({ isOpen, onToggle }: MenuIconProps) => {
   const renderIcon = (): JSX.Element => {
     if (isOpen) {
       return <CloseIcon fontSize={18} onClick={onToggle} />
@@ -18,14 +16,10 @@ export const MenuIcon: React.FC<Props> = ({ isOpen, onToggle }) => {
   }
 
   return (
-    <Flex
-      width="35vw"
-      justifyContent="end"
-      padding={3}
-      align="center"
-      className={styles.d_flex_md}
-    >
+    <Flex width="35vw" justifyContent="end" padding={3} align="center">
       {renderIcon()}
     </Flex>
   )
 }
+
+export default CollapsibleToggleButton

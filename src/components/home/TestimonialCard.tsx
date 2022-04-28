@@ -22,9 +22,9 @@ const TestimonialCard = ({
     px={[10, 16, 36, 48]}
   >
     <Avatar size="xl" name={name} src={avatarUrl} marginBottom="7" />
-    <Text marginBottom="4" textAlign="center">
+    <Flex marginBottom="4" textAlign="center">
       {testimonial}
-    </Text>
+    </Flex>
     <Text fontWeight="bold" fontSize="2xl">
       {name}
     </Text>

@@ -24,7 +24,7 @@ const CollapsedMenu = ({ isOpen, items = [] }: CollapsedMenuProps) => {
         align="center"
       >
         {items.map((item) => (
-          <NextLink href={item.url} passHref>
+          <NextLink key={`${item.url}-${item.label}`} href={item.url} passHref>
             <Link
               mb={10}
               sx={{

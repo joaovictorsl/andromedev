@@ -10,7 +10,7 @@ export const NavItems = ({ items }: NavItemsProps) => {
   return (
     <HStack spacing="8" align="center">
       {items.map((item) => (
-        <NextLink href={item.url} passHref>
+        <NextLink key={`${item.url}-${item.label}`} href={item.url} passHref>
           <Link
             sx={{ ':hover': { color: 'primary.dark', textDecoration: 'none' } }}
             target={item.target}
